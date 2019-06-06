@@ -1,7 +1,11 @@
  @font-face 
 {font-family: Roboto-Regular;
-src: url("ITCAvantGardeStd-BkObl.eot") ;
 src: url('font/Roboto-Regular.ttf') format('truetype');}
+
+@font-face 
+{font-family: Roboto-thin;
+src: url('font/Roboto-thin.ttf') format('truetype');
+}
  
  
  
@@ -343,8 +347,8 @@ text-align:center;}
 						content: " ";
 					}
 					
-					.timeline > li > .timeline-badge {
-						color: #fff;
+					.timeline > li > .timeline-badge {  /*per modificare i pallini della timeline*/
+						color: black;
 						width: 50px;
 						height: 50px;
 						line-height: 50px;
@@ -354,7 +358,7 @@ text-align:center;}
 						top: 16px;
 						left: 50%;
 						margin-left: -25px;
-						background-color: #999999;
+						background-color:white;
 						z-index: 100;
 						border-top-right-radius: 50%;
 						border-top-left-radius: 50%;
@@ -380,24 +384,36 @@ text-align:center;}
 						right: auto;
 					}
 					
-					.timeline-badge.primary {
-						background-color: #2e6da4 !important;
-					}
 					
-					.timeline-badge.success {
-						background-color: #3f903f !important;
-					}
 					
-					.timeline-badge.warning {
-						background-color: #f0ad4e !important;
+					.item {
+						background-image: url("images/item.png");
+						background-size: cover;
 					}
-					
-					.timeline-badge.danger {
-						background-color: #d9534f !important;
+
+					.ermodel{
+						background-image: url("images/ermodel.png");
+						background-size: cover;
 					}
-					
-					.timeline-badge.info {
-						background-color: #5bc0de !important;
+
+					.aligment {
+						background-image: url("images/aligment.png");
+						background-size: cover;
+					}
+
+					.theoretical {
+						background-image: url("images/theoretical.png");
+						background-size: cover;
+					}
+
+					.conceptual{
+						background-image: url("images/conceptual.png");
+						background-size: cover;
+					}
+
+					.rdf {
+						background-image: url("images/rdf.png");
+						background-size: cover;
 					}
 					
 					.timeline-title {
@@ -413,5 +429,29 @@ text-align:center;}
 					.timeline-body > p + p {
 						margin-top: 5px;
 					}
+
+
+
+h1 {
+	font-family:Roboto-Regular;
+	text-align: center;
+	text-transform: uppercase;
+	color:#CDBFA6;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h4 {
+	font-family:Roboto-Regular !important;
+	color:#CDBFA6 !important;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+p{
+	font-family:Roboto-thin;
+
+}
 
 
