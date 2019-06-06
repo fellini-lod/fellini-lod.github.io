@@ -200,6 +200,7 @@
 
 
 
+<<<<<<< HEAD
 /*VERTICAL TIMELINE*/
 
 					.timeline {
@@ -340,9 +341,16 @@
 					.timeline-body > p + p {
 						margin-top: 5px;
 					}
+=======
+table{border: 1px solid #000;
+	margin-left:auto;
+	margin-right:auto;}
 
-      
-      
+tr { border:solid;}
+
+th{text-align:center;}
+>>>>>>> a26ad13b94c0613d3ce461b1bdca9d6633ff930e
+
 
 
 
