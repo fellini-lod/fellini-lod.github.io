@@ -638,13 +638,18 @@ header {
 	}
 }
 
-table{border: 1px solid #000;
-	margin-left:auto;
-	margin-right:auto;}
+table{border:solid;
+border-width: thin;
+box-sizing: border-box;
+	margin-left:50px;
+	margin-right:50px;
+	margin-top:20px;}
 
-tr { border:solid;}
-
+tr { border:solid;
+border-width: thin;}
 th{text-align:center;}
+
+
 
 
 
