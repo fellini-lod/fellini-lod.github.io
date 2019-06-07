@@ -214,44 +214,32 @@ src: url('font/Roboto-thin.ttf') format('truetype');
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*TABLE*/
+		/*TABLE*/
 table{border:solid;
-border-width: thin;
-box-sizing: border-box;
+	border-width: thin;
+	box-sizing: border-box;
 	margin-left:50px;
 	margin-right:50px;
 	margin-top:20px;
 }
 
 tr { border:solid;
-border-width: thin;
-margin-top: 10px;
-margin-bottom:10px;
-font-family:Roboto-Regular;
-margin-top: 20px;
-margin-bottom:20px;}
+	border-width: thin;
+	margin-top: 10px;
+	margin-bottom:10px;
+	font-family:Roboto-Regular;
+	margin-top: 20px;
+	margin-bottom:20px;}
 
 th{text-align:center;
-font-family:Roboto-Regular;}
+	font-family:Roboto-Regular;}
 
 td{
 	border:solid;
-border-width: thin;
+	border-width: thin;
 	margin-left:10px;
-margin-left:50px;
-word-wrap: break-word;
+	margin-left:50px;
+	word-wrap: break-word;
 
 }
 
@@ -266,6 +254,18 @@ text-align:center;}
 
 
 
+
+
+		
+
+
+
+
+
+
+
+
+		
 
 
 
@@ -453,5 +453,3 @@ p{
 	font-family:Roboto-thin;
 
 }
-
-
