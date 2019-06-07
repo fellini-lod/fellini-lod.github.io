@@ -1,4 +1,4 @@
-@prefix : <http://ciaociao.it/>.
+@prefix : <https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttl>.
 
 @prefix dcterms: <http://purl.org/dc/terms/>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
@@ -20,7 +20,7 @@
     foaf:name "FedericoFellini";
     foaf:gender "male";
     dbo:nationality "italian";
-    foaf:birthday "20-01-1920"^^xsd:date; per dire alla macchina che è una data
+    foaf:birthday "20-01-1920"^^xsd:date; 
     dbo:deathDate "31-10-1993"^^xsd:date;
     eac_cpf:biogHist "Federico Fellini was an Italian screenwriter, director, cartoonist and writer and is considered one of the greatest directors in the history of cinema. His most famous films - La strada, Le notti di Cabiaria, La Dolce Vita, 8 1/2, Amarcor, have become topoi mentioned all over the world.";
     dbo:wikiPageExternalLink <https://simple.wikipedia.org/wiki/Federico_Fellini>.
@@ -46,7 +46,6 @@
 	dbo:wikiPageExternalLink	<https://fr.wikipedia.org/wiki/Roger-Viollet>.
 
 
-DA RIVEDERE LE DATE
 :1960
     rdf:type rdf:date;
     eac_cpf:dateStandardDate eac_cpf:YYYY.
