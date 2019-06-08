@@ -13,11 +13,11 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
 
-:FedericoFellini
+:Federico_Fellini
     eac_cpf:entity eac_cpf:person;
     foaf:givenName "Federico";
     foaf:surname "Fellini";
-    foaf:name "FedericoFellini";
+    foaf:name "Federico Fellini";
     foaf:gender "male";
     dbo:nationality "italian";
     foaf:birthday "20-01-1920"^^xsd:date; 
@@ -27,17 +27,17 @@
 
 
 
-:SorelleFontana
+:Sorelle_Fontana
 	eac_cpf:entity eac_cpf:corporateBody;
     foaf:name "SorelleFontanaAltaModa_srl";
 	dbo:headquarter	:Rome;
 	schema:foundingDate	"1943"^^xsd:date;
 	schema:dissolutionDate	"1992"^^xsd:date;
-	eac_cpf:biogHist "Sorelle Fontana Alta Moda s.r.l. is a fashion house, specialized in high fashion sartorial productions. Founded in Rome in 	1943, by the three Italian sisters and stylists: Zoe (1911-1979), Micol (1913-2015) and Giovanna (1915-2004). The Fontana sisters, with their atelier, were the first to give a lively boost to Made in Italy, making the Italian style famous in the world.";
+	eac_cpf:biogHist "Sorelle Fontana Alta Moda s.r.l. is a fashion house, specialized in high fashion sartorial productions. Founded in Rome in 1943, by the three Italian sisters and stylists: Zoe (1911-1979), Micol (1913-2015) and Giovanna (1915-2004). The Fontana sisters, with their atelier, were the first to give a lively boost to Made in Italy, making the Italian style famous in the world.";
 	dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/Sorelle_Fontana>.
 
 
-:AgencyRoger_Viollet
+:Agency_Roger_Viollet
 	eac_cpf:entity	eac_cpf:corporateBody;
 	foaf:name "Roger-Viollet";
 	dbo:headquarter "Paris";
@@ -92,13 +92,13 @@
 	dbo:abstract "Rome is the capital city of Italy. Rome also serves as the capital of the Lazio region. It is the centre of the Metropolitan City of Rome, which has a population of 4,355,725 residents, thus making it the most populous metropolitan city in Italy.".
 
 
-:LaDolceVita
+:La_Dolce_Vita
     rdf:type "concept";
     dcterms:subject "La Dolce Vita";
     dcterms:abstract "The theme of the film is predominantly café society, the diverse and glittery world rebuilt upon the ruins and poverty of the Italian postwar period.";
     dbo:relatedPlaces :Rome, :Italy;
     foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/La_Dolce_Vita>;
-    rdfs:seeAlso <https://www.ibs.it/dolce-vita-the-golden-age-libro-vari/e/9783940004925>;
+    rdfs:seeAlso <https://www.ibs.it/dolce-vita-the-golden-age-libro-vari/e/9783940004925>.
 
 :Prizegiving
 	rdf:type "concept";
@@ -110,4 +110,4 @@
 :Fellini_s_relashionship_with_women
 	rdf:type "concept";
 	dcterms:subject	"Fellini's relashionship with women";
-	dcterms:abstract	"The woman in Fellini's imagination is always present, the absolute protagonist, playfully female, prosperous, shapely, huge breasts and hips,junonic, sometimes ridiculous, grotesque, all markedly Fellinian. Women have been a constant for the master.";
+	dcterms:abstract	"The woman in Fellini's imagination is always present, the absolute protagonist, playfully female, prosperous, shapely, huge breasts and hips,junonic, sometimes ridiculous, grotesque, all markedly Fellinian. Women have been a constant for the master.".
