@@ -11,7 +11,8 @@ src: url('font/Roboto-thin.ttf') format('truetype');
  
  
  #mainbody {
-   min-height:100% !important;
+	 margin-left: 80px;
+	 margin-right: 80px;
  }             
               
 /*------------NAVBAR STYLE------------------------*/
@@ -333,14 +334,14 @@ tr:hover {
 					
 					.timeline > li > .timeline-badge {  /*per modificare i pallini della timeline*/
 						color: black;
-						width: 50px;
-						height: 50px;
+						width: 60px;
+						height: 60px;
 						line-height: 50px;
 						font-size: 1.4em;
 						text-align: center;
 						position: absolute;
 						top: 16px;
-						left: 50%;
+						left: 49.6%;
 						margin-left: -25px;
 						background-color:white;
 						z-index: 100;
@@ -378,6 +379,7 @@ tr:hover {
 					.ermodel{
 						background-image: url("images/ermodel.png");
 						background-size: cover;
+					
 					}
 
 					.aligment {
