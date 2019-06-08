@@ -6,7 +6,13 @@ src: url('font/Roboto-Regular.ttf') format('truetype');}
 {font-family: Roboto-thin;
 src: url('font/Roboto-thin.ttf') format('truetype');
 }
- 
+
+@font-face 
+{font-family: beauty;
+src: url('font/Beauty.ttf') format('truetype');
+}
+
+
  
  
  
@@ -442,10 +448,20 @@ p{
 
 
 .center-fit {
-
 	padding: 0;
     display: block;
     margin: 0 auto;
     max-height: 100%;
     max-width: 100%;
+}
+
+.centered {
+	font-family: beauty;
+	font-size:170px;
+	color:white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+	transform: translate(-50%, -50%);
+	padding-top: 150px;
 }
