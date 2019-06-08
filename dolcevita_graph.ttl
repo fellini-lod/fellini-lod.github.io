@@ -47,15 +47,6 @@
 	dbo:wikiPageExternalLink	<https://fr.wikipedia.org/wiki/Roger-Viollet>.
 
 
-:1960
-    rdf:type rdf:date;
-    eac_cpf:dateStandardDate eac_cpf:YYYY.
-
-:1955
-		rdf:type rdf:date;
-		eac_cpf:dateStandardDate "YYYY".
-
-
 :Italy
     rdf:type rdf:place;
     gn:name "Italy";
