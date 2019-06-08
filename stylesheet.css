@@ -412,6 +412,11 @@ tr:hover {
 						background-image: url("images/rdf.png");
 						background-size: cover;
 					}
+
+					.connection {
+						background-image: url("images/connection.png");
+						background-size: cover;
+					}
 					
 					.timeline-title {
 						margin-top: 0;
