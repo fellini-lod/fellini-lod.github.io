@@ -408,6 +408,11 @@ tr:hover {
 						background-size: cover;
 					}
 
+					.description {
+						background-image: url("images/description.png");
+						background-size: cover;
+					}
+
 					.rdf {
 						background-image: url("images/rdf.png");
 						background-size: cover;
