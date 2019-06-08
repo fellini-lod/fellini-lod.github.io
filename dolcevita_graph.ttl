@@ -11,6 +11,7 @@
 @prefix geo: <hhttp://www.w3.org/2003/01/geo/wgs84_pos#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 
 
 :Federico_Fellini
@@ -98,16 +99,19 @@
     dcterms:abstract "The theme of the film is predominantly café society, the diverse and glittery world rebuilt upon the ruins and poverty of the Italian postwar period.";
     dbo:relatedPlaces :Rome, :Italy;
     foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/La_Dolce_Vita>;
-    rdfs:seeAlso <https://www.ibs.it/dolce-vita-the-golden-age-libro-vari/e/9783940004925>.
+    rdfs:seeAlso <https://www.ibs.it/dolce-vita-the-golden-age-libro-vari/e/9783940004925>;
+	skos:related :Federico_Fellini.
 
 :Prizegiving
 	rdf:type "concept";
 	dcterms:subject	"the awarding of La Dolce Vita";
 	dcterms:abstract "The awarding of the Palme d'Or to Fellini for the movie La Dolce Vita";
 	dbo:relatedPlaces :Cannes;
-	rdfs:seeAlso <https://en.wikipedia.org/wiki/Palme_d%27Or>.
+	rdfs:seeAlso <https://en.wikipedia.org/wiki/Palme_d%27Or>;
+	skos:related :Federico_Fellini.
 
 :Fellini_s_relashionship_with_women
 	rdf:type "concept";
 	dcterms:subject	"Fellini's relashionship with women";
-	dcterms:abstract	"The woman in Fellini's imagination is always present, the absolute protagonist, playfully female, prosperous, shapely, huge breasts and hips,junonic, sometimes ridiculous, grotesque, all markedly Fellinian. Women have been a constant for the master.".
+	dcterms:abstract	"The woman in Fellini's imagination is always present, the absolute protagonist, playfully female, prosperous, shapely, huge breasts and hips,junonic, sometimes ridiculous, grotesque, all markedly Fellinian. Women have been a constant for the master.";
+	skos:related :Federico_Fellini, :Anita_Ekberg, :Giulietta_Masina.
