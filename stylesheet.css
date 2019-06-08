@@ -12,6 +12,11 @@ src: url('font/Roboto-thin.ttf') format('truetype');
 src: url('font/Beauty.ttf') format('truetype');
 }
 
+@font-face 
+{font-family: geo;
+src: url('font/Geo.ttf') format('truetype');
+}
+
 
  
  
@@ -455,7 +460,7 @@ p{
     max-width: 100%;
 }
 
-.centered {
+.centered1 {
 	font-family: beauty;
 	font-size:170px;
 	color:white;
@@ -464,4 +469,16 @@ p{
   left: 50%;
 	transform: translate(-50%, -50%);
 	padding-top: 150px;
+}
+
+.centered2 {
+	font-family: geo;
+	font-size: 20px;
+	color:white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+	transform: translate(-50%, -50%);
+	padding-top: 200px;
+	letter-spacing: 3px;
 }
