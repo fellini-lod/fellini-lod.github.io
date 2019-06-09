@@ -518,7 +518,7 @@ p{
     padding-top: 180px;
     top: 10%;
 }}
-@media (max-width: 375px) { #subtitle{
+@media (width: 375px) { #subtitle{
 	top: 16%;
     padding-top: 130px;
 }}
