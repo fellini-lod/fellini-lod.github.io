@@ -486,40 +486,13 @@ p{
 	padding-top: 150px;
 }
 
-/* smaller phone viewpoints */
-@media (width: 320px) { #title{ font-size:9vw;
-		padding-top: 120px;
-		top: 30%;
-}}
-@media (width: 375px) { #title{ font-size:9vw;
-		padding-top: 140px;
-		top: 30%;
-}}
-
-/* mall devices and most phones */
-@media (width:425px) { #title{ font-size:9vw;
-		padding-top: 70px;
-		top:30%;
-}}
- 
-
-/* Small devices (tablets, 768px and up) */
-@media (max-width: 768px) { #title{ font-size:12vw;
-	padding-top: 60px;
-}}
-
-
-@media (max-width: 1140px) { #title{ font-size:13vw;
-	padding-top:0px;
-}}
-
 
 
 #subtitle{
 	font-family: geo;
 	font-size: 1.5vw;
 	color:white;
-  position: absolute;
+	position: absolute;
   top: 50%;
   left: 50%;
 	transform: translate(-50%, -50%);
@@ -527,29 +500,50 @@ p{
 	letter-spacing: 3px;
 }
 
+
+/*media query per title and subtitle*/
 /* smaller phone viewpoints */
-@media (width: 320px) { #subtitle{
-		padding-top: 100px;
-		
+
+@media (max-width: 320px) { #title{     
+	font-size: 11vw;
+    padding-top: 0px;
+    top: 24%;
+
 }}
-@media (width: 375px) { #subtitle{
-		padding-top: 100px;
-		
+@media (max-width: 320px) { #subtitle{
+	top: 16%;
+    padding-top: 100px;	
+}}
+@media (width: 375px) { #title{     font-size: 10vw;
+    padding-top: 180px;
+    top: 10%;
+}}
+@media (max-width: 375px) { #subtitle{
+	top: 16%;
+    padding-top: 130px;
 }}
 
 /* mall devices and most phones */
-@media (width:425px) { #subtitle{
-		padding-top: 200px;
-		
+@media (width:425px) { #title{ 
+	top: 20%;
+    padding-top: 100px;
+}}
+
+@media (width:425px) { #subtitle{ 
+	top: 20%;
+    padding-top: 120px;
 }}
  
-
 /* Small devices (tablets, 768px and up) */
-@media (max-width: 768px) { #subtitle{
-	padding-top: 200px;
+@media (width: 768px) { #title{     font-size: 12vw;
+    padding-top: 45px;
+    top: 40%;
+}}
+
+@media (width: 768px) { #subtitle{ 
+    padding-top: 70px;
+    top: 40%;
 }}
 
 
-@media (max-width: 1140px) { #subtitle{ 
-	padding-top:0px;
-}}
+ 
