@@ -18,7 +18,13 @@ src: url('font/Geo.ttf') format('truetype');
 }
 
 
-             
+ 
+ 
+ 
+ #mainbody {
+	 margin-left: 80px;
+	 margin-right: 80px;
+ }             
               
 /*------------NAVBAR STYLE------------------------*/
         .nav-link { 
@@ -264,240 +270,181 @@ tr:hover {
 
 
 
-/*--------------VERTICAL TIMELINE-----------------*/
-.timeline {
-	list-style: none;
-	padding: 20px 0 20px;
-	position: relative;
-}
-
-	.timeline:before {
-			top: 0;
-			bottom: 0;
-			position: absolute;
-			content: " ";
-			width: 3px;
-			background-color: #eeeeee;
-			left: 50%;
-			margin-left: -1.5px;
-	}
-
-	.timeline > li {
-			margin-bottom: 20px;
-			position: relative;
-	}
-
-			.timeline > li:before,
-			.timeline > li:after {
-					content: " ";
-					display: table;
-			}
-
-			.timeline > li:after {
-					clear: both;
-			}
-
-			.timeline > li:before,
-			.timeline > li:after {
-					content: " ";
-					display: table;
-			}
-
-			.timeline > li:after {
-					clear: both;
-			}
-
-			.timeline > li > .timeline-panel {
-					width: 46%;
-					float: left;
-					border: 1px solid #d4d4d4;
-					border-radius: 2px;
-					padding: 20px;
-					position: relative;
-					-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-					box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-			}
-
-					.timeline > li > .timeline-panel:before {
-							position: absolute;
-							top: 26px;
-							right: -15px;
-							display: inline-block;
-							border-top: 15px solid transparent;
-							border-left: 15px solid #ccc;
-							border-right: 0 solid #ccc;
-							border-bottom: 15px solid transparent;
-							content: " ";
+/*VERTICAL TIMELINE*/
+					.container .timeline {
+						list-style: none;
+						padding: 20px 0 20px;
+						position: relative;
 					}
-
-					.timeline > li > .timeline-panel:after {
-							position: absolute;
-							top: 27px;
-							right: -14px;
-							display: inline-block;
-							border-top: 14px solid transparent;
-							border-left: 14px solid #fff;
-							border-right: 0 solid #fff;
-							border-bottom: 14px solid transparent;
-							content: " ";
-					}
-
-			.timeline > li > .timeline-badge { /*per modificare i pallini della timeline*/
-					color: #fff;
-					width: 50px;
-					height: 50px;
-					line-height: 50px;
-					font-size: 1.4em;
-					text-align: center;
-					position: absolute;
-					top: 16px;
-					left: 50%;
-					margin-left: -25px;
-					background-color: white;
-					z-index: 100;
-					border-top-right-radius: 50%;
-					border-top-left-radius: 50%;
-					border-bottom-right-radius: 50%;
-					border-bottom-left-radius: 50%;
-			}
-
-			.timeline > li.timeline-inverted > .timeline-panel {
-					float: right;
-			}
-
-					.timeline > li.timeline-inverted > .timeline-panel:before {
-							border-left-width: 0;
-							border-right-width: 15px;
-							left: -15px;
-							right: auto;
-					}
-
-					.timeline > li.timeline-inverted > .timeline-panel:after {
-							border-left-width: 0;
-							border-right-width: 14px;
-							left: -14px;
-							right: auto;
-					}
-
-
-
-.timeline-title {
-	margin-top: 0;
-	color: inherit;
-}
-
-.timeline-body > p,
-.timeline-body > ul {
-	margin-bottom: 0;
-}
-
-	.timeline-body > p + p {
-			margin-top: 5px;
-	}
-
-@media (max-width: 767px) {
-	ul.timeline:before {
-			left: 40px;
-	}
-
-	ul.timeline > li > .timeline-panel {
-			width: calc(100% - 90px);
-			width: -moz-calc(100% - 90px);
-			width: -webkit-calc(100% - 90px);
-	}
-
-	ul.timeline > li > .timeline-badge {
-			left: 15px;
-			margin-left: 0;
-			top: 16px;
-	}
-
-	ul.timeline > li > .timeline-panel {
-			float: right;
-	}
-
-			ul.timeline > li > .timeline-panel:before {
-					border-left-width: 0;
-					border-right-width: 15px;
-					left: -15px;
-					right: auto;
-			}
-
-			ul.timeline > li > .timeline-panel:after {
-					border-left-width: 0;
-					border-right-width: 14px;
-					left: -14px;
-					right: auto;
-			}
-}
-
-.item {
-	background-image: url("images/item.png");
-	background-size: cover;
-}
-
-.ermodel{
-	background-image: url("images/ermodel.png");
-	background-size: cover;
-}
-
-.analysis{
-	background-image: url("images/analysis.png");
-	background-size: cover;
-}
-
-.aligment {
-	background-image: url("images/aligment.png");
-	background-size: cover;
-}
-
-.theoretical {
-	background-image: url("images/theoretical.png");
-	background-size: cover;
-}
-
-.conceptual{
-	background-image: url("images/conceptual.png");
-	background-size: cover;
-}
-
-.description {
-	background-image: url("images/description.png");
-	background-size: cover;
-}
-
-.rdf {
-	background-image: url("images/rdf.png");
-	background-size: cover;
-}
-
-.connection {
-	background-image: url("images/connection.png");
-	background-size: cover;
-}
-
-
-
-
-.imgbox {
-	background: url("images/bacio.jpg");
-	background-repeat: no-repeat;
-	background-size:cover;
-	align-items: center;
-}
-
-.overview {
-	margin-left: 60px;
-	margin-right: 60px;
-} 
-
-.overview p {
-	font-size: 18px;
-	letter-spacing:1px;
-}
 					
+					.container .timeline:before {
+						top: 0;
+						bottom: 0;
+						position: absolute;
+						content: " ";
+						width: 3px;
+						background-color: #eeeeee;
+						left: 50%;
+						margin-left: -1.5px;
+					}
+					
+					.container .timeline > li {
+						margin-bottom: 20px;
+						position: relative;
+					}
+					
+					.container .timeline > li:before,
+					.container .timeline > li:after {
+						content: " ";
+						display: table;
+					}
+					
+					.container .timeline > li:after {
+						clear: both;
+					}
+					
+					.container .timeline > li:before,
+					.container .timeline > li:after {
+						content: " ";
+						display: table;
+					}
+					
+					.container .timeline > li:after {
+						clear: both;
+					}
+					
+					.container .timeline > li > .timeline-panel {
+						width: 46%;
+						float: left;
+						border: 1px solid #d4d4d4;
+						border-radius: 2px;
+						padding: 20px;
+						position: relative;
+						-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+						box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+					}
+					
+					.container .timeline > li > .timeline-panel:before {
+						position: absolute;
+						top: 26px;
+						right: -15px;
+						display: inline-block;
+						border-top: 15px solid transparent;
+						border-left: 15px solid #ccc;
+						border-right: 0 solid #ccc;
+						border-bottom: 15px solid transparent;
+						content: " ";
+					}
+					
+					.container .timeline > li > .timeline-panel:after {
+						position: absolute;
+						top: 27px;
+						right: -14px;
+						display: inline-block;
+						border-top: 14px solid transparent;
+						border-left: 14px solid #fff;
+						border-right: 0 solid #fff;
+						border-bottom: 14px solid transparent;
+						content: " ";
+					}
+					
+					.container .timeline > li > .timeline-badge {  /*per modificare i pallini della timeline*/
+						color: black;
+						width: 60px;
+						height: 60px;
+						line-height: 50px;
+						font-size: 1.4em;
+						text-align: center;
+						position: absolute;
+						top: 16px;
+						left: 49.6%;
+						margin-left: -25px;
+						background-color:white;
+						z-index: 100;
+						border-top-right-radius: 50%;
+						border-top-left-radius: 50%;
+						border-bottom-right-radius: 50%;
+						border-bottom-left-radius: 50%;
+					}
+					
+					.container .timeline > li.timeline-inverted > .timeline-panel {
+						float: right;
+					}
+					
+					.container .timeline > li.timeline-inverted > .timeline-panel:before {
+						border-left-width: 0;
+						border-right-width: 15px;
+						left: -15px;
+						right: auto;
+					}
+					
+					.container .timeline > li.timeline-inverted > .timeline-panel:after {
+						border-left-width: 0;
+						border-right-width: 14px;
+						left: -14px;
+						right: auto;
+					}
+					
+					
+					
+					.item {
+						background-image: url("images/item.png");
+						background-size: cover;
+					}
 
-#timeline {
+					.ermodel{
+						background-image: url("images/ermodel.png");
+						background-size: cover;
+					
+					}
+
+					.aligment {
+						background-image: url("images/aligment.png");
+						background-size: cover;
+					}
+
+					.theoretical {
+						background-image: url("images/theoretical.png");
+						background-size: cover;
+					}
+
+					.conceptual{
+						background-image: url("images/conceptual.png");
+						background-size: cover;
+					}
+
+					.description {
+						background-image: url("images/description.png");
+						background-size: cover;
+					}
+
+					.rdf {
+						background-image: url("images/rdf.png");
+						background-size: cover;
+					}
+
+					.connection {
+						background-image: url("images/connection.png");
+						background-size: cover;
+					}
+					
+					.timeline-title {
+						margin-top: 0;
+						color: inherit;
+					}
+					
+					.timeline-body > p,
+					.timeline-body > ul {
+						margin-bottom: 0;
+					}
+					
+					.container .timeline-body > p + p {
+						margin-top: 5px;
+					}
+
+
+
+h1 {
 	font-family:Roboto-Regular;
 	text-align: center;
 	text-transform: uppercase;
@@ -520,16 +467,15 @@ p{
 
 
 
-/*per rendere la scritta centrale*/
-
 .center-fit {
-	z-index: -1;
-	width:100%;
-	height:auto;
-	margin:auto;
+	padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
 }
 
-#title {
+#title{
 	font-family: beauty;
 	font-size:13vw;
 	color:white;
@@ -540,7 +486,36 @@ p{
 	padding-top: 150px;
 }
 
-#subtitle {
+/* smaller phone viewpoints */
+@media (width: 320px) { #title{ font-size:9vw;
+		padding-top: 120px;
+		top: 30%;
+}}
+@media (width: 375px) { #title{ font-size:9vw;
+		padding-top: 140px;
+		top: 30%;
+}}
+
+/* mall devices and most phones */
+@media (width:425px) { #title{ font-size:9vw;
+		padding-top: 70px;
+		top:30%;
+}}
+ 
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { #title{ font-size:12vw;
+	padding-top: 60px;
+}}
+
+
+@media (max-width: 1140px) { #title{ font-size:13vw;
+	padding-top:0px;
+}}
+
+
+
+#subtitle{
 	font-family: geo;
 	font-size: 1.5vw;
 	color:white;
@@ -552,3 +527,29 @@ p{
 	letter-spacing: 3px;
 }
 
+/* smaller phone viewpoints */
+@media (width: 320px) { #subtitle{
+		padding-top: 100px;
+		
+}}
+@media (width: 375px) { #subtitle{
+		padding-top: 100px;
+		
+}}
+
+/* mall devices and most phones */
+@media (width:425px) { #subtitle{
+		padding-top: 200px;
+		
+}}
+ 
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { #subtitle{
+	padding-top: 200px;
+}}
+
+
+@media (max-width: 1140px) { #subtitle{ 
+	padding-top:0px;
+}}
