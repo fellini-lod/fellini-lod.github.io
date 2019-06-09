@@ -479,6 +479,12 @@ tr:hover {
 
 
 
+.imgbox {
+	background: url("images/bacio.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	align-items: center;
+}
 
 .overview {
 	margin-left: 60px;
@@ -491,7 +497,7 @@ tr:hover {
 }
 					
 
-h1 {
+#timeline {
 	font-family:Roboto-Regular;
 	text-align: center;
 	text-transform: uppercase;
@@ -517,14 +523,13 @@ p{
 /*per rendere la scritta centrale*/
 
 .center-fit {
-	padding: 0;
-    display: block;
-    margin: 0 auto;
-    max-height: 100%;
-    max-width: 100%;
+	z-index: -1;
+	width:100%;
+	height:auto;
+	margin:auto;
 }
 
-.centered1 {
+#title {
 	font-family: beauty;
 	font-size:13vw;
 	color:white;
@@ -535,7 +540,7 @@ p{
 	padding-top: 150px;
 }
 
-.centered2 {
+#subtitle {
 	font-family: geo;
 	font-size: 1.5vw;
 	color:white;
@@ -546,3 +551,4 @@ p{
 	padding-top: 200px;
 	letter-spacing: 3px;
 }
+
