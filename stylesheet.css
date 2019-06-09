@@ -38,7 +38,7 @@ src: url('font/Geo.ttf') format('truetype');
       
           }
 
-        .nav-item {padding: 5px !important;}
+        .nav-item li {padding: 5px !important;}
 
 
         .navbar-toggler-icon {
