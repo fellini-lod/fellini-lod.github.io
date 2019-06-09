@@ -475,7 +475,7 @@ p{
     max-width: 100%;
 }
 
-.centered1 {
+#title{
 	font-family: beauty;
 	font-size:13vw;
 	color:white;
@@ -486,7 +486,36 @@ p{
 	padding-top: 150px;
 }
 
-.centered2 {
+/* smaller phone viewpoints */
+@media (width: 320px) { #title{ font-size:9vw;
+		padding-top: 120px;
+		top: 30%;
+}}
+@media (width: 375px) { #title{ font-size:9vw;
+		padding-top: 140px;
+		top: 30%;
+}}
+
+/* mall devices and most phones */
+@media (width:425px) { #title{ font-size:9vw;
+		padding-top: 70px;
+		top:30%;
+}}
+ 
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { #title{ font-size:12vw;
+	padding-top: 60px;
+}}
+
+
+@media (max-width: 1140px) { #title{ font-size:13vw;
+	padding-top:0px;
+}}
+
+
+
+#subtitle{
 	font-family: geo;
 	font-size: 1.5vw;
 	color:white;
@@ -497,3 +526,30 @@ p{
 	padding-top: 200px;
 	letter-spacing: 3px;
 }
+
+/* smaller phone viewpoints */
+@media (width: 320px) { #subtitle{
+		padding-top: 100px;
+		
+}}
+@media (width: 375px) { #subtitle{
+		padding-top: 100px;
+		
+}}
+
+/* mall devices and most phones */
+@media (width:425px) { #subtitle{
+		padding-top: 200px;
+		
+}}
+ 
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { #subtitle{
+	padding-top: 200px;
+}}
+
+
+@media (max-width: 1140px) { #subtitle{ 
+	padding-top:0px;
+}}
