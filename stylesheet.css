@@ -35,7 +35,11 @@ src: url('font/Geo.ttf') format('truetype');
           margin-right:0px;
           margin-bottom: 0px;
           text-align: left;
+      
           }
+
+        .nav-item {padding: 5px !important;}
+
 
         .navbar-toggler-icon {
           background-image: url('https://mdbootstrap.com/img/svg/hamburger9.svg?color=FF2C00'); /*hamburger*/
@@ -66,9 +70,7 @@ src: url('font/Geo.ttf') format('truetype');
           border-radius: 0px !important;
           }
 
-          .navbar > li {
-			padding: 5px !important; 
-          }
+       
 
           #article-button {
             background-color: #000000; 
