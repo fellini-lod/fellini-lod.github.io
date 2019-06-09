@@ -443,17 +443,17 @@ tr:hover {
 					}
 
 
-
-h1 {
+.new-chapter {
 	font-family:Roboto-Regular;
 	text-align: center;
 	text-transform: uppercase;
 	color:#CDBFA6;
 	margin-top: 20px;
 	margin-bottom: 20px;
-}
+}					
 
-h4 {
+
+.timeline-title {
 	font-family:Roboto-Regular !important;
 	color:#CDBFA6 !important;
 	margin-top: 20px;

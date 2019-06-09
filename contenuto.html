@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <script src="javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!--style-->
+    
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"> 
+    <style id="css" type="text/css"></style>
+    <link rel="icon" href=""> <!-- FAVICON (logo nella scheda del browser)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--LINK PER LA VERTICAL TIMELINE-->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+</head>
+  
+
+
+
+
+
+  <body>
+
+    
+<!--------------------------------------------------NAVBAR---------------------------------------->
+    <nav id="start" class="navbar navbar-expand-lg navbar-dark" style="padding: 5px;">
+      
+      <div class="logo-index">
+        <a class="index-button" >
+          <div>
+          <img class="logo" src="images/logo-palma.png">
+          </div>
+        </a>
+      </div>
+      
+      <a class="index-button" id="ladolcevita">LA DOLCE VITA</a>
+        <button class="navbar-toggler" type="button" data-target="#navbarNav" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation" aria-controls="navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+        
+            
+              <a class="nav-link dropdown-toggle" href="#" id="article-button" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROJECT</a>
+                <div class="dropdown-menu">
+
+                    <a class="dropdown-item" href="#">Items</a>
+                     <div class="dropdown-divider"></div> 
+                    <a class="dropdown-item" href="#">E/R model</a>
+                     <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Metadata standard</a>
+                     <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Metadata alignement</a>
+                     <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Theoretical model</a>
+                     <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Conceptual model</a>
+                     <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Data description</a>
+                        <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">RDF/XML</a>
+                      <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Data connection</a>
+                </div>
+          </li>
+          <li class="nav-item"><a class="nav-link about-button" role="button">TEAM</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div class="imgbox">
+      <img src="images/bacio.jpg"  class="center-fit">
+      <h1 id="title">La dolce vita</h1>
+      <h2 id="subtitle">Linked Open Data</h2>
+    </div>
+    
+  
+
+  
+
+<div id="mainbody">
+
+    <div class="description">
+      <h1 class="new-chapter">Project overview</h1>
+      <p>La Dolce Vita- Link Open Data has been developed for the examination of 'Knowledge Organization and Digital Methods in the Cultural Heritage Domain' course of DHDK, University of Bologna, a.y. 2018/2019. On the occasion of the sixtieth anniversary of the release of the movie "La Dolce Vita", we decided to implement a Link Open Data model around and focus on the production and distribution of this cult movie directed by Federico Fellini in 1960.</p>
+    </div>
+
+    <hr>
+    
+
+    
+    <!--WORKFLOW-->
+    <div class="container">
+      <div class="page-header">
+        <h1 class="new-chapter">Workflow</h1>
+      </div>
+      <ul class="timeline">
+        <li>
+          <div class="timeline-badge item"></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title"><a href="http://digitalmarketing.suvenconsultants.com/">Items</a></h4>
+            </div>
+            <div class="timeline-body">
+              <p>We have made a selection of 10 items of different types coming from archives, museums, libraries websites, and they represent several aspects of the film "La Dolce Vita". </p>
+            </div>
+          </div>
+        </li>
+
+        <li class="timeline-inverted">
+          <div class="timeline-badge ermodel"></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title"><a href="http://monster.suvenconsultants.com/">E/R model</a></h4>
+            </div>
+            <div class="timeline-body">
+              <p>An entity/relation model that describes our idea and highlights the relationship between entities.</p>
+          </div>
+        </li>
+        
+        <li>
+          <div class="timeline-badge aligment"></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title"><a href="http://android.suvenconsultants.com/">Metadata standard description and aligment</a></h4>
+            </div>
+            <div class="timeline-body">
+              <p>metadata analysis: Analysis of the metadata standards used by the various institutions from which we have selected our items.
+			  aligment: Alignment between the different standards previously selected to describe metadata related to people, places, dates and concepts.</p>
+            </div>
+          </div>
+        </li>
+        
+        <li class="timeline-inverted">
+            <div class="timeline-badge theoretical"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title"><a href="http://monster.suvenconsultants.com/">Theoretical model</a></h4>
+              </div>
+              <div class="timeline-body">
+                <p>Theoretical bases on our idea: the theoretical model is mainly based on the E/R model, but it extends it with new properties to properly represent the scenario.</p>
+            </div>
+          </li>
+
+          <li>
+              <div class="timeline-badge conceptual"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title"><a href="http://android.suvenconsultants.com/">Conceptual model</a></h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Creation of conceptual model by reusing existing standard consider the most appropriate once which allow to represent the terms we need for describing the scenario.</p>
+                </div>
+              </div>
+            </li>
+
+        <li class="timeline-inverted">
+            <div class="timeline-badge description"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title"><a href="http://monster.suvenconsultants.com/">Description of data</a></h4>
+              </div>
+              <div class="timeline-body">
+                <p>Description of data on the base of the previous conceptual model </p>
+            </div>
+          </li>
+
+          <li>
+              <div class="timeline-badge rdf"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title"><a href="http://android.suvenconsultants.com/">RDF</a></h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Description of our data in rdf language (Turtle and XML) and a graphical representation of them. </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="timeline-inverted">
+                <div class="timeline-badge connection"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title"><a href="http://monster.suvenconsultants.com/">Connection of data</a></h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Our data connected to other related items through URIs. Related because of the sharing of one of the features of the object.</p>
+                </div>
+              </li>
+
+        
+      </ul>
+    </div>
+  </div>
+
+    
+
+
+<!------------------------------------------FOOTER-------------------------------------------->
+<div class="footer">
+  
+                
+    <div id="logos">
+          <a href="index.html">
+            <img src="images/logo-palma.png" class="toindex">
+          </a>
+    
+        <a href="#start">
+            <img src= "images/totop.png" class="toindex" >
+        </a>
+    </div>
+    
+
+<!-----------CONTACT US-------------->
+<div class="foot-menu">  
+
+      <a  id="button contact us" class="button-form" data-toggle="modal" data-target="#exampleModal">CONTACT US</a>
+
+<!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+       <div class="modal-dialog" role="document">
+      <div class="modal-content">
+
+          <div class="modal-header">
+        <h5 class="modal-title"  id="exampleModalLabel">CONTACT US</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+      </div>
+
+      <div class="modal-body">
+        <div class="container-modal">
+          <div class="row">
+            <div class="column">
+
+                <form method="POST" action="https://formspree.io/sara.armaroli2@studio.unibo.it">
+                    <label for="name">Name</label>
+                       <input type="text" id="name" name="name" placeholder="Your name..">
+                    <label for="email">E-mail</label>
+                        <input type="text" id="email" name="email" placeholder="Your e-mail..">
+                    <textarea id="message" name="message" placeholder="Write something.." style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+                </form>
+            </div>
+          </div>
+            </div>
+      </div>
+
+      </div>
+      </div>
+</div>
+
+</div> <!-------CONTACT US END------------->
+
+
+
+<div class="copyright" align="center">
+  <p>© Copyright 2019 La dolce vita - All Rights Reserved</p>
+</div>
+
+
+</div> <!----------------------------------FOOTER END------------------------------------------->
+
+
+
+
+
+</body>
+
+
+
+</html>
