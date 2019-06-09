@@ -68,7 +68,7 @@ src: url('font/Geo.ttf') format('truetype');
           }
 
        .navbar li{
-       	  padding: 5px !important;
+       	  padding: 0px !important;
        }
 
           #article-button {
