@@ -272,13 +272,13 @@ tr:hover {
 
 
 /*VERTICAL TIMELINE*/
-					.timeline {
+					.container .timeline {
 						list-style: none;
 						padding: 20px 0 20px;
 						position: relative;
 					}
 					
-					.timeline:before {
+					.container .timeline:before {
 						top: 0;
 						bottom: 0;
 						position: absolute;
@@ -289,32 +289,32 @@ tr:hover {
 						margin-left: -1.5px;
 					}
 					
-					.timeline > li {
+					.container .timeline > li {
 						margin-bottom: 20px;
 						position: relative;
 					}
 					
-					.timeline > li:before,
-					.timeline > li:after {
+					.container .timeline > li:before,
+					.container .timeline > li:after {
 						content: " ";
 						display: table;
 					}
 					
-					.timeline > li:after {
+					.container .timeline > li:after {
 						clear: both;
 					}
 					
-					.timeline > li:before,
-					.timeline > li:after {
+					.container .timeline > li:before,
+					.container .timeline > li:after {
 						content: " ";
 						display: table;
 					}
 					
-					.timeline > li:after {
+					.container .timeline > li:after {
 						clear: both;
 					}
 					
-					.timeline > li > .timeline-panel {
+					.container .timeline > li > .timeline-panel {
 						width: 46%;
 						float: left;
 						border: 1px solid #d4d4d4;
@@ -325,7 +325,7 @@ tr:hover {
 						box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 					}
 					
-					.timeline > li > .timeline-panel:before {
+					.container .timeline > li > .timeline-panel:before {
 						position: absolute;
 						top: 26px;
 						right: -15px;
@@ -337,7 +337,7 @@ tr:hover {
 						content: " ";
 					}
 					
-					.timeline > li > .timeline-panel:after {
+					.container .timeline > li > .timeline-panel:after {
 						position: absolute;
 						top: 27px;
 						right: -14px;
@@ -349,7 +349,7 @@ tr:hover {
 						content: " ";
 					}
 					
-					.timeline > li > .timeline-badge {  /*per modificare i pallini della timeline*/
+					.container .timeline > li > .timeline-badge {  /*per modificare i pallini della timeline*/
 						color: black;
 						width: 60px;
 						height: 60px;
@@ -368,18 +368,18 @@ tr:hover {
 						border-bottom-left-radius: 50%;
 					}
 					
-					.timeline > li.timeline-inverted > .timeline-panel {
+					.container .timeline > li.timeline-inverted > .timeline-panel {
 						float: right;
 					}
 					
-					.timeline > li.timeline-inverted > .timeline-panel:before {
+					.container .timeline > li.timeline-inverted > .timeline-panel:before {
 						border-left-width: 0;
 						border-right-width: 15px;
 						left: -15px;
 						right: auto;
 					}
 					
-					.timeline > li.timeline-inverted > .timeline-panel:after {
+					.container .timeline > li.timeline-inverted > .timeline-panel:after {
 						border-left-width: 0;
 						border-right-width: 14px;
 						left: -14px;
@@ -439,7 +439,7 @@ tr:hover {
 						margin-bottom: 0;
 					}
 					
-					.timeline-body > p + p {
+					.container .timeline-body > p + p {
 						margin-top: 5px;
 					}
 
