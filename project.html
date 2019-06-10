@@ -617,6 +617,614 @@ The best way to do this is to describe the concept in relation to the items </p>
 <p>notes: In the part concerning the concept we have referred to people and organizations that we have not described as our items but that are useful to highlight the links in the graph and Turtle model.</p>
 </div>
 
+<div class="paragraph">
+<h1 class="title-paragraph">Description of data</h1>
+<h2 align="center">Picture of Fellini with the Palma D'Or Prize </h2>
+<h3 class="title-table">WHO</h3>
+<table>
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>Agency Roger-Viollet</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>eac-cpf:entity</td> 
+    <td>corporateBody</td>
+</tr>	
+<tr>
+    <td>What is the given name?</td>
+    <td>foaf:givenName</td> 
+    <td>/</td>
+</tr>	
+<tr>
+    <td>What is the surname?</td>
+    <td>foaf:surname</td> 
+    <td>/</td>
+</tr>			
+<tr>
+    <td>What is the name?</td>
+    <td>foaf:name</td> 
+    <td>Roger-Viollet</td>
+</tr>			
+<tr>
+    <td>What is the gender?</td>
+    <td>foaf:gender</td> 
+    <td>/</td>
+</tr>	
+<tr>
+    <td>What is his/her nationality?</td>
+    <td>dbo:nationality</td> 
+    <td>/</td>
+</tr>
+<tr>
+    <td>Where is the headquarter of the organization?</td>
+    <td>dbo: headquarter</td> 
+    <td>Paris</td>
+</tr>
+<tr>
+    <td>When was the person born?</td>
+    <td>foaf:birthday</td> 
+    <td>/</td>
+</tr>
+<tr>
+    <td>When did the person died?</td>
+    <td>dbo:deathDate</td> 
+    <td>/</td>
+</tr>
+<tr>
+    <td>When was the organization founded?</td>
+    <td>schema:foundingDate</td> 
+    <td>1938</td>
+</tr>
+<tr>
+    <td>When did the organization stop its activity?</td>
+    <td>schema:dissolutionDate</td> 
+    <td>/</td>
+</tr>
+
+
+<tr>
+    <td>What is the history of the person/organization?</td>
+    <td>eac-cpf:biogHist</td> 
+    <td>The name of the Roger-Viollet family has become that of the famous Parisian agency of old photographs of the rue de Seine founded in 1938 by Hélène Roger-Viollet , on the initial base of the photographic collection constituted by his father Henri Roger-Viollet, engineer and experienced photographer.</td>
+</tr>
+<tr>
+    <td>What is the person/organization’s Wikipedia page? </td>
+    <td>dbo: wikiPageExternalLink</td> 
+    <td><a href="https://fr.wikipedia.org/wiki/Roger-Viollet">https://fr.wikipedia.org/wiki/Roger-Viollet</a></td>
+</tr>										
+</table>
+
+<h3 class="title-table">WHERE?</h3>
+<table>
+
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>Cannes</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>rdf:type</td> 
+    <td>place</td>
+</tr>
+<tr>
+    <td>What is the name of the place?</td>
+    <td>gn:name</td> 
+    <td>Cannes</td>
+</tr>
+<tr>
+    <td>What is the alternative name for the place?</td>
+    <td>gn:alternateName</td> 
+    <td>Cano; Canne</td>
+</tr>	
+<tr>
+    <td>What is the country the place is located?</td>
+    <td>dbo:country</td> 
+    <td>France</td>
+</tr>	
+<tr>
+    <td>What is the city the place is located?</td>
+    <td>dbo:city</td> 
+    <td>Cannes</td>
+</tr>	
+<tr>
+    <td>What is the latitude?</td>
+    <td>WGS84_POS:lat</td> 
+    <td>43.55135</td>
+</tr>	
+<tr>
+    <td>What is the longitude?</td>
+    <td>WGS84_POS:long</td> 
+    <td>7.01275</td>
+</tr>	
+<tr>
+    <td>What is the country code?</td>
+    <td>gn:countryCode</td> 
+    <td>FR, FRA, 250</td>
+</tr>	
+
+<tr>
+    <td>What is the place Wikipedia page?</td>
+    <td>dbo: wikiPageExternalLink</td> 
+    <td><a href="https://en.wikipedia.org/wiki/Cannes">https://en.wikipedia.org/wiki/Cannes</a></td>
+</tr>	
+<tr>
+    <td>Brief description</td>
+    <td>dbo:abstract</td> 
+    <td>Cannes is a city located on the French Riviera. It is a commune located in the Alpes-Maritimes department, and host city of the annual Cannes Film Festival, Midem, and Cannes Lions International Festival of Creativity.</td>
+</tr>	
+</table>
+
+
+<h3 class="title-table">WHAT?</h3>
+<table>
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>Prizegiving</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>rdf:type</td> 
+    <td>Concept</td>
+</tr>
+<tr>
+    <td>What is the subject?</td>
+    <td>dcterms:subject</td> 
+    <td>the awarding of "La Dolce VIta"</td>
+</tr>
+
+<tr>
+    <td>What is a summary?</td>
+    <td>dcterms:abstract</td> 
+    <td>The awarding of the  Palme d'Or  to Fellini
+for the movie "La Dolce Vita"</td>
+</tr>
+
+
+<tr>
+    <td>What are the places related to the concept/subject?  </td>
+    <td>dbo:relatedplaces 	</td> 
+    <td>Cannes</td>
+</tr>	
+<tr>
+    <td>Which resource has the concept/subject as primary topic? </td>
+    <td>foaf:isPrimaryTopicOf	</td> 
+    <td>/</td>
+</tr>	
+<tr>
+    <td>What are other useful references for the resource?  </td>
+    <td> rdfs:seeAlso</td> 
+    <td><a href="https://en.wikipedia.org/wiki/Palme_d%27Or">https://en.wikipedia.org/wiki/Palme_d%27Or</a></td>
+</tr>
+<tr>
+    <td>What are the people/organizations/concepts related with? </td>
+    <td>skos:related</td> 
+    <td>Federico Fellini</td>
+</tr>	
+</table>
+				
+
+
+<h2 align="center">Costume il pretino <h2>
+<h3 class="title-table">WHO</h3>
+<table>
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>Sorelle Fontana</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>eac-cpf:entity</td> 
+    <td>corporateBody</td>
+</tr>	
+<tr>
+    <td>What is the given name?</td>
+    <td>foaf:givenName</td> 
+    <td>/</td>
+</tr>	
+<tr>
+    <td>What is the surname?</td>
+    <td>foaf:surname</td> 
+    <td>/</td>
+</tr>			
+<tr>
+    <td>What is the name?</td>
+    <td>foaf:name</td> 
+    <td>Sorelle Fontana Alta Moda s.r.l.</td>
+</tr>			
+<tr>
+    <td>What is the gender?</td>
+    <td>foaf:gender</td> 
+    <td>/</td>
+</tr>	
+<tr>
+    <td>What is his/her nationality?</td>
+    <td>dbo:nationality</td> 
+    <td>/</td>
+</tr>
+<tr>
+    <td>Where is the headquarter of the organization?</td>
+    <td>dbo:headquarter</td> 
+    <td>Rome</td>
+</tr>
+<tr>
+    <td>When was the person born?</td>
+    <td>foaf:birthday</td> 
+    <td>/</td>
+</tr>
+<tr>
+    <td>When did the person died?</td>
+    <td>dbo:deathDate</td> 
+    <td>/</td>
+</tr>
+<tr>
+    <td>When was the organization founded?</td>
+    <td>schema:foundingDate</td> 
+    <td>1943</td>
+</tr>
+<tr>
+    <td>When did the organization stop its activity?</td>
+    <td>schema:dissolutionDate</td> 
+    <td>1992</td>
+</tr>
+
+
+<tr>
+    <td>What is the history of the person/organization?</td>
+    <td>eac-cpf:biogHist</td> 
+    <td>"Sorelle Fontana Alta Moda s.r.l. is a fashion house, specialized in high fashion sartorial productions.
+Founded in Rome in 1943, by the three Italian sisters and stylists: Zoe (1911-1979), Micol (1913-2015) and Giovanna (1915-2004).
+The Fontana sisters, with their atelier, were the first to give a lively boost to Made in Italy, making the Italian style famous in the world."</td>
+</tr>
+<tr>
+    <td>What is the person/organization’s Wikipedia page? </td>
+    <td>dbo: wikiPageExternalLink</td> 
+    <td><a href="https://it.wikipedia.org/wiki/Sorelle_Fontana">https://it.wikipedia.org/wiki/Sorelle_Fontana</a></td>
+</tr>										
+</table>
+
+<h3 class="title-table">WHERE?</h3>
+<table>
+
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>Rome</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>rdf:type</td> 
+    <td>place</td>
+</tr>
+<tr>
+    <td>What is the name of the place?</td>
+    <td>gn:name</td> 
+    <td>Rome</td>
+</tr>
+<tr>
+    <td>What is the alternative name for the place?</td>
+    <td>gn:alternateName</td> 
+    <td>Roma</td>
+</tr>	
+<tr>
+    <td>What is the country the place is located?</td>
+    <td>dbo:country</td> 
+    <td>Italy</td>
+</tr>	
+<tr>
+    <td>What is the city the place is located?</td>
+    <td>dbo:city</td> 
+    <td>Rome</td>
+</tr>	
+<tr>
+    <td>What is the latitude?</td>
+    <td>WGS84_POS:lat</td> 
+    <td>41.89193</td>
+</tr>	
+<tr>
+    <td>What is the longitude?</td>
+    <td>WGS84_POS:long</td> 
+    <td>12.51133</td>
+</tr>	
+<tr>
+    <td>What is the country code?</td>
+    <td>gn:countryCode</td> 
+    <td>IT, ITA, 380</td>
+</tr>	
+
+<tr>
+    <td>What is the place Wikipedia page?</td>
+    <td>dbo: wikiPageExternalLink</td> 
+    <td><a href="https://en.wikipedia.org/wiki/Rome">https://en.wikipedia.org/wiki/Rome</a></td>
+</tr>	
+<tr>
+    <td>Brief description</td>
+    <td>dbo:abstract</td> 
+    <td>Rome is the capital city of Italy. Rome also serves as the capital of the Lazio region. It is the centre of the Metropolitan City of Rome, which has a population of 4,355,725 residents, thus making it the most populous metropolitan city in Italy.</td>
+</tr>	
+</table>
+
+<h3 class="title-table">WHEN?</h3>
+<table>
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>1955</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>rdf:type</td> 
+    <td>Date</td>
+</tr>
+<tr>
+    <td>What is the format of the date?</td>
+    <td>eac-cpf:dateStandardDate</td> 
+    <td>YYYY</td>
+</tr>	
+</table>	
+
+<h3 class="title-table">WHAT?</h3>
+<table>
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>Fellini's relashionship with women </th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>rdf:type</td> 
+    <td>Concept</td>
+</tr>
+<tr>
+    <td>What is the subject?</td>
+    <td>dcterms:subject</td> 
+    <td>Fellini's relashionship with women </td>
+</tr>
+
+<tr>
+    <td>What is a summary?</td>
+    <td>dcterms:abstract</td> 
+    <td>"The woman in Fellini's imagination is always present, the absolute protagonist, playfully female, prosperous, shapely, huge breasts and hips,junonic, sometimes ridiculous, grotesque, all markedly Fellinian.
+Women have been a constant for the master. "</td>
+</tr>
+
+
+<tr>
+    <td>What are the places related to the concept/subject?  </td>
+    <td>dbo:relatedplaces 	</td> 
+    <td>/</td>
+</tr>	
+<tr>
+    <td>Which resource has the concept/subject as primary topic? </td>
+    <td>foaf:isPrimaryTopicOf	</td> 
+    <td>/</td>
+</tr>	
+<tr>
+    <td>What are other useful references for the resource?  </td>
+    <td> rdfs:seeAlso</td> 
+    <td>/</td>
+</tr>	
+<tr>
+    <td>What are the people/organizations/concepts related with? </td>
+    <td>skos:related</td> 
+    <td> Federico Fellini, Anita Ekberg, Giulietta Masina</td>
+</tr>
+</table>
+
+	<h2> "LA DOLCE VITA" Movie </h2>
+<h3 class="title-table">WHO</h3>
+<table>
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>Federico Fellini</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>eac-cpf:entity</td> 
+    <td>Person </td>
+</tr>	
+<tr>
+    <td>What is the given name?</td>
+    <td>foaf:givenName</td> 
+    <td>Federico</td>
+</tr>	
+<tr>
+    <td>What is the surname?</td>
+    <td>foaf:surname</td> 
+    <td>Fellini</td>
+</tr>			
+<tr>
+    <td>What is the name?</td>
+    <td>foaf:name</td> 
+    <td>Federico Fellini</td>
+</tr>			
+<tr>
+    <td>What is the gender?</td>
+    <td>foaf:gender</td> 
+    <td>Male </td>
+</tr>	
+<tr>
+    <td>What is his/her nationality?</td>
+    <td>dbo:nationality</td> 
+    <td>Italian</td>
+</tr>
+<tr>
+    <td>Where is the headquarter of the organization?</td>
+    <td>dbo:headquarter</td> 
+    <td>/</td>
+</tr>
+<tr>
+    <td>When was the person born?</td>
+    <td>foaf:birthday</td> 
+    <td>20/01/1920</td>
+</tr>
+<tr>
+    <td>When did the person died?</td>
+    <td>dbo:deathDate</td> 
+    <td>31/10/1993</td>
+</tr>
+<tr>
+    <td>When was the organization founded?</td>
+    <td>schema:foundingDate</td> 
+    <td>/</td>
+</tr>
+<tr>
+    <td>When did the organization stop its activity?</td>
+    <td>schema:dissolutionDate</td> 
+    <td>/</td>
+</tr>
+
+
+<tr>
+    <td>What is the history of the person/organization?</td>
+    <td>eac-cpf:biogHist</td> 
+    <td>"Federico Fellini was an Italian screenwriter, director, cartoonist and writer and is considered one of the greatest directors in the history of cinema.
+	His most famous films - <i>La strada, Le notti di Cabiaria, La Dolce Vita, 8 1/2, Amarcor,</i> have become topoi mentioned all over the world."</td>
+</tr>
+<tr>
+    <td>What is the person/organization’s Wikipedia page? </td>
+    <td>dbo: wikiPageExternalLink</td> 
+    <td><a href="https://simple.wikipedia.org/wiki/Federico_Fellini">https://simple.wikipedia.org/wiki/Federico_Fellini</a></td>
+</tr>										
+</table>
+
+<h3 class="title-table">WHERE?</h3>
+<table>
+
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>Italy</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>rdf:type</td> 
+    <td>place</td>
+</tr>
+<tr>
+    <td>What is the name of the place?</td>
+    <td>gn:name</td> 
+    <td>Italy</td>
+</tr>
+<tr>
+    <td>What is the alternative name for the place?</td>
+    <td>gn:alternateName</td> 
+    <td>Italia; Italie</td>
+</tr>	
+<tr>
+    <td>What is the country the place is located?</td>
+    <td>dbo:country</td> 
+    <td>Italy</td>
+</tr>	
+<tr>
+    <td>What is the city the place is located?</td>
+    <td>dbo:city</td> 
+    <td>/</td>
+</tr>	
+<tr>
+    <td>What is the latitude?</td>
+    <td>WGS84_POS:lat</td> 
+    <td>41.89193</td>
+</tr>	
+<tr>
+    <td>What is the longitude?</td>
+    <td>WGS84_POS:long</td> 
+    <td>12.51133</td>
+</tr>	
+<tr>
+    <td>What is the country code?</td>
+    <td>gn:countryCode</td> 
+    <td>IT, ITA, 380</td>
+</tr>	
+
+<tr>
+    <td>What is the place Wikipedia page?</td>
+    <td>dbo: wikiPageExternalLink</td> 
+    <td><a href="https://en.wikipedia.org/wiki/Italy">https://en.wikipedia.org/wiki/Italy</a></td>
+</tr>	
+<tr>
+    <td>Brief description</td>
+    <td>dbo:abstract</td> 
+    <td>Italy, officially the Italian Republic (Italian: Repubblica Italiana)  is a European country consisting of a peninsula delimited by the Italian Alps and surrounded by several islands. Located in the middle of the Mediterranean sea and traversed along its length by the Apennines, Italy has a largely temperate seasonal climate. The country covers an area of 301,340 km2 (116,350 sq mi) and shares open land borders with France, Slovenia, Austria, Switzerland and the enclaved microstates of Vatican City and San Marino.</td>
+</tr>	
+</table>
+
+<h3 class="title-table">WHEN?</h3>
+<table>
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>1960</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>rdf:type</td> 
+    <td>Date</td>
+</tr>
+<tr>
+    <td>What is the format of the date?</td>
+    <td>eac-cpf:dateStandardDate</td> 
+    <td>YYYY</td>
+</tr>
+	
+	
+</table>	
+
+
+<h3 class="title-table">WHAT?</h3>
+<table>
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>La Dolce Vita  (lifestyle)</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>rdf:type</td> 
+    <td>Concept</td>
+</tr>
+<tr>
+    <td>What is the subject?</td>
+    <td>dcterms:subject</td> 
+    <td>La Dolce Vita  (lifestyle)</td>
+</tr>
+
+<tr>
+    <td>What is a summary?</td>
+    <td>dcterms:abstract</td> 
+    <td>The theme of the film is predominantly café society, the diverse and glittery world rebuilt upon the ruins and poverty of the Italian postwar period</td>
+</tr>
+
+
+<tr>
+    <td>What are the places related to the concept/subject?  </td>
+    <td>dbo:relatedplaces 	</td> 
+    <td>Rome; Italy</td>
+</tr>	
+<tr>
+    <td>Which resource has the concept/subject as primary topic? </td>
+    <td>foaf:isPrimaryTopicOf	</td> 
+    <td><a href="https://en.wikipedia.org/wiki/La_Dolce_Vita">https://en.wikipedia.org/wiki/La_Dolce_Vita</a></td>
+</tr>	
+<tr>
+    <td>What are other useful references for the resource?  </td>
+    <td> rdfs:seeAlso</td> 
+    <td><a href="https://www.ibs.it/dolce-vita-the-golden-age-libro-vari/e/9783940004925">https://www.ibs.it/dolce-vita-the-golden-age-libro-vari/e/9783940004925</a></td>
+</tr>	
+
+<tr>
+    <td>What are the people/organizations/concepts related with? </td>
+    <td>skos:related</td> 
+    <td>Federico Fellini</td>
+</tr>
+</table>
+				
+</div>
 
 
 </div>
