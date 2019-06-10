@@ -281,22 +281,21 @@ src: url('font/Geo.ttf') format('truetype');
 
 
  
-								.timeline {
-									list-style: none;
-									padding: 20px 0 20px;
-									position: relative;
+				.timeline {
+					list-style: none;
+					padding: 20px 0 20px;
+					position: relative;
 									}								}
-
-									.timeline:before {
-											top: 0;
-											bottom: 0;
-											position: absolute;
-											content: " ";
-											width: 3px;
-											background-color: red;
-											left: 50%;
-											margin-left: -1.5px;
-									}
+				.timeline:before {
+						top: 0;
+						bottom: 0;
+						position: absolute;
+						content: " ";
+						width: 3px;
+						background-color: red;
+						left: 50%;
+						margin-left: -1.5px;
+					}
 
 									.timeline > li {
 											margin-bottom: 20px;
