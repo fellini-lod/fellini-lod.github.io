@@ -677,3 +677,12 @@ color: black;
 }
 
 
+/*TEAM*/
+.title-team{
+	font-family:Roboto-Regular !important;
+	font-size:40px;
+	text-align: center !important;
+	text-transform: uppercase !important;
+	color:#CDBFA6 !important;
+}
+
