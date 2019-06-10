@@ -210,8 +210,11 @@ src: url('font/Geo.ttf') format('truetype');
           .container-modal {
             background-color:white;
             padding: 10px;
+			margin-left:auto;
+			margin-right:auto;
+		
           }
-
+			
           .column {
             width: 100%;
             margin-top: 6px;
