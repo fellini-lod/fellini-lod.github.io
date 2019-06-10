@@ -689,3 +689,7 @@ color: black;
 	color:#CDBFA6 !important;
 }
 
+.container-about p{font-family:geo;
+	font-size: 20px;
+	line-height:30px;
+	color:black;}
