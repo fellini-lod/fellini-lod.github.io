@@ -147,6 +147,9 @@ src: url('font/Geo.ttf') format('truetype');
             padding-left: 0px; 
             padding-right: 0px;
           }
+		  
+		  .copyright p{color: white;
+		  font-size:10px;}
 
           .foot-menu {
             cursor: pointer;
