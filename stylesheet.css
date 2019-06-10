@@ -752,9 +752,12 @@ color: black;
 	text-align: center !important;
 	text-transform: uppercase !important;
 	color:#CDBFA6 !important;
-	margin-top:20px;
 }
-
+ 
+.card-title{font-family: champagne;
+		color:#a64d46;
+		font-size: 30px;
+		margin-top: 50px;}
 
 .description-team{ 
 	margin-left:40px;
