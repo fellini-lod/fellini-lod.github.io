@@ -411,45 +411,51 @@ src: url('font/Geo.ttf') format('truetype');
 					
 					
 					.item {
-						background-image: url("images/item.png");
-						background-size: cover;
-					}
+									background-image: url("images/item.png");
+									background-size: cover;
+								}
 
-					.ermodel{
-						background-image: url("images/ermodel.png");
-						background-size: cover;
-					
-					}
+								.ermodel{
+									background-image: url("images/ermodel.png");
+									background-size: cover;
+								}
 
-					.aligment {
-						background-image: url("images/aligment.png");
-						background-size: cover;
-					}
+								.analysis{
+									background-image: url("images/analysis.png");
+									background-size: cover;
+								}
 
-					.theoretical {
-						background-image: url("images/theoretical.png");
-						background-size: cover;
-					}
+								.aligment {
+									background-image: url("images/aligment.png");
+									background-size: cover;
+								}
 
-					.conceptual{
-						background-image: url("images/conceptual.png");
-						background-size: cover;
-					}
+								.theoretical {
+									background-image: url("images/theoretical.png");
+									background-size: cover;
+								}
 
-					.description {
-						background-image: url("images/description.png");
-						background-size: cover;
-					}
+								.conceptual{
+									background-image: url("images/conceptual.png");
+									background-size: cover;
+								}
 
-					.rdf {
-						background-image: url("images/rdf.png");
-						background-size: cover;
-					}
+								.description {
+									background-image: url("images/description.png");
+									background-size: cover;
+								}
 
-					.connection {
-						background-image: url("images/connection.png");
-						background-size: cover;
-					}
+								.rdf {
+									background-image: url("images/rdf.png");
+									background-size: cover;
+								}
+
+								.connection {
+									background-image: url("images/connection.png");
+									background-size: cover;
+									}
+
+									
 					
 					.timeline-title {
 						margin-top: 0;
