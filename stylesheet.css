@@ -464,6 +464,7 @@ src: url('font/Geo.ttf') format('truetype');
 					.timeline-body > p,
 					.timeline-body > ul {
 						margin-bottom: 0;
+						color: white;
 					}
 					
 					.timeline-body > p + p {
