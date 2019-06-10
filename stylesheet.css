@@ -288,6 +288,10 @@ src: url('font/Geo.ttf') format('truetype');
 
     .container {
     	background-color: red;
+    	margin-right: 150px;
+    	margin-left: 150px;
+    	margin-top: 200px;
+    	margin-bottom: 200px;
     }
 								.timeline {
 									list-style: none;
