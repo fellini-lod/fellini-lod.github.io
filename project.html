@@ -405,12 +405,216 @@ EAC CPF, FOAF and SCHEMA.</p>
 <h3>WHAT</h3>
 <p>The idea is to describe a concept through its characteristics and relationships with other concepts, people and events.
 The best way to do this is to describe the concept in relation to the items </p>
+</div>
+
+<div class="paragraph">
+<h1 class="title-paragraph">Conceptual Model</h1>
+<h3 class="title-table">WHO</h3>
+<table>
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>MODEL</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>eac-cpf:entity</td> 
+    <td>EAC-CPF</td>
+</tr>	
+<tr>
+    <td>What is the given name?</td>
+    <td>foaf:givenName</td> 
+    <td>FOAF</td>
+</tr>	
+<tr>
+    <td>What is the surname?</td>
+    <td>foaf:surname</td> 
+    <td>FOAF</td>
+</tr>			
+<tr>
+    <td>What is the name?</td>
+    <td>foaf:name</td> 
+    <td>FOAF</td>
+</tr>			
+<tr>
+    <td>What is the gender?</td>
+    <td>foaf:gender</td> 
+    <td>FOAF</td>
+</tr>	
+<tr>
+    <td>What is his/her nationality?</td>
+    <td>dbo:nationality</td> 
+    <td>DBpedia</td>
+</tr>
+<tr>
+    <td>Where is the headquarter of the organization?</td>
+    <td>dbo:headquarter</td> 
+    <td>DBpedia</td>
+</tr>
+<tr>
+    <td>When was the person born?</td>
+    <td>foaf:birthday</td> 
+    <td>FOAF</td>
+</tr>
+<tr>
+    <td>When did the person died?</td>
+    <td>dbo:deathDate</td> 
+    <td>DBpedia</td>
+</tr>
+<tr>
+    <td>When was the organization founded?</td>
+    <td>schema:foundingDate</td> 
+    <td>SCHEMA</td>
+</tr>
+<tr>
+    <td>When did the organization stop its activity?</td>
+    <td>schema:dissolutionDate</td> 
+    <td>SCHEMA</td>
+</tr>
 
 
+<tr>
+    <td>What is the history of the person/organization?</td>
+    <td>eac-cpf:biogHist</td> 
+    <td>EAC-CPF</td>
+</tr>
+<tr>
+    <td>What is the person/organization’s Wikipedia page? </td>
+    <td>dbo: wikiPageExternalLink</td> 
+    <td>DBpedia</td>
+</tr>										
+</table>
+
+<h3 class="title-table">WHERE?</h3>
+<table>
+
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>MODEL</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>rdf:type</td> 
+    <td>RDF</td>
+</tr>
+<tr>
+    <td>What is the name of the place?</td>
+    <td>gn:name</td> 
+    <td>GeoNames</td>
+</tr>
+<tr>
+    <td>What is the alternative name for the place?</td>
+    <td>gn:alternateName</td> 
+    <td>GeoNames</td>
+</tr>	
+<tr>
+    <td>What is the country the place is located?</td>
+    <td>dbo:country</td> 
+    <td>DBpedia</td>
+</tr>	
+<tr>
+    <td>What is the city the place is located?</td>
+    <td>dbo:city</td> 
+    <td>DBPedia </td>
+</tr>	
+<tr>
+    <td>What is the latitude?</td>
+    <td>WGS84_POS:lat</td> 
+    <td>Basic Geo</td>
+</tr>	
+<tr>
+    <td>What is the longitude?</td>
+    <td>WGS84_POS:long</td> 
+    <td>Basic Geo</td>
+</tr>	
+<tr>
+    <td>What is the country code?</td>
+    <td>gn:countryCode</td> 
+    <td>GeoNames</td>
+</tr>	
+
+<tr>
+    <td>What is the place Wikipedia page?</td>
+    <td>dbo: wikiPageExternalLink</td> 
+    <td>DBpedia</td>
+</tr>	
+<tr>
+    <td>Brief description</td>
+    <td>dbo:abstract</td> 
+    <td>DBpedia</td>
+</tr>	
+</table>
+
+<h3 class="title-table">WHEN?</h3>
+<table>
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>MODEL</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>rdf:type</td> 
+    <td>RDF</td>
+</tr>
+<tr>
+    <td>What is the format of the date?</td>
+    <td>eac-cpf:dateStandardDate</td> 
+    <td>EAC-CPF</td>
+</tr>
+	
+	
+</table>	
+
+<h3 class="title-table">WHAT?</h3>
+<table>
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>MODEL</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>rdf:type</td> 
+    <td>RDF</td>
+</tr>
+<tr>
+    <td>What is the subject?</td>
+    <td>dcterms:subject</td> 
+    <td>DCMI Metadata Terms</td>
+</tr>
+
+<tr>
+    <td>What is a summary?</td>
+    <td>dcterms:abstract</td> 
+    <td>DCMI Metadata Terms</td>
+</tr>
 
 
+<tr>
+    <td>What are the places related to the concept/subject?  </td>
+    <td>dbo:relatedplaces 	</td> 
+    <td>DBPedia </td>
+</tr>	
+<tr>
+    <td>Which resource has the concept/subject as primary topic? </td>
+    <td>foaf:isPrimaryTopicOf	</td> 
+    <td>FOAF</td>
+</tr>	
+<tr>
+    <td>What are other useful references for the resource?  </td>
+    <td> rdfs:seeAlso</td> 
+    <td>RDFS</td>
+</tr>	
+<tr>
+    <td>What are the people/organizations/concepts related with? </td>
+    <td>skos:related</td> 
+    <td>SKOS</td>
+</tr>
+</table>
 
-
+<p>notes: In the part concerning the concept we have referred to people and organizations that we have not described as our items but that are useful to highlight the links in the graph and Turtle model.</p>
 </div>
 
 
