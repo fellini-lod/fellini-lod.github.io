@@ -231,60 +231,11 @@ src: url('font/Geo.ttf') format('truetype');
             clear: both;
           }
 
+/*-------------VERTICAL TIMELINE---------*/
 
 
-
-
-
-
-
-/*-------------------TABLE--------------------*/
-					table {
-						border:solid;
-						border-width: thin;
-						box-sizing: border-box;
-						margin-left:50px;
-						margin-right:50px;
-						margin-top:20px;
-					}
-					
-					
-
-					tr { 
-						border:solid;
-						border-width: thin;
-						margin-top: 10px;
-						margin-bottom:10px;
-						font-family:geo;
-						margin-top: 20px;
-						margin-bottom:20px;}
-
-					th{
-						text-align:center;
-						font-family:geo;
-						text-transform: uppercase;
-						color: red;
-					}
-
-					td{
-						border:solid;
-						border-width: thin;
-						word-wrap: break-word;
-						text-align:center;
-
-					}
-
-					tr:hover {
-						background-color:	#FAFAD2;
-					
-					}
-					.title-table{font-size: 30px;
-								text-align:center;}
-
-
-
-/*VERTICAL TIMELINE*/
-  .page-background {
+ 
+				.page-background {
           	background-image: url("images/film_strip_page.png");
           	background-size: 100% 100%;
           	background-repeat: no-repeat;
@@ -513,6 +464,58 @@ src: url('font/Geo.ttf') format('truetype');
 													right: auto;
 											}
 								}
+
+
+
+
+
+
+
+
+/*-------------------TABLE--------------------*/
+					table {
+						border:solid;
+						border-width: thin;
+						box-sizing: border-box;
+						margin-left:50px;
+						margin-right:50px;
+						margin-top:20px;
+					}
+					
+					
+
+					tr { 
+						border:solid;
+						border-width: thin;
+						margin-top: 10px;
+						margin-bottom:10px;
+						font-family:geo;
+						margin-top: 20px;
+						margin-bottom:20px;}
+
+					th{
+						text-align:center;
+						font-family:geo;
+						text-transform: uppercase;
+						color: red;
+					}
+
+					td{
+						border:solid;
+						border-width: thin;
+						word-wrap: break-word;
+						text-align:center;
+
+					}
+
+					tr:hover {
+						background-color:	#FAFAD2;
+					
+					}
+					.title-table{font-size: 30px;
+								text-align:center;}
+
+
 
 
 
