@@ -225,7 +225,7 @@ src: url('font/Geo.ttf') format('truetype');
           }
 
           .page-background {
-          	background-image: url("images/locandinasfondo.jpg");
+          	background-image: url("images/pell2.png");
           	background-size: cover;
           	opacity: 0.7;
           }
