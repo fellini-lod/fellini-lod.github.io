@@ -227,7 +227,7 @@ src: url('font/Geo.ttf') format('truetype');
           .page-background {
           	background-image: url("images/prova3.jpg");
           	background-size: cover;
-          	opacity: 0.3;
+          	opacity: 0.7;
           }
 
 
@@ -436,6 +436,10 @@ tr:hover {
 					left: -14px;
 					right: auto;
 			}
+}
+
+.timeline-panel {
+	background-color: #FFFFFF;
 }
 
 .item {
