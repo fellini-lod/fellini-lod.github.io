@@ -625,6 +625,9 @@ p {
 
 
 
+
+
+
 /*----------STILE PER PROJECT PAGE-----------*/
 .contenitore {
 	margin-left: 70px;
@@ -643,5 +646,12 @@ p {
 	text-transform: uppercase !important;
 	color:#CDBFA6 !important;
 }
+
+
+.table-link a:active {
+color:#3b3a30;}
+
+.table-link a:visited {
+color: black;}
 
  
