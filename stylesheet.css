@@ -649,11 +649,15 @@ p {
 
 
 .table-link a:active {
-color:#3b3a30;
+color:black;
 }
 
 .table-link a:visited {
 color: black;
 }
 
- 
+ .table-link a:hover{
+	color: black;
+}
+
+
