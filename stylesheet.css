@@ -283,7 +283,6 @@ src: url('font/Geo.ttf') format('truetype');
    .page-background {
           	background-image: url("images/film_strip_page.png");
           	background-size: 100% 100%;
-          	opacity: 0.7;
           	background-repeat: no-repeat;
           }
 
@@ -298,6 +297,16 @@ src: url('font/Geo.ttf') format('truetype');
 									padding-right: 150px;
     								padding-left: 150px;}								}
 
+									.timeline:before {
+											top: 0;
+											bottom: 0;
+											position: absolute;
+											content: " ";
+											width: 3px;
+											background-color: #eeeeee;
+											left: 50%;
+											margin-left: -1.5px;
+									}
 
 									.timeline > li {
 											margin-bottom: 20px;
