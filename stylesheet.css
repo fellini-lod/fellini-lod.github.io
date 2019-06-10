@@ -289,7 +289,7 @@ src: url('font/Geo.ttf') format('truetype');
 						position: absolute;
 						content: " ";
 						width: 3px;
-						background-color: red;
+						background-color: #eeeeee;
 						left: 50%;
 						margin-left: -1.5px;
 					}
