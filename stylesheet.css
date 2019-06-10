@@ -234,7 +234,7 @@ src: url('font/Geo.ttf') format('truetype');
 	padding-bottom: 50px;
 }
 
-.container {margin: 200px;}
+
 
 
 
@@ -282,6 +282,8 @@ tr:hover {
 	list-style: none;
 	padding: 20px 0 20px;
 	position: relative;
+	margin-right: 150px;
+	margin-left: 150px;
 }
 
 	.timeline:before {
