@@ -289,8 +289,7 @@ src: url('font/Geo.ttf') format('truetype');
     }
 
 .timeline-panel {
-	background-color: #ffffff;
-}
+	background-color: #282828;}
 
 					.timeline {
 						list-style: none;
@@ -455,7 +454,7 @@ src: url('font/Geo.ttf') format('truetype');
 									background-size: cover;
 									}
 
-									
+
 					
 					.timeline-title {
 						margin-top: 0;
