@@ -225,7 +225,7 @@ src: url('font/Geo.ttf') format('truetype');
           }
 
           .page-background {
-          	background-image: url("images/filmstrip2.jpg");
+          	background-image: url("images/film_strip_page.png");
           	background-size: contain;
           }
 
@@ -282,7 +282,7 @@ tr:hover {
 	list-style: none;
 	padding: 20px 0 20px;
 	position: relative;
-	margin-right: 150px;
+	margin-right: 160px;
 	margin-left: 150px;
 }
 
