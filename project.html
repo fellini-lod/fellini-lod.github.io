@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <script src="javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!--style-->
+    
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"> 
+    <style id="css" type="text/css"></style>
+    <link rel="icon" href="images/logonero.png"> <!-- FAVICON (logo nella scheda del browser)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--LINK PER LA VERTICAL TIMELINE-->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+</head>
+
+<!--------------------------------------------------NAVBAR---------------------------------------->
+    <nav id="start" class="navbar navbar-expand-lg navbar-dark" style="padding: 5px;">
+      
+      <div class="logo-index">
+        <a class="index-button" >
+          <div>
+          <img class="logo" src="images/logo-palma.png">
+          </div>
+        </a>
+      </div>
+      
+      <a class="index-button" id="ladolcevita">LA DOLCE VITA</a>
+        <button class="navbar-toggler" type="button" data-target="#navbarNav" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation" aria-controls="navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+        
+            
+              <a class="nav-link dropdown-toggle" href="#" id="article-button" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROJECT</a>
+                <div class="dropdown-menu">
+
+                    <a class="dropdown-item" href="#">Items</a>
+                     <div class="dropdown-divider"></div> 
+                    <a class="dropdown-item" href="#">E/R model</a>
+                     <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Metadata standard</a>
+                     <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Metadata alignement</a>
+                     <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Theoretical model</a>
+                     <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Conceptual model</a>
+                     <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Data description</a>
+                        <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">RDF/XML</a>
+                      <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Data connection</a>
+                </div>
+          </li>
+          <li class="nav-item"><a class="nav-link about-button" role="button">TEAM</a></li>
+        </ul>
+      </div>
+    </nav>
+
+	
+<body>
+<div class="contenitore">
+<div class="paragraph">
+<h1 class="title-paragraph">Items</h1>
+<p>QUI VA INSERITO QUELLO CHE LA LUCI STA FACENDO SUGLI ITEMS</p>
+</div>
+
+<div class="paragraph">
+<h1 class="title-paragraph">E/R model</h1>
+<p>This model relates the central idea of the movie "La Dolce Vita" directed by Federico Fellini during 1960. 
+
+Then we choose to emphasize the iconic set of the Trevi Fountain as a place related to the main idea.
+
+if the movie present several important thematics we  were interested to analyse the relationship pf Fellini with the female world.
+
+Consequently, in this model you can find entities represented as circles, items as drops that are connected by relationships</p>
+<img src="images/erdiagram.png" alt="e/r Model diagram" class="erdiagram">
+
+</div>
+
+<div class="paragraph">
+<h1 class="title-paragraph">Metadata analysis</h1>
+<table>
+
+<tr>
+<th>Type</th>
+<th>Title</th>
+<th>Provider</th>
+<th>Metadata standard</th>
+</tr>
+
+<tr>
+    <td>Book</td>
+    <td>"Nella città delle donne. Femminile e sogno nel cinema di Federico Fellini" of Cini Roberta</td> 
+	<td>ScopriRete</td>
+    <td>ISBD</td>
+  </tr>
+<tr>
+    <td> Costume</td>
+    <td>Anita costume: "Il pretino"</td> 
+    <td>Sistema Archivistico Nazionale (SAN)</td>
+	 <td>ISBD</td>
+  </tr>
+  <tr>
+    <td> Dvd</td>
+    <td>"La Dolce Vita"</td> 
+    <td>Cineteca di Bologna</td>
+	 <td>ISBD</td>
+  </tr>
+   <tr>
+    <td> Photo </td>
+    <td>The protagonists Marcello Mastroianni and  Anita Ekberg  in the Trevi fountain, Rome 1959</td> 
+    <td>Getty image	</td>
+	 <td> is not specified, we decide to use ITCP</td>
+  </tr>
+  <tr>
+    <td>Photo</td>
+    <td>Fellini with the "Palma d'oro" prize</td> 
+    <td>Roger-Viollet partner of Europeana photography (through getty image)	</td>
+	 <td> EDM</td>
+  </tr>
+   <tr>
+    <td>Poster</td>
+    <td>poster of "La Dolce Vita"</td> 
+    <td>ICCU</td>
+	 <td>ISBD</td>
+  </tr>
+  <tr>
+    <td>Article</td>
+    <td>Fellini "spettatore" del suo film : Processo alla "Dolce vita"</td> 
+    <td>Cineteca di Rimini</td>
+	 <td>ISBD</td>
+  </tr>
+  <tr>
+    <td>Soundtrack</td>
+    <td>La dolce vita / Music composed by Nino Rota </td> 
+    <td>CulturaItalia</td>
+	 <td>PICO</td>
+  </tr>
+   <tr>
+    <td>Video</td>
+    <td>Interview "Fellini portrait"</td> 
+    <td>INA.fr (found throught Europeana)</td>
+	 <td>EAD</td>
+  </tr>
+  	 <tr>
+    <td>Video</td>
+    <td>Video of Trevi Fountain	</td> 
+    <td>Istituto Luce</td>
+	 <td>EAD</td>
+  </tr>			
+</table>
+<p>
+notes: 
+Institute Luce, points out to use FIAF while in reality has used the EAD rules, for this we have agreed to use as reference EAD.
+We also contacted OPAC of the Bolognese centre because it was not clear about the standards used. they confirmed the use of REICAT, despite this, for all bibliographic resources we decided to use the ISBD standard because of its international value and because REICAT is also based on ISBD.</p>
+</div>
+
+
+<div class="paragraph">
+<h1 class="title-paragraph">Metadata aligment</h1>
+<h2 class="title-table">People</h2>
+<table>
+<tr>
+<th>PROPERTY</th>
+<th>EDM</th>
+<th>PICO</th>
+<th>EAD</th>
+<th>ISBD</th>
+<th>IPTC</th>
+</tr>
+ <tr>
+    <td>Creator</td>
+    <td>dc:creator	</td> 
+    <td>pico: creator</td>
+	 <td> 	&lt;author&gt;(in &lt;eadheader&gt;)</td>
+	 <td>1.4 Statement of responsibility	</td>
+	 <td>6.5 Creator<br> 6.6 Creator's contact info <br> 6.7 Creator's jobtitle</td>
+  </tr>
+   <tr>
+    <td> Publisher</td>
+    <td>dc:publisher</td> 
+    <td>pico: publisher <br> pico:distributor   <br> pico: printer</td>
+	 <td>&lt;publisher&gt; (in &lt;eadheader&gt;)</td>
+	 <td>4.2 Name of publisher, producer and/or distributor</td>
+	 <td></td>
+  </tr>
+  <tr>
+    <td> Owner</td>
+    <td>edm:Provider</td> 
+    <td>pico: IsOwnerOf	</td>
+	 <td></td>
+	 <td></td>
+	 <td>10.14 Image Supplier</td>
+  </tr>  
+</table>
+
+
+<h2 class="title-table">Date</h2>
+<table>
+<tr>
+<th>PROPERTY</th>
+<th>EDM</th>
+<th>PICO</th>
+<th>EAD</th>
+<th>ISBD</th>
+<th>IPTC</th>
+</tr>
+<tr>
+    <td> Created</td>
+    <td>dcterms:created</td> 
+    <td>pico: created	</td>
+	 <td>&lt;unitdate&gt;</td>
+	 <td>4.3 Date of publication, production and/or distribution</td>
+	 <td>6.9 Date created</td>
+  </tr> 
+  <tr>
+    <td>Published	</td>
+    <td></td> 
+    <td></td>
+	 <td>&lt;date&gt; (in &lt;eadheader&gt;)</td>
+	 <td>4.3 Date of publication, production and/or distribution</td>
+	 <td></td>
+  </tr> 					
+</table>
+
+<h2 class="title-table">Place</h2>
+<table>
+<tr>
+<th>PROPERTY</th>
+<th>EDM</th>
+<th>PICO</th>
+<th>EAD</th>
+<th>ISBD</th>
+<th>IPTC</th>
+</tr>
+<tr>
+    <td>Current location </td>
+    <td>edm:current Location</td> 
+    <td></td>
+	 <td></td>
+	 <td>(4.1.4 Subsequent place)</td>
+	 <td></td>
+  </tr> 
+<tr>
+    <td>Publish location  </td>
+    <td></td> 
+    <td>pico: coverage</td>
+	 <td>&lt;geogname&gt; (in &lt;controlaccess&gt;) </td>
+	 <td>(4.1 place of publication, production and/or distribution	</td>
+	 <td></td>
+  </tr> 
+<tr>
+    <td> Locatation of creation </td>
+    <td></td> 
+    <td>pico: coverage	</td>
+	 <td> </td>
+	 <td>	</td>
+	 <td>10.18 Location created<br>  10.19 Location Shown in the image </td>
+  </tr>
+</table>
+
+
+<h2 class="title-table">Subject/Concept</h2>
+<table>
+<tr>
+<th>PROPERTY</th>
+<th>EDM</th>
+<th>PICO</th>
+<th>EAD</th>
+<th>ISBD</th>
+<th>IPTC</th>
+</tr>
+<tr>
+    <td>Title </td>
+    <td>dc:title</td> 
+    <td>pico: title <br> pico: alternative</td>
+	 <td>&lt;unittitle&gt; </td>
+	 <td>1.1 Title proper <br>1.2 Parallel title</td>
+	 <td>6.23 Title</td>
+  </tr> 
+  
+<tr>
+    <td>Description</td>
+    <td>dc:description</td> 
+    <td>pico: description<br> pico: tableOfContents	</td>
+	 <td>&lt;abstract&gt; </td>
+	 <td>5 Material description area</td>
+	 <td>6.10 Description</td>
+  </tr> 
+  
+  <tr>
+    <td> Subject</td>
+    <td>dc:subject</td> 
+    <td>pico: subject</td>
+	 <td>&lt;subject&gt;</td>
+	 <td></td>
+	 <td></td>
+  </tr>
+  
+   <tr>
+    <td>Type</td>
+    <td>dc:type <br>edm:type</td> 
+    <td>pico: Type</td>
+	 <td></td>
+	 <td>0.2 Media type</td>
+	 <td>10.7 Digital source type</td>
+  </tr>
+  
+   <tr>
+    <td>Material</td>
+    <td>dc:type <br>edm:type</td> 
+    <td>pico: materialAndTechnique <br> pico: medium</td>
+	 <td></td>
+	 <td>1.3.1. Applicazione delle norme ai diversi tipi di materiale; APPENDICE C-desginazione generiche del materiale</td>
+	 <td>11.1.12 Physical Description  </td>
+  </tr>
+  <tr>
+    <td> Format</td>
+    <td>dc:format</td> 
+    <td>pico: format   <br> pico: isFormatOf	</td>
+	 <td></td>
+	 <td></td>
+	 <td></td>
+  </tr>
+   <tr>
+    <td>Size/Duration</td>
+    <td>dcterms:extent</td> 
+    <td>pico: extent</td>
+	 <td>&lt;materialspec&gt;</td>
+	 <td>5.2.7.6 Groove size</td>
+	 <td>10.20 Max avail Height <br>10.21 Max avail Widht</td>
+  </tr>
+   <tr>
+    <td>Language</td>
+    <td>dc:language	</td> 
+    <td>pico: language</td>
+	 <td>&lt;langmaterial&gt;</td>
+	 <td>A.5 Language and script of the description	</td>
+	 <td></td>
+  </tr>
+  <tr>
+    <td>Identifier</td>
+    <td>dc:identifier	</td> 
+    <td></td>
+	 <td>&lt;eadid&gt;</td>
+	 <td>8.1 Resource identifier</td>
+	 <td>10.6 Digital image GUID</td>
+  </tr>
+   <tr>
+    <td>Rights</td>
+    <td>dc:rights <br> edm:rights	</td> 
+    <td>pico: rights <br> pico: rightsHolder </td>
+	 <td></td>
+	 <td>4.03.06</td>
+	 <td>6.8 Right usage terms </td>
+  </tr>
+  <tr>
+    <td>Summary/(note)</td>
+    <td>skos:note (????)</td> 
+    <td>pico: abstract</td>
+	 <td>&lt;note&gt;</td>
+	 <td>7.10.2 Notes providing a summary</td>
+	 <td>6.12 Headline </td>
+  </tr>												
+</table>  
+</div>
+
+<div class="paragraph">
+<h1 class="title-paragraph">Theoretical model</h1>
+<h3>WHO</h3>
+<p>Having to reflect on people in relation to the items, for example Fellini is the author of the article but also the director of the dolce vita.  Our intent is not only to describe "people" as authors or objects of the items but in relation to "La Dolce Vita" itself.
+Therefore we need not only a precise description of the individual persons but a description that is in function of the role that these  have in relation to the creation / preservation and dissemination of the film. Consequently, we decided to use the following ontologies and standards:
+-FOAF To highlight the personal information of the person/organisation
+The FOAF ("Friend of a Friend") project is a community driven effort to define an RDF vocabulary for expressing metadata about people, and their interests, relationships and activities.
+-EAC- CPF, DBpedia, SCHEMA when foaf did not provide a method to define other information relevant to us.</p>
+
+<h3>WHERE</h3>
+<p>In the context of the description of entities place we use the most important ontology in this fields:
+Geoname, DBpedia, Basicgeo and in particular we have also included EAC CPF to highlight the role that had a certain place within our idea.</p>
+
+<h3>WHEN</h3>
+<p>For the concept of time we can refer both to time as the date of the event and to notion of time (duration of the film).
+Since is the most important we decide to the International Standard for the representation of dates and times ISO 8601 specified by the W3Consortium., n the format Complete Date: YYYY-MM-DD (Y=year, M=month, D=day). To include this information in the XML file we used the EAC-CPF attribute for Date standardDate.
+The primary ontologies, which in our opinion can best represent the concept of time and time duration are as follows:
+EAC CPF, FOAF and SCHEMA.</p>
+
+<h3>WHAT</h3>
+<p>The idea is to describe a concept through its characteristics and relationships with other concepts, people and events.
+The best way to do this is to describe the concept in relation to the items </p>
+
+
+
+
+
+
+</div>
+
+
+
+</div>
+</body>	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+<!------------------------------------------FOOTER-------------------------------------------->
+<div class="footer">
+  
+                
+    <div id="logos">
+          <a href="index.html">
+            <img src="images/logo-palma.png" class="toindex">
+          </a>
+    
+        <a href="#start">
+            <img src= "images/totop.png" class="toindex" >
+        </a>
+    </div>
+    
+
+<!-----------CONTACT US-------------->
+<div class="foot-menu">  
+
+      <a  id="button contact us" class="button-form" data-toggle="modal" data-target="#exampleModal">CONTACT US</a>
+
+<!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+       <div class="modal-dialog" role="document">
+      <div class="modal-content">
+
+          <div class="modal-header">
+        <h5 class="modal-title"  id="exampleModalLabel">CONTACT US</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+      </div>
+
+      <div class="modal-body">
+        <div class="container-modal">
+          <div class="row">
+            <div class="column">
+
+                <form method="POST" action="https://formspree.io/sara.armaroli2@studio.unibo.it">
+                    <label for="name">Name</label>
+                       <input type="text" id="name" name="name" placeholder="Your name..">
+                    <label for="email">E-mail</label>
+                        <input type="text" id="email" name="email" placeholder="Your e-mail..">
+                    <textarea id="message" name="message" placeholder="Write something.." style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+                </form>
+            </div>
+          </div>
+            </div>
+      </div>
+
+      </div>
+      </div>
+</div>
+
+</div> <!-------CONTACT US END------------->
+
+
+
+<div class="copyright" align="center">
+  <p>© Copyright 2019 La dolce vita - All Rights Reserved</p>
+</div>
+
+
+</div> <!----------------------------------FOOTER END------------------------------------------->
+
+
+
+
+
+</body>
+
+
+
+</html>
