@@ -226,7 +226,7 @@ src: url('font/Geo.ttf') format('truetype');
 
           .page-background {
           	background-image: url("images/filmstrip2.jpg");
-          	background-size: cover;
+          	background-size: contain;
           	opacity: 0.7;
           }
 
