@@ -286,13 +286,13 @@ src: url('font/Geo.ttf') format('truetype');
           	background-repeat: no-repeat;
           }
 
+    .container {
+    	background-color: red;
+    }
 								.timeline {
 									list-style: none;
 									padding: 20px 0 20px;
-									position: relative;
-									margin-right: 160px;
-									margin-left: 150px;
-								}
+									position: relative;}								}
 
 									.timeline:before {
 											top: 0;
