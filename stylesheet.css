@@ -364,8 +364,8 @@ src: url('font/Geo.ttf') format('truetype');
 						right: -14px;
 						display: inline-block;
 						border-top: 14px solid transparent;
-						border-left: 14px solid #fff;
-						border-right: 0 solid #fff;
+						border-left: 14px solid #282828;;
+						border-right: 0 solid #282828;
 						border-bottom: 14px solid transparent;
 						content: " ";
 					}
