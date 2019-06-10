@@ -647,11 +647,16 @@ p {
 	color:#CDBFA6 !important;
 }
 
+.table-link{
+	color: black;
+}
 
 .table-link a:active {
-color:#3b3a30;}
+color:#3b3a30;
+}
 
 .table-link a:visited {
-color: black;}
+color: black;
+}
 
  
