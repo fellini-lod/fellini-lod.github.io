@@ -288,15 +288,15 @@ src: url('font/Geo.ttf') format('truetype');
 
     .container {
     	background-color: red;
-    	padding-right: 150px;
-    	padding-left: 150px;
     	padding-top: 200px;
     	padding-bottom: 200px;
     }
 								.timeline {
 									list-style: none;
 									padding: 20px 0 20px;
-									position: relative;}								}
+									position: relative;
+									padding-right: 150px;
+    								padding-left: 150px;}								}
 
 									.timeline:before {
 											top: 0;
