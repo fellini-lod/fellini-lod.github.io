@@ -227,6 +227,7 @@ src: url('font/Geo.ttf') format('truetype');
           .page-background {
           	background-image: url("images/prova1.jpg");
           	background-size: cover;
+          	opacity: 0.5;
           }
 
 
