@@ -287,8 +287,8 @@ src: url('font/Geo.ttf') format('truetype');
           }
 
     .container {
-    	padding-top: 200px;
-    	padding-bottom: 200px;
+    	padding-top: 150px;
+    	padding-bottom: 150px;
     }
 								.timeline {
 									list-style: none;
@@ -297,16 +297,6 @@ src: url('font/Geo.ttf') format('truetype');
 									padding-right: 150px;
     								padding-left: 150px;}								}
 
-									.timeline:before {
-											top: 0;
-											bottom: 0;
-											position: absolute;
-											content: " ";
-											width: 3px;
-											background-color: #eeeeee;
-											left: 50%;
-											margin-left: -1.5px;
-									}
 
 									.timeline > li {
 											margin-bottom: 20px;
