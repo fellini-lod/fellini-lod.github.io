@@ -235,6 +235,10 @@ src: url('font/Geo.ttf') format('truetype');
 	padding-bottom: 50px;
 }
 
+.container {margin: 100px;}
+
+
+
 		/*TABLE*/
 table{border:solid;
 	border-width: thin;
