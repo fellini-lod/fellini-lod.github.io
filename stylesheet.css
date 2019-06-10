@@ -285,8 +285,7 @@ src: url('font/Geo.ttf') format('truetype');
 									list-style: none;
 									padding: 20px 0 20px;
 									position: relative;
-									padding-right: 150px;
-    								padding-left: 150px;}								}
+									}								}
 
 									.timeline:before {
 											top: 0;
