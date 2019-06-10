@@ -290,7 +290,7 @@ src: url('font/Geo.ttf') format('truetype');
 						top: 0;
 						bottom: 0;
 						position: absolute;
-						content: " ";
+						content: "ciao ";
 						width: 3px;
 						background-color: red;
 						left: 50%;
