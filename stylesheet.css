@@ -472,6 +472,12 @@ src: url('font/Geo.ttf') format('truetype');
 
 							.container {padding-top: 0px;
 								padding-bottom: 0px;}
+
+
+							.timeline {
+								margin-left: 150px;
+								margin-right: 150px;
+							}
 							}
 
 
