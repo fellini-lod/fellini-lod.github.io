@@ -465,7 +465,14 @@ src: url('font/Geo.ttf') format('truetype');
 													left: -14px;
 													right: auto;
 											}
+
+							.page-background{ background-image: none; 
+
 								}
+
+							.container {padding-top: 0px;
+								padding-bottom: 0px;}
+							}
 
 
 
