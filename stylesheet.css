@@ -430,10 +430,7 @@ src: url('font/Champagne.ttf') format('truetype');
 
 
 					
-					.timeline-title {
-						margin-top: 0;
-						color: ;
-					}
+					
 					
 					.timeline-body > p,
 					.timeline-body > ul {
@@ -443,6 +440,7 @@ src: url('font/Champagne.ttf') format('truetype');
 					.timeline-body > p + p {
 						margin-top: 5px;
 					}
+
 
 
 @media (max-width: 767px) {
@@ -844,7 +842,7 @@ sup {font-size: 60%;}
 
 
 
-	/*SIDEBAR*/
+	/*SIDEBAR
 #sideNav .navbar-nav .nav-item .nav-link{
 	font-family: ;
 	color:white;
@@ -943,4 +941,4 @@ sup {font-size: 60%;}
 	
 	.bg-primary{
 			background-color: black!important
-	}
+	}*/
