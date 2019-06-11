@@ -430,10 +430,7 @@ src: url('font/Champagne.ttf') format('truetype');
 
 
 					
-					.timeline-title {
-						margin-top: 0;
-						color: green;
-					}
+					
 					
 					.timeline-body > p,
 					.timeline-body > ul {
