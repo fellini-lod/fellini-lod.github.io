@@ -1,197 +1,169 @@
 <!DOCTYPE html>
 <html>
-  <head> 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-    
-    <meta charset="utf-8">
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
-    <script src="javascript.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!--style-->
-    
-    <link rel="stylesheet" type="text/css" href="stylesheet.css"> 
-    <style id="css" type="text/css"></style>
-    <link rel="icon" href="images/logonero.png"> <!-- FAVICON (logo nella scheda del browser)-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-    <!--LINK PER LA VERTICAL TIMELINE-->
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css"> 
+  <style id="css" type="text/css"></style>
+  
+  <style>
+  body {
+    position: relative; 
+  }
+  #section1 {padding-top: 90px;color: black; background-color: ;}
+  #section2 {padding-top: 90px;color: black; background-color:;}
+  #section3 {padding-top: 90px;color: black; background-color: ;}
+  #section4 {padding-top: 90px;color: black; background-color: ;}
+  #section5 {padding-top: 90px;color: black; background-color: ;}
+  #section6 {padding-top: 90px;color: black; background-color: ;}
+  #section7 {padding-top: 90px;color: black; background-color: ;}
+  #section8 {padding-top: 90px;color: black; background-color:;}
+  #section9 {padding-top: 90px;color: black; background-color:;}
+  
 
-
-
-
-    
+  </style>
 </head>
-
-<!--------------------------------------------------NAVBAR---------------------------------------->
-    <nav id="start" class="navbar navbar-expand-lg navbar-dark" style="padding: 5px;">
-      
-      <div class="logo-index">
-        <a class="index-button" >
-          <div>
-          <img class="logo" src="images/logo-palma.png">
-          </div>
-        </a>
-      </div>
-      
-      <a class="index-button" id="ladolcevita" href="contenuto.html">LA DOLCE VITA</a>
-        <button class="navbar-toggler" type="button" data-target="#navbarNav" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation" aria-controls="navbarNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-        
-            
-              <a class="nav-link dropdown-toggle" href="#" id="article-button" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROJECT</a>
-                <div class="dropdown-menu">
-
-                    <a class="dropdown-item" href="#">Items</a>
-                     <div class="dropdown-divider"></div> 
-                    <a class="dropdown-item" href="#">E/R model</a>
-                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Metadata standard</a>
-                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Metadata alignement</a>
-                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Theoretical model</a>
-                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Conceptual model</a>
-                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Data description</a>
-                        <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">RDF/XML</a>
-                      <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Data connection</a>
-                </div>
-          </li>
-          <li class="nav-item"><a class="nav-link about-button" role="button">TEAM</a></li>
-        </ul>
-      </div>
-    </nav>
-
-	
 <body>
 
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">LA DOLCE VITA</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Items</a></li>
+          <li><a href="#section2">E/R model</a></li>
+          <li><a href="#section3">Metadata analysis</a></li>
+          <li><a href="#section4">Metadata aligment</a></li>
+          <li><a href="#section5">Theoretical model</a></li>
+          <li><a href="#section6">Conceptual model</a></li>
+          <li><a href="#section7">Data description</a></li>
+          <li><a href="#section8">RDF</a></li>
+          <li><a href="#section9">Data connection</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
 
-    
-
-
-<!--PARAGRAPHS-->
 <div class="contenitore">
-<div class="paragraph">
-<a id="items" class="title-paragraph">Items</a>
-<p>QUI VA INSERITO QUELLO CHE LA LUCI STA FACENDO SUGLI ITEMS</p>
+<div id="section1" class="container-fluid ">
+  <h1 class="title-paragraph paragraph">Items</h1>
+  <p>QUI VA INSERITO QUELLO CHE LA LUCI STA FACENDO SUGLI ITEMS</p>
 </div>
 
-<hr>
+<div id="section2" class="container-fluid">
+  <h1 class="title-paragraph paragraph">E/R model</h1>
+  <p>This model relates the central idea of the movie "La Dolce Vita" directed by Federico Fellini during 1960. 
 
-<div class="paragraph">
-<a id="E/R model" class="title-paragraph">E/R model</a>
-<p>This model relates the central idea of the movie "La Dolce Vita" directed by Federico Fellini during 1960. 
+        Then we choose to emphasize the iconic set of the Trevi Fountain as a place related to the main idea.
+        
+        if the movie present several important thematics we  were interested to analyse the relationship pf Fellini with the female world.
+        
+        Consequently, in this model you can find entities represented as circles, items as drops that are connected by relationships</p>
+        <img src="images/erdiagramcopia.png" alt="e/r Model diagram" class="erdiagram">
+    </div>
 
-Then we choose to emphasize the iconic set of the Trevi Fountain as a place related to the main idea.
+<div id="section3" class="container-fluid">
+  <h1 class="title-paragraph paragraph">Metadata analysis</h1>
+  
 
-if the movie present several important thematics we  were interested to analyse the relationship pf Fellini with the female world.
+  <table>
 
-Consequently, in this model you can find entities represented as circles, items as drops that are connected by relationships</p>
-<img src="images/erdiagramcopia.png" alt="e/r Model diagram" class="erdiagram">
+        <tr>
+        <th>Type</th>
+        <th>Title</th>
+        <th>Provider</th>
+        <th>Metadata standard</th>
+        </tr>
+        
+        <tr>
+            <td>Book</td>
+            <td> <a href="https://scoprirete.bibliotecheromagna.it/SebinaOpac/resource/nella-citta-delle-donne-femminile-e-sogno-nel-cinema-di-federico-fellini/RAV1126729?tabDoc=tabloca" class="table-link">"Nella città delle donne. Femminile e sogno nel cinema di Federico Fellini" of Cini Roberta</a></td> 
+            <td><a href="https://scoprirete.bibliotecheromagna.it/SebinaOpac/Opac.do" class="table-link">ScopriRete</a></td>
+            <td> <a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" class="table-link">ISBD</a></td>
+          </tr>
+        <tr>
+            <td> Costume</td>
+            <td> <a href="http://www.moda.san.beniculturali.it:8081/PdM/AssetViewDetails.aspx?assetid=24410&assettype=MibacProdotto" class="table-link">Anita costume: "Il pretino"</a></td> 
+            <td> <a href="http://san.beniculturali.it/web/san/home;jsessionid=FB82B9C1C2101B33F89331968B69B58B.sanapp01_portal" class="table-link">Sistema Archivistico Nazionale (SAN) </a></td>
+             <td><a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" class="table-link">ISBD</a></td>
+          </tr>
+          <tr>
+            <td> Dvd</td>
+            <td> <a href="http://www.cinetecadibologna.it/archivi/audiovisivi/vhsdvd/film/l_2665" class="table-link">"La Dolce Vita"</a></td> 
+            <td> <a href="http://www.cinetecadibologna.it/home" class="table-link">Cineteca di Bologna</a></td>
+             <td><a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" class="table-link">ISBD</a></td>
+          </tr>
+           <tr>
+            <td> Photo </td>
+            <td><a href="https://www.gettyimages.it/detail/fotografie-di-cronaca/film-set-of-la-dolce-vita-at-trevi-fountain-fotografie-di-cronaca/890227214" class="table-link">The protagonists Marcello Mastroianni and  Anita Ekberg  in the Trevi fountain, Rome 1959 </a></td> 
+            <td> <a href="https://www.gettyimages.it/" class="table-link">Getty image</a></td>
+             <td> It is not specified, we decide to use <a href="https://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata" class="table-link">IPTC</a></td>
+          </tr>
+          <tr>
+            <td>Photo</td>
+            <td> <a href="https://www.gettyimages.it/detail/fotografie-di-cronaca/federico-fellini-and-the-palme-dor-received-for-fotografie-di-cronaca/56205828" class="table-link">Fellini with the "Palma d'oro" prize</a></td> 
+            <td><a href="https://www.roger-viollet.fr/en" class="table-link">Roger-Viollet partner of Europeana photography (through getty image)</a></td>
+             <td> <a href="https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Primer_130714.pdf" class="table-link"> EDM </a></td>
+          </tr>
+           <tr>
+            <td>Poster</td>
+            <td><a href="https://sol.unibo.it/SebinaOpac/resource/la-dolce-vita/UBO2948168" class="table-link">Poster of "La Dolce Vita"</a></td> 
+            <td><a href="https://sol.unibo.it/SebinaOpac/.do" class="table-link">Sbn Ubo</a></td>
+             <td><a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" class="table-link">ISBD</a></td>
+          </tr>
+          <tr>
+            <td>Article</td>
+            <td> <a href="https://scoprirete.bibliotecheromagna.it/SebinaOpac/resource/fellini-spettatore-del-suo-film-processo-alla-dolve-vita/RAV2291500?tabDoc=tabloca" class="table-link">Fellini "spettatore" del suo film : Processo alla "Dolce vita"</a></td> 
+            <td> <a href="https://scoprirete.bibliotecheromagna.it/SebinaOpac/.do" class="table-link">Cineteca di Rimini</a></td>
+             <td><a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" class="table-link">ISBD</a></td>
+          </tr>
+          <tr>
+            <td>Soundtrack</td>
+            <td><a href="http://www.culturaitalia.it/opencms/opencms/system/modules/culturaitalia/templates/viewItem.jsp?language=it&case=&id=oai%3Awww.internetculturale.it%2Fmetaoaicat%3Aoai%3A192.168.10.31%3A22%3ARM0200%3AIT-DDS0000006456000000" class="table-link">La dolce vita / Music composed by Nino Rota </a></td> 
+            <td><a href="http://www.culturaitalia.it/opencms/index.jsp?language=it" class="table-link">CulturaItalia</a></td>
+             <td><a href="http://www.culturaitalia.it/opencms/export/sites/culturaitalia/attachments/documenti/picoap/picoap1.0.xml" class="table-link">PICO</a></td>
+          </tr>
+           <tr>
+            <td>Video</td>
+            <td><a href="https://www.ina.fr/video/CPD05014246/fellini-portrait-video.html#" class="table-link">Interview "Fellini portrait"</a></td> 
+            <td> <a href="https://www.ina.fr/" class="table-link">Institute National de l'Audiovisuel</a></td>
+             <td> <a href="https://www.loc.gov/ead/index.html" class="table-link">EAD </a></td>
+          </tr>
+               <tr>
+            <td>Video</td>
+            <td><a href="https://patrimonio.archivioluce.com/luce-web/detail/IL3000088046/1/la-fontana-trevi.html?startPage=60&jsonVal=%7B%22jsonVal%22:%7B%22query%22:[%22*:*%22],%22fieldDate%22:%22dataNormal%22,%22_perPage%22:20,%22luoghi%22:[%22%5C%22Fontana%20di%20Trevi%5C%22%22" class="table-link">Video of Trevi Fountain</a></td> 
+            <td><a href="https://www.archivioluce.com/" class="table-link">Archivio Istituto Luce</a></td>
+             <td><a href="https://www.loc.gov/ead/index.html" class="table-link">EAD </a></td>
+          </tr>			
+        </table>
+        <p>
+        notes: 
+        Institute Luce, points out to use FIAF while in reality has used the EAD rules, for this we have agreed to use as reference EAD.
+        We also contacted OPAC of the Bolognese centre because it was not clear about the standards used. they confirmed the use of REICAT, despite this, for all bibliographic resources we decided to use the ISBD standard because of its international value and because REICAT is also based on ISBD.</p>
+        </div>
 
-</div>
 
-<hr>
 
-<div class="paragraph">
-<a id="Metadata analysis"class="title-paragraph">Metadata analysis</a>
-<table>
 
-<tr>
-<th>Type</th>
-<th>Title</th>
-<th>Provider</th>
-<th>Metadata standard</th>
-</tr>
 
-<tr>
-    <td>Book</td>
-    <td> <a href="https://scoprirete.bibliotecheromagna.it/SebinaOpac/resource/nella-citta-delle-donne-femminile-e-sogno-nel-cinema-di-federico-fellini/RAV1126729?tabDoc=tabloca" class="table-link">"Nella città delle donne. Femminile e sogno nel cinema di Federico Fellini" of Cini Roberta</a></td> 
-	<td><a href="https://scoprirete.bibliotecheromagna.it/SebinaOpac/Opac.do" class="table-link">ScopriRete</a></td>
-    <td> <a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" class="table-link">ISBD</a></td>
-  </tr>
-<tr>
-    <td> Costume</td>
-    <td> <a href="http://www.moda.san.beniculturali.it:8081/PdM/AssetViewDetails.aspx?assetid=24410&assettype=MibacProdotto" class="table-link">Anita costume: "Il pretino"</a></td> 
-    <td> <a href="http://san.beniculturali.it/web/san/home;jsessionid=FB82B9C1C2101B33F89331968B69B58B.sanapp01_portal" class="table-link">Sistema Archivistico Nazionale (SAN) </a></td>
-	 <td><a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" class="table-link">ISBD</a></td>
-  </tr>
-  <tr>
-    <td> Dvd</td>
-    <td> <a href="http://www.cinetecadibologna.it/archivi/audiovisivi/vhsdvd/film/l_2665" class="table-link">"La Dolce Vita"</a></td> 
-    <td> <a href="http://www.cinetecadibologna.it/home" class="table-link">Cineteca di Bologna</a></td>
-	 <td><a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" class="table-link">ISBD</a></td>
-  </tr>
-   <tr>
-    <td> Photo </td>
-    <td><a href="https://www.gettyimages.it/detail/fotografie-di-cronaca/film-set-of-la-dolce-vita-at-trevi-fountain-fotografie-di-cronaca/890227214" class="table-link">The protagonists Marcello Mastroianni and  Anita Ekberg  in the Trevi fountain, Rome 1959 </a></td> 
-    <td> <a href="https://www.gettyimages.it/" class="table-link">Getty image</a></td>
-	 <td> It is not specified, we decide to use <a href="https://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata" class="table-link">IPTC</a></td>
-  </tr>
-  <tr>
-    <td>Photo</td>
-    <td> <a href="https://www.gettyimages.it/detail/fotografie-di-cronaca/federico-fellini-and-the-palme-dor-received-for-fotografie-di-cronaca/56205828" class="table-link">Fellini with the "Palma d'oro" prize</a></td> 
-    <td><a href="https://www.roger-viollet.fr/en" class="table-link">Roger-Viollet partner of Europeana photography (through getty image)</a></td>
-	 <td> <a href="https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Primer_130714.pdf" class="table-link"> EDM </a></td>
-  </tr>
-   <tr>
-    <td>Poster</td>
-    <td><a href="https://sol.unibo.it/SebinaOpac/resource/la-dolce-vita/UBO2948168" class="table-link">Poster of "La Dolce Vita"</a></td> 
-    <td><a href="https://sol.unibo.it/SebinaOpac/.do" class="table-link">Sbn Ubo</a></td>
-	 <td><a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" class="table-link">ISBD</a></td>
-  </tr>
-  <tr>
-    <td>Article</td>
-    <td> <a href="https://scoprirete.bibliotecheromagna.it/SebinaOpac/resource/fellini-spettatore-del-suo-film-processo-alla-dolve-vita/RAV2291500?tabDoc=tabloca" class="table-link">Fellini "spettatore" del suo film : Processo alla "Dolce vita"</a></td> 
-    <td> <a href="https://scoprirete.bibliotecheromagna.it/SebinaOpac/.do" class="table-link">Cineteca di Rimini</a></td>
-	 <td><a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" class="table-link">ISBD</a></td>
-  </tr>
-  <tr>
-    <td>Soundtrack</td>
-    <td><a href="http://www.culturaitalia.it/opencms/opencms/system/modules/culturaitalia/templates/viewItem.jsp?language=it&case=&id=oai%3Awww.internetculturale.it%2Fmetaoaicat%3Aoai%3A192.168.10.31%3A22%3ARM0200%3AIT-DDS0000006456000000" class="table-link">La dolce vita / Music composed by Nino Rota </a></td> 
-    <td><a href="http://www.culturaitalia.it/opencms/index.jsp?language=it" class="table-link">CulturaItalia</a></td>
-	 <td><a href="http://www.culturaitalia.it/opencms/export/sites/culturaitalia/attachments/documenti/picoap/picoap1.0.xml" class="table-link">PICO</a></td>
-  </tr>
-   <tr>
-    <td>Video</td>
-    <td><a href="https://www.ina.fr/video/CPD05014246/fellini-portrait-video.html#" class="table-link">Interview "Fellini portrait"</a></td> 
-    <td> <a href="https://www.ina.fr/" class="table-link">Institute National de l'Audiovisuel</a></td>
-	 <td> <a href="https://www.loc.gov/ead/index.html" class="table-link">EAD </a></td>
-  </tr>
-  	 <tr>
-    <td>Video</td>
-    <td><a href="https://patrimonio.archivioluce.com/luce-web/detail/IL3000088046/1/la-fontana-trevi.html?startPage=60&jsonVal=%7B%22jsonVal%22:%7B%22query%22:[%22*:*%22],%22fieldDate%22:%22dataNormal%22,%22_perPage%22:20,%22luoghi%22:[%22%5C%22Fontana%20di%20Trevi%5C%22%22" class="table-link">Video of Trevi Fountain</a></td> 
-    <td><a href="https://www.archivioluce.com/" class="table-link">Archivio Istituto Luce</a></td>
-	 <td><a href="https://www.loc.gov/ead/index.html" class="table-link">EAD </a></td>
-  </tr>			
-</table>
-<p>
-notes: 
-Institute Luce, points out to use FIAF while in reality has used the EAD rules, for this we have agreed to use as reference EAD.
-We also contacted OPAC of the Bolognese centre because it was not clear about the standards used. they confirmed the use of REICAT, despite this, for all bibliographic resources we decided to use the ISBD standard because of its international value and because REICAT is also based on ISBD.</p>
-</div>
-
-<hr>
-
-<div class="paragraph">
-<a id="Metadata aligment" class="title-paragraph">Metadata aligment</a>
-<h2 class="title-table">People</h2>
+<div id="section4" class="container-fluid">
+  <h1 class="title-paragraph paragraph">Metadata aligment</h1>
+  <h2 class="title-table">People</h2>
 <table>
 <tr>
 <th>PROPERTY</th>
@@ -395,260 +367,258 @@ We also contacted OPAC of the Bolognese centre because it was not clear about th
 	 <td>7.10.2 Notes providing a summary</td>
 	 <td>6.12 Headline </td>
   </tr>												
-</table>  
-</div>
-
-<hr>
-
-<div class="paragraph">
-<a id="Theoretical model" class="title-paragraph">Theoretical model</a>
-<div>
-<h3 class="subtitle-paragraph">WHO : how to describe people/organizations?</h3>
-<p>Having to reflect on people in relation to the items, for example Fellini is the author of the article but also the director of the dolce vita.  Our intent is not only to describe "people" as authors or objects of the items but in relation to "La Dolce Vita" itself.
-Therefore we need not only a precise description of the individual persons but a description that is in function of the role that these  have in relation to the creation / preservation and dissemination of the film. Consequently, we decided to use the following ontologies and standards:
--FOAF To highlight the personal information of the person/organisation
-The FOAF ("Friend of a Friend") project is a community driven effort to define an RDF vocabulary for expressing metadata about people, and their interests, relationships and activities.
--EAC- CPF, DBpedia, SCHEMA when foaf did not provide a method to define other information relevant to us.</p>
-</div>
-
-<div>
-<h3 class="subtitle-paragraph">WHERE : which kind of information for places?</h3>
-<p>In the context of the description of entities place we use the most important ontology in this fields:
-Geoname, DBpedia, Basicgeo and in particular we have also included EAC CPF to highlight the role that had a certain place within our idea.</p>
-</div>
-
-<div>
-<h3 class="subtitle-paragraph">WHEN : how to express the notion of time? </h3>
-<p>For the concept of time we can refer both to time as the date of the event and to notion of time (duration of the film).
-Since is the most important we decide to the International Standard for the representation of dates and times ISO 8601 specified by the W3Consortium., n the format Complete Date: YYYY-MM-DD (Y=year, M=month, D=day). To include this information in the XML file we used the EAC-CPF attribute for Date standardDate.
-The primary ontologies, which in our opinion can best represent the concept of time and time duration are as follows:
-EAC CPF, FOAF and SCHEMA.</p>
-</div>
-
-<div>
-<h3 class="subtitle-paragraph">WHAT : what is the main subject/concept?</h3>
-<p>The idea is to describe a concept through its characteristics and relationships with other concepts, people and events.
-The best way to do this is to describe the concept in relation to the items </p>
-</div>
-</div>
-
-<hr>
-
-<div class="paragraph">
-<a id="Conceptual model" class="title-paragraph">Conceptual model</a>
-<h3 class="title-table">WHO</h3>
-<table>
-<tr>
-<th>QUESTION</th>
-<th>PREDICATE</th>
-<th>MODEL</th>
-</tr>
-<tr>
-    <td>What type of entity?</td>
-    <td>eac-cpf:entity</td> 
-    <td>EAC-CPF</td>
-</tr>	
-<tr>
-    <td>What is the given name?</td>
-    <td>foaf:givenName</td> 
-    <td>FOAF</td>
-</tr>	
-<tr>
-    <td>What is the surname?</td>
-    <td>foaf:surname</td> 
-    <td>FOAF</td>
-</tr>			
-<tr>
-    <td>What is the name?</td>
-    <td>foaf:name</td> 
-    <td>FOAF</td>
-</tr>			
-<tr>
-    <td>What is the gender?</td>
-    <td>foaf:gender</td> 
-    <td>FOAF</td>
-</tr>	
-<tr>
-    <td>What is his/her nationality?</td>
-    <td>dbo:nationality</td> 
-    <td>DBpedia</td>
-</tr>
-<tr>
-    <td>Where is the headquarter of the organization?</td>
-    <td>dbo:headquarter</td> 
-    <td>DBpedia</td>
-</tr>
-<tr>
-    <td>When was the person born?</td>
-    <td>foaf:birthday</td> 
-    <td>FOAF</td>
-</tr>
-<tr>
-    <td>When did the person died?</td>
-    <td>dbo:deathDate</td> 
-    <td>DBpedia</td>
-</tr>
-<tr>
-    <td>When was the organization founded?</td>
-    <td>schema:foundingDate</td> 
-    <td>SCHEMA</td>
-</tr>
-<tr>
-    <td>When did the organization stop its activity?</td>
-    <td>schema:dissolutionDate</td> 
-    <td>SCHEMA</td>
-</tr>
-
-
-<tr>
-    <td>What is the history of the person/organization?</td>
-    <td>eac-cpf:biogHist</td> 
-    <td>EAC-CPF</td>
-</tr>
-<tr>
-    <td>What is the person/organization’s Wikipedia page? </td>
-    <td>dbo: wikiPageExternalLink</td> 
-    <td>DBpedia</td>
-</tr>										
 </table>
-
-<h3 class="title-table">WHERE?</h3>
-<table>
-
-<tr>
-<th>QUESTION</th>
-<th>PREDICATE</th>
-<th>MODEL</th>
-</tr>
-<tr>
-    <td>What type of entity?</td>
-    <td>rdf:type</td> 
-    <td>RDF</td>
-</tr>
-<tr>
-    <td>What is the name of the place?</td>
-    <td>gn:name</td> 
-    <td>GeoNames</td>
-</tr>
-<tr>
-    <td>What is the alternative name for the place?</td>
-    <td>gn:alternateName</td> 
-    <td>GeoNames</td>
-</tr>	
-<tr>
-    <td>What is the country the place is located?</td>
-    <td>dbo:country</td> 
-    <td>DBpedia</td>
-</tr>	
-<tr>
-    <td>What is the city the place is located?</td>
-    <td>dbo:city</td> 
-    <td>DBPedia </td>
-</tr>	
-<tr>
-    <td>What is the latitude?</td>
-    <td>WGS84_POS:lat</td> 
-    <td>Basic Geo</td>
-</tr>	
-<tr>
-    <td>What is the longitude?</td>
-    <td>WGS84_POS:long</td> 
-    <td>Basic Geo</td>
-</tr>	
-<tr>
-    <td>What is the country code?</td>
-    <td>gn:countryCode</td> 
-    <td>GeoNames</td>
-</tr>	
-
-<tr>
-    <td>What is the place Wikipedia page?</td>
-    <td>dbo: wikiPageExternalLink</td> 
-    <td>DBpedia</td>
-</tr>	
-<tr>
-    <td>Brief description</td>
-    <td>dbo:abstract</td> 
-    <td>DBpedia</td>
-</tr>	
-</table>
-
-<h3 class="title-table">WHEN?</h3>
-<table>
-<tr>
-<th>QUESTION</th>
-<th>PREDICATE</th>
-<th>MODEL</th>
-</tr>
-<tr>
-    <td>What type of entity?</td>
-    <td>rdf:type</td> 
-    <td>RDF</td>
-</tr>
-<tr>
-    <td>What is the format of the date?</td>
-    <td>eac-cpf:dateStandardDate</td> 
-    <td>EAC-CPF</td>
-</tr>
-	
-	
-</table>	
-
-<h3 class="title-table">WHAT?</h3>
-<table>
-<tr>
-<th>QUESTION</th>
-<th>PREDICATE</th>
-<th>MODEL</th>
-</tr>
-<tr>
-    <td>What type of entity?</td>
-    <td>rdf:type</td> 
-    <td>RDF</td>
-</tr>
-<tr>
-    <td>What is the subject?</td>
-    <td>dcterms:subject</td> 
-    <td>DCMI Metadata Terms</td>
-</tr>
-
-<tr>
-    <td>What is a summary?</td>
-    <td>dcterms:abstract</td> 
-    <td>DCMI Metadata Terms</td>
-</tr>
-
-
-<tr>
-    <td>What are the places related to the concept/subject?  </td>
-    <td>dbo:relatedplaces 	</td> 
-    <td>DBPedia </td>
-</tr>	
-<tr>
-    <td>Which resource has the concept/subject as primary topic? </td>
-    <td>foaf:isPrimaryTopicOf	</td> 
-    <td>FOAF</td>
-</tr>	
-<tr>
-    <td>What are other useful references for the resource?  </td>
-    <td> rdfs:seeAlso</td> 
-    <td>RDFS</td>
-</tr>	
-<tr>
-    <td>What are the people/organizations/concepts related with? </td>
-    <td>skos:related</td> 
-    <td>SKOS</td>
-</tr>
-</table>
-
-<p>notes: In the part concerning the concept we have referred to people and organizations that we have not described as our items but that are useful to highlight the links in the graph and Turtle model.</p>
 </div>
 
-<hr>
+<div id="section5" class="container-fluid">
+  <h1 class="title-paragraph paragraph">Theoretical model</h1>
+        <div>
+        <h3 class="subtitle-paragraph">WHO : how to describe people/organizations?</h3>
+        <p>Having to reflect on people in relation to the items, for example Fellini is the author of the article but also the director of the dolce vita.  Our intent is not only to describe "people" as authors or objects of the items but in relation to "La Dolce Vita" itself.
+        Therefore we need not only a precise description of the individual persons but a description that is in function of the role that these  have in relation to the creation / preservation and dissemination of the film. Consequently, we decided to use the following ontologies and standards:
+        -FOAF To highlight the personal information of the person/organisation
+        The FOAF ("Friend of a Friend") project is a community driven effort to define an RDF vocabulary for expressing metadata about people, and their interests, relationships and activities.
+        -EAC- CPF, DBpedia, SCHEMA when foaf did not provide a method to define other information relevant to us.</p>
+        </div>
+        
+        <div>
+        <h3 class="subtitle-paragraph">WHERE : which kind of information for places?</h3>
+        <p>In the context of the description of entities place we use the most important ontology in this fields:
+        Geoname, DBpedia, Basicgeo and in particular we have also included EAC CPF to highlight the role that had a certain place within our idea.</p>
+        </div>
+        
+        <div>
+        <h3 class="subtitle-paragraph">WHEN : how to express the notion of time? </h3>
+        <p>For the concept of time we can refer both to time as the date of the event and to notion of time (duration of the film).
+        Since is the most important we decide to the International Standard for the representation of dates and times ISO 8601 specified by the W3Consortium., n the format Complete Date: YYYY-MM-DD (Y=year, M=month, D=day). To include this information in the XML file we used the EAC-CPF attribute for Date standardDate.
+        The primary ontologies, which in our opinion can best represent the concept of time and time duration are as follows:
+        EAC CPF, FOAF and SCHEMA.</p>
+        </div>
+        
+        <div>
+        <h3 class="subtitle-paragraph">WHAT : what is the main subject/concept?</h3>
+        <p>The idea is to describe a concept through its characteristics and relationships with other concepts, people and events.
+        The best way to do this is to describe the concept in relation to the items </p>
+        </div>
+</div>
 
-<div class="paragraph">
-<a id="Data description" class="title-paragraph">Data description</a>
-<h2 align="center">Picture of Fellini with the Palma D'Or Prize </h2>
+
+<div>
+<div id="section6" class="container-fluid">
+        <h1 class="title-paragraph paragraph">Conceptual model</h1>
+        <h3 class="title-table">WHO</h3>
+            <table>
+            <tr>
+            <th>QUESTION</th>
+            <th>PREDICATE</th>
+            <th>MODEL</th>
+            </tr>
+            <tr>
+                <td>What type of entity?</td>
+                <td>eac-cpf:entity</td> 
+                <td>EAC-CPF</td>
+            </tr>	
+            <tr>
+                <td>What is the given name?</td>
+                <td>foaf:givenName</td> 
+                <td>FOAF</td>
+            </tr>	
+            <tr>
+                <td>What is the surname?</td>
+                <td>foaf:surname</td> 
+                <td>FOAF</td>
+            </tr>			
+            <tr>
+                <td>What is the name?</td>
+                <td>foaf:name</td> 
+                <td>FOAF</td>
+            </tr>			
+            <tr>
+                <td>What is the gender?</td>
+                <td>foaf:gender</td> 
+                <td>FOAF</td>
+            </tr>	
+            <tr>
+                <td>What is his/her nationality?</td>
+                <td>dbo:nationality</td> 
+                <td>DBpedia</td>
+            </tr>
+            <tr>
+                <td>Where is the headquarter of the organization?</td>
+                <td>dbo:headquarter</td> 
+                <td>DBpedia</td>
+            </tr>
+            <tr>
+                <td>When was the person born?</td>
+                <td>foaf:birthday</td> 
+                <td>FOAF</td>
+            </tr>
+            <tr>
+                <td>When did the person died?</td>
+                <td>dbo:deathDate</td> 
+                <td>DBpedia</td>
+            </tr>
+            <tr>
+                <td>When was the organization founded?</td>
+                <td>schema:foundingDate</td> 
+                <td>SCHEMA</td>
+            </tr>
+            <tr>
+                <td>When did the organization stop its activity?</td>
+                <td>schema:dissolutionDate</td> 
+                <td>SCHEMA</td>
+            </tr>
+
+
+            <tr>
+                <td>What is the history of the person/organization?</td>
+                <td>eac-cpf:biogHist</td> 
+                <td>EAC-CPF</td>
+            </tr>
+            <tr>
+                <td>What is the person/organization’s Wikipedia page? </td>
+                <td>dbo: wikiPageExternalLink</td> 
+                <td>DBpedia</td>
+            </tr>										
+            </table>
+
+            <h3 class="title-table">WHERE?</h3>
+            <table>
+
+            <tr>
+            <th>QUESTION</th>
+            <th>PREDICATE</th>
+            <th>MODEL</th>
+            </tr>
+            <tr>
+                <td>What type of entity?</td>
+                <td>rdf:type</td> 
+                <td>RDF</td>
+            </tr>
+            <tr>
+                <td>What is the name of the place?</td>
+                <td>gn:name</td> 
+                <td>GeoNames</td>
+            </tr>
+            <tr>
+                <td>What is the alternative name for the place?</td>
+                <td>gn:alternateName</td> 
+                <td>GeoNames</td>
+            </tr>	
+            <tr>
+                <td>What is the country the place is located?</td>
+                <td>dbo:country</td> 
+                <td>DBpedia</td>
+            </tr>	
+            <tr>
+                <td>What is the city the place is located?</td>
+                <td>dbo:city</td> 
+                <td>DBPedia </td>
+            </tr>	
+            <tr>
+                <td>What is the latitude?</td>
+                <td>WGS84_POS:lat</td> 
+                <td>Basic Geo</td>
+            </tr>	
+            <tr>
+                <td>What is the longitude?</td>
+                <td>WGS84_POS:long</td> 
+                <td>Basic Geo</td>
+            </tr>	
+            <tr>
+                <td>What is the country code?</td>
+                <td>gn:countryCode</td> 
+                <td>GeoNames</td>
+            </tr>	
+
+            <tr>
+                <td>What is the place Wikipedia page?</td>
+                <td>dbo: wikiPageExternalLink</td> 
+                <td>DBpedia</td>
+            </tr>	
+            <tr>
+                <td>Brief description</td>
+                <td>dbo:abstract</td> 
+                <td>DBpedia</td>
+            </tr>	
+            </table>
+
+            <h3 class="title-table">WHEN?</h3>
+            <table>
+            <tr>
+            <th>QUESTION</th>
+            <th>PREDICATE</th>
+            <th>MODEL</th>
+            </tr>
+            <tr>
+                <td>What type of entity?</td>
+                <td>rdf:type</td> 
+                <td>RDF</td>
+            </tr>
+            <tr>
+                <td>What is the format of the date?</td>
+                <td>eac-cpf:dateStandardDate</td> 
+                <td>EAC-CPF</td>
+            </tr>
+                
+                
+            </table>	
+
+            <h3 class="title-table">WHAT?</h3>
+            <table>
+            <tr>
+            <th>QUESTION</th>
+            <th>PREDICATE</th>
+            <th>MODEL</th>
+            </tr>
+            <tr>
+                <td>What type of entity?</td>
+                <td>rdf:type</td> 
+                <td>RDF</td>
+            </tr>
+            <tr>
+                <td>What is the subject?</td>
+                <td>dcterms:subject</td> 
+                <td>DCMI Metadata Terms</td>
+            </tr>
+
+            <tr>
+                <td>What is a summary?</td>
+                <td>dcterms:abstract</td> 
+                <td>DCMI Metadata Terms</td>
+            </tr>
+
+
+            <tr>
+                <td>What are the places related to the concept/subject?  </td>
+                <td>dbo:relatedplaces 	</td> 
+                <td>DBPedia </td>
+            </tr>	
+            <tr>
+                <td>Which resource has the concept/subject as primary topic? </td>
+                <td>foaf:isPrimaryTopicOf	</td> 
+                <td>FOAF</td>
+            </tr>	
+            <tr>
+                <td>What are other useful references for the resource?  </td>
+                <td> rdfs:seeAlso</td> 
+                <td>RDFS</td>
+            </tr>	
+            <tr>
+                <td>What are the people/organizations/concepts related with? </td>
+                <td>skos:related</td> 
+                <td>SKOS</td>
+            </tr>
+            </table>
+
+        <p>notes: In the part concerning the concept we have referred to people and organizations that we have not described as our items but that are useful to highlight the links in the graph and Turtle model.</p>
+        </div>
+    </div>
+
+    <div>
+        <div id="section7" class="container-fluid">
+            <h1 class="title-paragraph paragraph">Data description</h1>
+            <h2 align="center">Picture of Fellini with the Palma D'Or Prize </h2>
 <h3 class="title-table">WHO</h3>
 <table>
 <tr>
@@ -1253,19 +1223,21 @@ Women have been a constant for the master. "</td>
 </tr>
 </table>			
 </div>
+            </div>
 
-<hr>
+    
 
-<div class="paragraph">
-<a id="rdf/xml"class="title-paragraph">RDF/XML</a>
-<p>QUI VA TUTRLE E GRAFICO</p>
+<div>
+        <div id="section8" class="container-fluid">
+                <h1 class="title-paragraph paragraph">RDF</h1>
+                <p>QUI VA TUTRLE E GRAFICO</p>
+</div>
 </div>
 
-<hr>
-
-<div class="paragraph">
-<a id="Data connection" class="title-paragraph">Data connection</a>
-<p>SPIEGAZIONEEEEEE</p>
+<div>
+        <div id="section9" class="container-fluid">
+                <h1 class="title-paragraph paragraph">Data connection</h1>
+                <p>SPIEGAZIONEEEEEE</p>
 <h3 class="subtitle-paragraph">Federico Fellini</h3>
 <p>URI:fellini-lod.github.io/FedericoFellini</p>
 <ul>
@@ -1361,91 +1333,40 @@ Women have been a constant for the master. "</td>
 </ul>
 
 </div>
-
-
 </div>
-</body>	
-	
-	
-	
-	
-	
-	
-	
-	
-
-	
-<!------------------------------------------FOOTER-------------------------------------------->
-<div class="footer">
-  
-                
-    <div id="logos">
-          <a href="index.html">
-            <img src="images/logo-palma.png" class="toindex">
-          </a>
-    
-        <a href="#start">
-            <img src= "images/totop.png" class="toindex" >
-        </a>
-    </div>
-    
-
-<!-----------CONTACT US-------------->
-<div class="foot-menu">  
-
-      <a  id="button contact us" class="button-form" data-toggle="modal" data-target="#exampleModal">CONTACT US</a>
-
-<!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-       <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-          <div class="modal-header">
-        <h5 class="modal-title"  id="exampleModalLabel">CONTACT US</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-      </div>
-
-      <div class="modal-body">
-        <div class="container-modal">
-          <div class="row">
-            <div class="column">
-
-                <form method="POST" action="https://formspree.io/sara.armaroli2@studio.unibo.it">
-                    <label for="name">Name</label>
-                       <input type="text" id="name" name="name" placeholder="Your name..">
-                    <label for="email">E-mail</label>
-                        <input type="text" id="email" name="email" placeholder="Your e-mail..">
-                    <textarea id="message" name="message" placeholder="Write something.." style="height:170px"></textarea>
-                        <input type="submit" value="Submit">
-                </form>
-            </div>
-          </div>
-            </div>
-      </div>
-
-      </div>
-      </div>
-</div>
-
-</div> <!-------CONTACT US END------------->
-
-
-
-<div class="copyright" align="center">
-  <p>© Copyright 2019 La dolce vita - All Rights Reserved</p>
 </div>
 
 
-</div> <!----------------------------------FOOTER END------------------------------------------->
 
 
+<script>
+$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".navbar", offset: 50});   
 
+  // Add smooth scrolling on all links inside the navbar
+  $("#myNavbar a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
 
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    }  // End if
+  });
+});
+</script>
 
 </body>
-
-
-
 </html>

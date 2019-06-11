@@ -700,7 +700,7 @@ p {
 }
 
 .paragraph {
-	margin-top:40px !important;
+	margin-top:60px !important;
 	
 }
 
@@ -881,5 +881,5 @@ color: black;
 	@media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}
 	
 	.bg-primary{
-			background-color: orange!important
+			background-color: black!important
 	}
