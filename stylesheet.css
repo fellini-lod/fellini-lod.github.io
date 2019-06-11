@@ -745,6 +745,10 @@ color: black;
 	color:#a64d46;
 }
 
+ .table-link a:hover{
+	color: #a64d46;
+}
+
 .erdiagram {
 		display: block;
 		margin-left: auto;
