@@ -744,6 +744,13 @@ color: black;
 	}
 
 
+.noise {
+	background-image: url("images/noise.png");
+}
+
+
+
+
 /*------TEAM------------*/
 /*TEAM*/
 #title-team{
