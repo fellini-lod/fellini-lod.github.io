@@ -811,7 +811,7 @@ color: black;
 
 .box16 .box-content{padding:20px;margin-bottom:20px;bottom:0;z-index:1;}
 
-.box16 .titleitem{font-size:22px;font-weight:700;text-transform:uppercase;margin:0 0 10px;}
+.box16 .titleitem{font-size:22px;font-weight:700;text-transform:uppercase;margin:0 0 10px; font-family: Roboto-Regular;}
 
 .box16 .post{display:block;padding:8px 0;font-size:15px;}
 
