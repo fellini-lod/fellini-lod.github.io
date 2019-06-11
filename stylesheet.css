@@ -789,9 +789,14 @@ color: black;
 
 	/*ITEMS*/
 
-.box16{text-align:center;color:#fff;position:relative;
+.box16{
+	text-align:center;
+	color:#fff;
+	position:relative;
+	font-family: geo;
 	margin: 5%;
 }
+
 .box16 .box-content,.box16:after{width:100%;position:absolute;left:0}
 .box16:after{content:"";height:100%;background:linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.70) 69%,rgba(0,0,0,.76) 100%);top:0;transition:all .5s ease 0s}
 .box16 .post,.box16 .title{transform:translateY(145px);transition:all .4s cubic-bezier(.13,.62,.81,.91) 0s}
