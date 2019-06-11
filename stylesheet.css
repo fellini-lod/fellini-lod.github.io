@@ -431,7 +431,7 @@ src: url('font/Champagne.ttf') format('truetype');
 					
 					.timeline-title {
 						margin-top: 0;
-						color: inherit;
+						color: ;
 					}
 					
 					.timeline-body > p,
