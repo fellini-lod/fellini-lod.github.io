@@ -251,6 +251,7 @@ src: url('font/Champagne.ttf') format('truetype');
 	.page-background {
           	background-image: url("images/filmbackground.jpg");
 			background-repeat: repeat-y;
+			background-size: contain;
 						
           }
 
@@ -493,7 +494,7 @@ src: url('font/Champagne.ttf') format('truetype');
 
 
 
-.timeline h4 {color: #CDBFA6;;}
+.timeline h4 {color: #CDBFA6;}
 
 
 
