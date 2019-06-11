@@ -702,6 +702,8 @@ p {
 .paragraph {
 	padding-top:60px !important;
 	padding-bottom: 60px;
+	border-top: #eeeeee;
+	border-bottom: #eeeeee;
 }
 
 .title-paragraph {
