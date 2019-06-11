@@ -505,6 +505,7 @@ src: url('font/Champagne.ttf') format('truetype');
 						border-width: thin;
 						box-sizing: border-box;
 						margin-top:20px;
+						background-color: white;
 					}
 					
 					
