@@ -841,6 +841,30 @@ color: black;
 sup {font-size: 60%;}
 
 
+/*--------------TURTLE--------------------*/
+
+
+
+.pre-scrollable {
+padding: 50px;
+background-color: 	#303030;
+color: white;}
+
+.linky {
+	color: #FF6666;
+}
+
+.ont {color: #FF6600;}
+
+.att { color: #FFCC00; }
+
+.dat {color: #FFCCCC;}
+
+.num {color: #FFFFCC;}
+
+
+
+
 
 	/*SIDEBAR
 #sideNav .navbar-nav .nav-item .nav-link{
