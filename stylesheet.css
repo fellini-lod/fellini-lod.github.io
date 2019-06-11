@@ -505,7 +505,7 @@ src: url('font/Champagne.ttf') format('truetype');
 						border-width: thin;
 						box-sizing: border-box;
 						margin-top:20px;
-						background-color: white;
+
 					}
 					
 					
@@ -519,6 +519,7 @@ src: url('font/Champagne.ttf') format('truetype');
 						margin-top: 20px;
 						margin-bottom:20px;
 						height:40px;
+
 					}
 
 					th {
@@ -546,6 +547,7 @@ src: url('font/Champagne.ttf') format('truetype');
 						word-wrap: break-word;
 						text-align:center;
 						width: 500px;
+						background-color: white;
 
 					}
 
