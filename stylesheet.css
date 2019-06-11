@@ -547,8 +547,7 @@ src: url('font/Champagne.ttf') format('truetype');
 						word-wrap: break-word;
 						text-align:center;
 						width: 500px;
-						background-color: white;
-
+		
 					}
 
 					tr:hover {
