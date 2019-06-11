@@ -695,12 +695,12 @@ p {
 
 /*----------STILE PER PROJECT PAGE-----------*/
 .contenitore {
-	margin-left: 80px;
-	margin-right:80px;
+	padding-left: 80px;
+	padding-right:80px;
 }
 
 .paragraph {
-	margin-top:60px !important;
+	padding-top:60px !important;
 	
 }
 
