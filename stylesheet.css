@@ -702,6 +702,8 @@ p {
 	padding-right:80px;
 }
 
+.contenitore a:hover {color: #a64d46; ;}
+
 .paragraph {
 	padding-top:60px !important;
 	padding-bottom: 60px;
@@ -839,7 +841,7 @@ color: black;
 }
 
 
-
+sup {font-size: 60%;}
 
 
 
