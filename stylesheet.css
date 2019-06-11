@@ -741,6 +741,10 @@ color: black;
 	text-decoration: none;
 }
 
+.link-connection{
+	color:color:#a64d46;;
+}
+
 .erdiagram {
 		display: block;
 		margin-left: auto;
