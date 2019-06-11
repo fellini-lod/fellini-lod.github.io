@@ -519,7 +519,7 @@ src: url('font/Champagne.ttf') format('truetype');
 						margin-top: 20px;
 						margin-bottom:20px;
 						height:40px;
-
+						background-color: white;
 					}
 
 					th {
