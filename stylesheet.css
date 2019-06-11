@@ -699,7 +699,8 @@ p {
 	padding-right:80px;
 }
 
-.contenitore a:hover {color: #a64d46; ;}
+.contenitore a:hover {color: #a64d46;
+}
 
 .paragraph {
 	padding-top:60px !important;
@@ -839,6 +840,30 @@ color: black;
 
 
 sup {font-size: 60%;}
+
+
+/*--------------TURTLE--------------------*/
+
+
+
+.pre-scrollable {
+padding: 50px;
+background-color: 	#303030;
+color: white;}
+
+.linky {
+	color: #FF6666;
+}
+
+.ont {color: #FF6600;}
+
+.att { color: #FFCC00; }
+
+.dat {color: #FFCCCC;}
+
+.num {color: #FFFFCC;}
+
+
 
 
 
