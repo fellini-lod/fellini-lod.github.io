@@ -29,7 +29,7 @@ src: url('font/Champagne.ttf') format('truetype');
          
               
 /*------------NAVBAR STYLE------------------------*/
-        .nav-link { 
+       .nav-link { 
           margin-right: 15px;
           color: white;
           margin-top: 0px;
