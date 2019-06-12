@@ -562,7 +562,7 @@ src: url('font/Champagne.ttf') format('truetype');
 					}
 
 					.title-object{
-						text-align: center;
+						
 						font-family:Roboto-Regular !important;
 						text-transform:uppercase; 
 						color:#a64d46;
