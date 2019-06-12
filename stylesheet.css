@@ -485,8 +485,8 @@ src: url('font/Champagne.ttf') format('truetype');
 
 
 							.timeline {
-								margin-left: 150px;
-								margin-right: 150px;
+								margin-left: 0px;
+								margin-right: 0px;
 							}
 							}
 
