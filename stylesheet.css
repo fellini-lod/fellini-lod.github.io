@@ -762,10 +762,18 @@ color: black;
 		margin-right: auto;
 		width: 70%;
 	}
+	
+.ergenerale {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+	}
 
 
 .noise {
 	background-image: url("images/noise.png");
+	
 }
 
 
