@@ -871,7 +871,8 @@ sup {font-size: 60%;}
 
 .pre-scrollable {
 padding: 50px;
-color: black;}
+background-color: 	#303030;
+color: white;}
 
 .linky {
 	color: #FF6666;
