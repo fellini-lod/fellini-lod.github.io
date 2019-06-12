@@ -89,7 +89,14 @@
 <div class="contenitore noise">
 <div class="paragraph">
 <a id="items" class="title-paragraph">Items</a>
-<p>Scrivere qualcosa sulla scelta degli item mannaggialloro</p>
+<p>We have made a selection of 10 items of different types coming from archives, museums, libraries websites, and they represent several aspects of the film "La Dolce Vita".
+For each items we represent the following information:</p>
+<ul>
+<li>Title</li>
+<li>Type of item</li>
+<li>Link to the source</li>
+</ul>
+
 <div class="container mt-40">
             <div class="row justify-content-md-center">
                 <div class="col-4">
@@ -244,13 +251,18 @@
 
 <div class="contenitore">
 <div class="paragraph">
-<a id="E/R model" class="title-paragraph">E/R model</a>
-<p>This model relates the central idea of the movie "La Dolce Vita" directed by Federico Fellini during 1960. 
+<a id="conceptual map" class="title-paragraph">Conceptual map</a>
+<div>
+<p>We have drown a conceptual map in order to describe our data and to visually organize the information in a clear way, highlighting the relations between them. 
+This model relates the central idea of the movie "La Dolce Vita" directed by Federico Fellini during 1960. 
 
 Then we choose to emphasize the iconic set of the Trevi Fountain as a place related to the main idea.
 
-if the movie present several important thematics we  were interested to analyse the relationship pf Fellini with the female world.
-
+if the movie present several important thematics we  were interested to analyse the relationship pf Fellini with the female world.</p>
+<img src="images/ergenerale.png" alt="conceptual map" style="margin-bottom: 60px; margin-top: 60px;" class="ergenerale">
+</div>
+<a id="E/R model" class="title-paragraph">E/R model</a>
+<p>Starting from the conceptual map, we created an E/R Model (i.e. Entity / Relationship model) that is a theoretical and conceptual model composed of entity types and specifies relationships that can exist between entities, showing data relationships in an abstract way.
 Consequently, in this model you can find entities represented as circles, items as drops that are connected by relationships</p>
 <img src="images/erdiagramcopia.png" alt="e/r Model diagram" style="margin-bottom: 60px; margin-top: 60px;" class="erdiagram">
 <p><sup>1</sup> <a href="https://www.ina.fr/video/CPD05014246/fellini-portrait-video.html#" class="table-link">Interview "Fellini portrait"</a></p>
@@ -269,8 +281,9 @@ Consequently, in this model you can find entities represented as circles, items 
 <div class="contenitore noise">
 <div class="paragraph">
 <a id="Metadata analysis"class="title-paragraph">Metadata analysis</a>
-<table>
+<p>In order to have a more precise idea of the metadata standards used to describe the selected items by the heritage institutions in which our items are held, we have created the following table. </p>
 
+<table>
 <tr>
 <th>Type</th>
 <th>Title</th>
@@ -339,16 +352,21 @@ Consequently, in this model you can find entities represented as circles, items 
 	 <td><a href="https://www.loc.gov/ead/index.html" class="table-link">EAD </a></td>
   </tr>			
 </table>
+<div>
 <p>
 notes: 
 Istituto Luce points out to use FIAF while in reality has used the EAD rules, for this we have agreed to use as reference EAD.
 We also contacted OPAC of the Bolognese centre because it was not clear about the standards used. they confirmed the use of REICAT, despite this, for all bibliographic resources we decided to use the ISBD standard because of its international value and because REICAT is also based on ISBD.</p>
 </div>
 </div>
+</div>
 
 <div class="contenitore">
 <div class="paragraph">
 <a id="Metadata aligment" class="title-paragraph">Metadata aligment</a>
+<p>After the investigation and description of the standards used by institutions previously cited, we aligned the standards (EDM, PICO, EAD, ISBD, IPTC), matching their properties according to their roles.
+In particular, we divided the properties based on the four main categories in which our items are divided (Person, Date, Place, Event/concept).
+Analysing these tables is possible to notice that each institution has some typical materials and objects to describe but, on the other hand, each object has its own standard to follow.</p>
 <h2 class="title-table">People</h2>
 <table>
 <tr>
@@ -560,6 +578,8 @@ We also contacted OPAC of the Bolognese centre because it was not clear about th
 <div class="contenitore noise">
 <div class="paragraph">
 <a id="Theoretical model" class="title-paragraph">Theoretical model</a>
+<p>In the theoretical model we established which existent ontologies and standards could be the most appropriate regard our items reasoning on what we need to represent our idea.
+</p>
 <div>
 <h3 class="subtitle-paragraph">WHO : how to describe people/organizations?</h3>
 <p>Having to reflect on people in relation to the items, for example Fellini is the author of the article but also the director of the dolce vita.  Our intent is not only to describe "people" as authors or objects of the items but in relation to "La Dolce Vita" itself.
@@ -594,6 +614,9 @@ The best way to do this is to describe the concept in relation to the items </p>
 <div class="contenitore">
 <div class="paragraph">
 <a id="Conceptual model" class="title-paragraph">Conceptual model</a>
+<p>After the production of our theoretical model where we established the most appropriate standard, we have created the conceptual model as a concrete representation of the previous model.
+Our model allows for a detailed description of person, place, dates, events related to the subject or concept. Through a series of questions, we found the properties/predicates of the ontologies chosen that provide a proper representation of the objects according to our specifications
+</p>
 <h3 class="title-table">WHO</h3>
 <table>
 <tr>
@@ -806,6 +829,7 @@ The best way to do this is to describe the concept in relation to the items </p>
 <div class="contenitore noise">
 <div class="paragraph">
 <a id="Data description noise" class="title-paragraph">Data description</a>
+<p>Following the conceptual model we have described 3 items in natural language. For each item we described a person, a place and a concept related with it.</p>
 <h2 align="center">Picture of Fellini with the Palma D'Or Prize </h2>
 <h3 class="title-table">WHO</h3>
 <table>
@@ -1416,6 +1440,11 @@ Women have been a constant for the master. "</td>
 <div class="contenitore">
 <div class="paragraph">
 <a id="rdf/xml"class="title-paragraph">RDF/XML</a>
+<div>
+<p>In this section we have created URIs for some of our entities.
+We decided to describe them, following our description of data, using the RDF/Turtle serialization, Graph visualization and XML, syntax are also provided.
+We decide to create a unique representation of our entities in order to highlight the connection between them.</p>
+</div>
 <pre class="pre-scrollable"><code>
 @prefix <span class="ont">:</span> <span class="linky">&lt;https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttl&gt;</span>.
 
@@ -1533,7 +1562,10 @@ Women have been a constant for the master. "</td>
 <div class="contenitore noise">
 <div class="paragraph">
 <a id="Data connection" class="title-paragraph">Data connection</a>
-<p>SPIEGAZIONEEEEEE</p>
+<p>We interconnected our data to other related items and resources on the World Wide Web creating semantic associations.
+we tried to connect our data by using different kind of properties and standards, but we widely re-used the attributes owl:sameAs and foaf:isPrimaryTopicOf  or rdf:seeAlso. When necessary, we also used owl:differentFrom to disambiguate items with the same name for example.
+In this way, we were able to connect our RDF/Turtle files and items to other sources and repositories of knowledge to create a solid connection between our URI's and the external linked open databases.
+</p>
 <h3 class="subtitle-paragraph">Federico Fellini</h3>
 <p>URI:fellini-lod.github.io/FedericoFellini</p>
 <ul>
