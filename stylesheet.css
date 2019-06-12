@@ -564,10 +564,10 @@ src: url('font/Champagne.ttf') format('truetype');
 					.title-object{
 						text-align: center;
 						font-family:Roboto-Regular !important;
-						font-style:bold; 
+						text-transform:uppercase; 
 						color:#a64d46;
 						font-size: 20px;
-						
+						margin-top:20px;
 						}
 
 
