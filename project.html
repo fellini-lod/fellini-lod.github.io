@@ -1443,12 +1443,13 @@ Women have been a constant for the master. "</td>
 </div>
 <div class="contenitore">
 <div class="paragraph">
-<a id="rdf/xml"class="title-paragraph">RDF/XML</a>
+<a id="rdf/xml"class="title-paragraph">RDF/TURTLE/XML SISTEMARE</a>
 <div>
 <p>In this section we have created URIs for some of our entities.
 We decided to describe them, following our description of data, using the RDF/Turtle serialization, Graph visualization and XML, syntax are also provided.
 We decide to create a unique representation of our entities in order to highlight the connection between them.</p>
 </div>
+<p> TURTLE </p>
 <pre class="pre-scrollable"><code>
 @prefix <span class="ont">:</span> <span class="linky">&lt;https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttl&gt;</span>.
 
@@ -1558,6 +1559,120 @@ We decide to create a unique representation of our entities in order to highligh
   <span class="ont">dcterms:</span><span class="att">subject</span> <span class="dat">"Fellini's relashionship with women"</span>;
   <span class="ont">dcterms:</span><span class="att">abstract</span>  <spa class="dat">"The woman in Fellini's imagination is always present, the absolute protagonist, playfully female, prosperous, shapely, huge breasts and hips,junonic, sometimes ridiculous, grotesque, all markedly Fellinian. Women have been a constant for the master."</span>;
   <span class="ont">skos:</span><span class="att">related</span> <span class="ont">:</span><span class="att">Federico_Fellini</span>, <span class="ont">:</span><span class="att">Anita_Ekberg</span>, <span class="ont">:</span><span class="att">Giulietta_Masina</span>.</code></pre>
+
+
+<p> XML </p>
+<pre class="pre-scrollable"><code>
+  &lt;<span class="ont">rdf:RDF</span>
+   <span class="att">xmlns:rdf</span>=<span class="linky">"http://www.w3.org/1999/02/22-rdf-syntax-ns#"</span>
+    <span class="att">xmlns:schema</span>=<span class="linky">"https://schema.org/"</span>
+    <span class="att">xmlns:dbo</span>=<span class="linky">"http://dbpedia.org/ontology/"</span>
+    <span class="att">xmlns:dbpedia</span>=<span class="linky">"http://dbpedia.org/resource/"</span>
+    <span class="att">xmlns:rdfs</span>=<span class="linky">"http://www.w3.org/2000/01/rdf-schema#"</span>
+    <span class="att">xmlns</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttl"</span>
+    <span class="att">xmlns:gn</span>=<span class="linky">"http://www.geonames.org/ontology#"</span>
+    <span class="att">xmlns:dcterms</span>=<span class="linky">"http://purl.org/dc/terms/"</span>
+    <span class="att">xmlns:eac_cpf</span>=<span class="linky">"http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"</span>
+    <span class="att">xmlns:skos</span>=<span class="linky">"http://www.w3.org/2004/02/skos/core#"</span>
+    <span class="att">xmlns:foaf</span>=<span class="linky">"http://xmlns.com/foaf/0.1/"</span>
+    <span class="att">xmlns:xsd</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#"</span>
+    <span class="att">xmlns:geo</span>=<span class="linky">"hhttp://www.w3.org/2003/01/geo/wgs84_pos#"</span>&gt;
+  &lt;<span class="ont">rdf:Description</span> <span class="att">rdf:about</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlFederico_Fellini"</span>&gt;
+    &lt;<span class="ont">foaf:name</span>&gt;Federico Fellini&lt;/<span class="ont">foaf:name</span>&gt;
+    &lt;<span class="ont">eac_cpf:entity</span> <span class="att">rdf:resource</span>=<span class="linky">"http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/person</span>/&gt;
+    &lt;<span class="ont">foaf:birthday</span> <span class="att">rdf:datatype</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#date"</span>&gt;20-01-1920&lt;/<span class="ont">foaf:birthday</span>&gt;
+    &lt;<span class="ont">foaf:surname</span>&gt;Fellini&lt;/<span class="ont">foaf:surname</span>&gt;
+    &lt;<span class="ont">foaf:givenName</span>&gt;Federico&lt;/<span class="ont">foaf:givenName</span>&gt;
+    &lt;<span class="ont">dbo:wikiPageExternalLink</span> <span class="att">rdf:resource</span>=<span class="linky">"https://simple.wikipedia.org/wiki/Federico_Fellini"</span>/&gt;
+    &lt;<span class="ont">foaf:gender</span>&gt;male&lt;/<span class="ont">foaf:gender</span>&gt;
+    &lt;<span class="ont">dbo:nationality</span>&gt;italian&lt;/<span class="ont">dbo:nationality</span>&gt;
+    &lt;<span class="ont">eac_cpf:biogHist</span>&gt;Federico Fellini was an Italian screenwriter, director, cartoonist and writer and is considered one of the greatest directors in the history of cinema. His most famous films - La strada, Le notti di Cabiaria, La Dolce Vita, 8 1/2, Amarcor, have become topoi mentioned all over the world.&lt;/<span class="ont">eac_cpf:biogHist</span>&gt;
+    &lt;<span class="ont">dbo:deathDate</span> <span class="att">rdf:datatype</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#date"</span>&gt;31-10-1993&lt;/<span class="ont">dbo:deathDate</span>&gt;
+  &lt;/<span class="ont">rdf:Description</span>&gt;
+  &lt;<span class="ont">rdf:Description</span> <span class="att">rdf:about</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlFellini_s_relashionship_with_women"</span>&gt;
+    &lt;<span class="ont">skos:related</span> <span class="att">rdf:resource</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlGiulietta_Masina"</span>/&gt;
+    &lt;<span class="ont">skos:related</span> <span class="att">rdf:resource</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlAnita_Ekberg"</span>/&gt;
+    &lt;<span class="ont">skos:related</span> <span class="att">rdf:resource</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlFederico_Fellini"</span>/&gt;
+    &lt;<span class="ont">dcterms:abstract</span>&gt;The woman in Fellini's imagination is always present, the absolute protagonist, playfully female, prosperous, shapely, huge breasts and hips,junonic, sometimes ridiculous, grotesque, all markedly Fellinian. Women have been a constant for the master.&lt;/<span class="ont">dcterms:abstract</span>&gt;
+    &lt;<span class="ont">dcterms:subject</span>&gt;Fellini's relashionship with women&lt;/<span class="ont">dcterms:subject</span>&gt;
+    &lt;<span class="ont">rdf:type</span>&gt;concept&lt;/<span class="ont">rdf:type/span</span>&gt;
+  &lt;/<span class="ont">rdf:Description</span>&gt;
+  &lt;<span class="ont">rdf:Description</span> <span class="att">rdf:about</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlCannes"</span>&gt;
+    &lt;<span class="ont">rdf:type</span> <span class="att">rdf:resource</span>=<span class="linky">"http://www.w3.org/1999/02/22-rdf-syntax-ns#place"</span>/&gt;
+    &lt;<span class="ont">gn:alternateName</span>&gt;Canne&lt;/<span class="ont">gn:alternateName</span>&gt;
+    &lt;<span class="ont">gn:countryCode</span>&gt;FR, FRA, 250&lt;/<span class="ont">gn:countryCode</span>&gt;
+    &lt;<span class="ont">gn:name</span>&gt;Cannes&lt;/<span class="ont">gn:name</span>&gt;
+    &lt;<span class="ont">dbo:country</span>&gt;France&lt;/<span class="ont">dbo:country</span>&gt;
+    &lt;<span class="ont">gn:alternateName</span>&gt;Cano&lt;/<span class="ont">gn:alternateName</span>&gt;
+    &lt;<span class="ont">dbo:abstract</span>&gt;Cannes is a city located on the French Riviera. It is a commune located in the Alpes-Maritimes department, and host city of the annual Cannes Film Festival, Midem, and Cannes Lions International Festival of Creativity.&lt;<span class="ont">/dbo:abstract</span>&gt;
+    &lt;<span class="ont">dbo:wikiPageExternalLink</span> <span class="att">rdf:resource</span>=<span class="linky">"https://en.wikipedia.org/wiki/Cannes"</span>/&gt;
+    &lt;<span class="ont">geo:long</span> <span class="att">rdf:datatype</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#decimal"</span>&gt;7.01275&lt;/<span class="ont">geo:long</span>&gt;
+    &lt;<span class="ont">geo:lat</span> <span class="att">rdf:datatype</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#decimal"</span>&gt;43.55135&lt;/<span class="ont">geo:lat</span>&gt;
+    &lt;<span class="ont">dbo:city</span>&gt;Cannes&lt;/<span class="ont">dbo:city</span>&gt;
+  &lt;/<span class="ont">rdf:Description</span>&gt;
+  &lt;<span class="ont">rdf:Description</span> <span class="att">rdf:about</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlRome"</span>&gt;
+    &lt;<span class="ont">rdf:type</span> <span class="att">rdf:resource</span>=<span class="linky">"http://www.w3.org/1999/02/22-rdf-syntax-ns#place"</span>/&gt;
+    &lt;<span class="ont">dbo:city</span>&gt;Rome&lt;/<span class="ont">dbo:city</span>&gt;
+    &lt;<span class="ont">geo:long</span> <span class="att">rdf:datatype</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#decimal"</span>&gt;12.51133&lt;/<span class="ont">geo:long</span>&gt;
+    &lt;<span class="ont">gn:alternateName</span>&gt;Roma&lt;/<span class="ont">gn:alternateName</span>&gt;
+    &lt;<span class="ont">geo:la</span>  <span class="att">rdf:datatype</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#decimal"</span>&gt;41.89193&lt;/<span class="ont">geo:lat</span>&gt;
+    &lt;<span class="ont">gn:countryCode</span>&gt;IT, ITA, 380&lt;/<span class="ont">gn:countryCode</span>&gt;
+    &lt;<span class="ont">gn:name</span>&gt;Rome&lt;</span class="ont">gn:name</span>&gt;
+    &lt;<span class="ont">dbo:country</span> <span class="att">rdf:resource</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlItaly"</span>/&gt;
+    &lt;<span class="ont">dbo:wikiPageExternalLink</span> <span class="att">rdf:resource</span>=<span class="linky">"https://en.wikipedia.org/wiki/Rome"</span>/&gt;
+    &lt;<span class="ont">dbo:abstract</span>&gt;Rome is the capital city of Italy. Rome also serves as the capital of the Lazio region. It is the centre of the Metropolitan City of Rome, which has a population of 4,355,725 residents, thus making it the most populous metropolitan city in Italy.&lt;/<span class="ont">dbo:abstract</span>&gt;
+  &lt;/<span class="ont">rdf:Description</span>&gt;
+  &lt;<span class="ont">rdf:Description</span> <span class="att">rdf:about</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlItaly"</span>&gt;
+    &lt;<span class="ont">dbo:abstract</span>&gt;Italy, officially the Italian Republic (Italian: Repubblica Italiana) is a European country consisting of a peninsula delimited by the Italian Alps and surrounded by several islands. Located in the middle of the Mediterranean sea and traversed along its length by the Apennines, Italy has a largely temperate seasonal climate. The country covers an area of 301,340 km2 (116,350 sq mi) and shares open land borders with France, Slovenia, Austria, Switzerland and the enclaved microstates of Vatican City and San Marino.&lt;/<span class="ont">dbo:abstract</span>&gt;
+    &lt;<span class="ont">gn:alternateName</span>&gt;Italie&lt;/<span class="ont">gn:alternateName</span>&gt;
+    &lt;<span class="ont">dbo:wikiPageExternalLink</span> rdf:resource=<span class="linky">"https://en.wikipedia.org/wiki/Italy"</span>/&gt;
+    &lt;<span class="ont">geo:lat</span> <span class="att">rdf:datatype</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#decimal"</span>&gt;41.89193&lt;/<span class="ont">geo:lat</span>&gt;
+    &lt;<span class="ont">gn:name</span>&gt;Italy&lt;/<span class="ont">gn:name</span>&gt;
+    &lt;<span class="ont">geo:long</span> <span class="att">rdf:datatype</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#decimal"</span>&gt;12.51133&lt;/<span class="ont">geo:long</span>&gt;
+    &lt;<span class="ont">gn:countryCode</span>&gt;IT, ITA, 380&lt;/<span class="ont">gn:countryCode</span>&gt;
+    &lt;<span class="ont">rdf:type</span> <span class="att">rdf:resource</span>=<span class="linky">"http://www.w3.org/1999/02/22-rdf-syntax-ns#place"</span>/&gt;
+    &lt;<span class="ont">gn:alternateName</span>&gt;Italia&lt;/<span class="ont">gn:alternateName</span>&gt;
+    &lt;<span class="ont">dbo:country</span>&gt;Italy&lt/<span class="ont">dbo:country</span>&gt;
+  &lt;/<span class="ont">rdf:Description</span>&gt;
+  &lt;<span class="ont">rdf:Description</span> <span class="att">rdf:about</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlAgency_Roger_Viollet"</span>&gt;
+    &lt;<span class="ont">dbo:wikiPageExternalLink</span> <span class="att">rdf:resource</span>="https://fr.wikipedia.org/wiki/Roger-Viollet"/&gt;
+    &lt;<span class="ont">eac_cpf:biogHist</span>&gt;The name of the Roger-Viollet family has become that of the famous Parisian agency of old photographs of the rue de Seine founded in 1938 by Hélène Roger-Viollet , on the initial base of the photographic collection constituted by his father Henri Roger-Viollet, engineer and experienced photographer&lt;/<span class="ont">eac_cpf:biogHist</span>&gt;
+    &lt;<span class="ont">schema:foundingDate</span> <span class="att">rdf:datatype</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#date"</span>&gt;1938&lt;/<span class="ont">schema:foundingDate</span>&gt;
+    &lt;<span class="ont">dbo:headquarter</span>&gt;Paris&lt;/<span class="ont">dbo:headquarter</span>&gt;
+    &lt;<span class="ont">foaf:name</span>&gt;Roger-Viollet&lt;/<span class="ont">foaf:name</span>&gt;
+    &lt;<span class="ont">eac_cpf:entity</span> <span class="att">rdf:resource</span>=<span class="linky">"http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/corporateBody"</span>/&gt;
+  &lt;/<span class="ont">rdf:Description</span>&gt;
+  &lt;<span class="ont">rdf:Description</span> <span class="att">rdf:about</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlSorelle_Fontana"</span>&gt;
+    &lt;<span class="ont">dbo:wikiPageExternalLink</span> <span class="att">rdf:resource</span>=<span class="linky">"https://it.wikipedia.org/wiki/Sorelle_Fontana"</span>/&gt;
+    &lt;<span class="ont">eac_cpf:biogHist</span>&gt;Sorelle Fontana Alta Moda s.r.l. is a fashion house, specialized in high fashion sartorial productions. Founded in Rome in 1943, by the three Italian sisters and stylists: Zoe (1911-1979), Micol (1913-2015) and Giovanna (1915-2004). The Fontana sisters, with their atelier, were the first to give a lively boost to Made in Italy, making the Italian style famous in the world.&lt;<span class="ont">/eac_cpf:biogHist</span>&gt;
+    &lt;<span class="ont">schema:dissolutionDate</span> rdf:datatype=<span class="linky">"http://www.w3.org/2001/XMLSchema#date"</span>&gt;1992&lt;/<span class="ont">schema:dissolutionDate</span>&gt;
+    &lt;<span class="ont">schema:foundingDate</span> <span class="att">rdf:datatype</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#date"</span>&gt;1943&lt;/<span class="ont">schema:foundingDate</span>&gt;
+    &lt;<span class="ont">dbo:headquarter</span> <span class="att">rdf:resource</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlRome"</span>/&gt;
+    &lt;<span class="ont">foaf:name</span>&gt;SorelleFontanaAltaModa_srl&lt;/<span class="ont">foaf:name</span>&gt;
+    &lt;<span class="ont">eac_cpf:entity</span> <span class="att">rdf:resource</span>=<span class="linky">"http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/corporateBody"</span>/&gt;
+  &lt;/<span class="ont">rdf:Description</span>&gt;
+  &lt;<span class="ont">rdf:Description</span><span class="att">rdf:about</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlLa_Dolce_Vita"</span>&gt;
+    &lt;<span class="ont">skos:related</span> <span class="att">rdf:resource</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlFederico_Fellini"</span>/&gt;
+    &lt;<span class="ont">rdfs:seeAlso</span> <span class="att">rdf:resource</span>=<span class="linky">"https://www.ibs.it/dolce-vita-the-golden-age-libro-vari/e/9783940004925"</span>/&gt;
+    &lt;<span class="ont">foaf:isPrimaryTopicOf</span> <span class="att">rdf:resource</span>=<span class="linky">"https://en.wikipedia.org/wiki/La_Dolce_Vita"</span>/&gt;
+    &lt;<span class="ont">dbo:relatedPlaces</span> <span class="att">rdf:resource</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlItaly"</span>/&gt;
+    &lt;<span class="ont">dbo:relatedPlaces</span> <span class="att">rdf:resource</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlRome"</span>/&gt;
+    &lt;<span class="ont">dcterms:abstract</span>&gt;The theme of the film is predominantly café society, the diverse and glittery world rebuilt upon the ruins and poverty of the Italian postwar period.&lt;/<span class="ont">dcterms:abstract</span>&gt;
+    &lt;<span class="ont">dcterms:subject&gt;</span>La Dolce Vita&lt;/<span class="ont">dcterms:subject</span>&gt;
+    &lt;<span class="ont">rdf:type</span>&gt;concept&lt;/<span class="ont">rdf:type</span>&gt;
+  &lt;/<span class="ont">rdf:Description</span>&gt;
+  &lt;<span class="ont">rdf:Description</span> <span class="att">rdf:about</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlPrizegiving"</span>&gt;
+    &lt;<span class="ont">skos:related</span> <span class="att">rdf:resource</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlFederico_Fellini"</span>/&gt;
+    &lt;<span class="ont">rdfs:seeAlso</span>rdf:resource=<span class="linky">"https://en.wikipedia.org/wiki/Palme_d%27Or"</span>/&gt;
+    &lt;<span class="ont">dbo:relatedPlaces</span> <span class="att">rdf:resource</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlCannes"</span>/&gt;
+    &lt;<span class="ont">dcterms:abstract</span>&gt;The awarding of the Palme d'Or to Fellini for the movie La Dolce Vita&lt;/<span class="ont">dcterms:abstract</span>&gt;
+    &lt;<span class="ont">dcterms:subject</span>&gt;the awarding of La Dolce Vita&lt;/<span class="ont">dcterms:subject</span>&gt;
+    &lt;<span class="ont">rdf:type</span>&gt;concept&lt;/<span class="ont">rdf:type</span>&gt;
+  &lt;/<span class="ont">rdf:Description</span>&gt;
+&lt;/<span class="ont">rdf:RDF</span>&gt;
+</code></pre>
+
+
 
 
 </div>
