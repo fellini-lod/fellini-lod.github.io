@@ -1,0 +1,1783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css"> 
+  <style id="css" type="text/css"></style>
+  
+  
+  <style>
+  body {
+      position: relative; 
+  }
+  #section1 {padding-top: 70px; padding-bottom:70px; color: black;)
+  #section2 {padding-top: 70px; padding-bottom:70px; color: black;}
+  #section3 {padding-top: 70px; padding-bottom:70px; color: black;}
+  #section4 {padding-top: 70px; padding-bottom:70px; color: black;}
+  #section5 {padding-top: 70px; padding-bottom:70px; color: black;}
+  #section6 {padding-top: 70px; padding-bottom:70px; color: black;}
+  #section7 {padding-top: 70px; padding-bottom:70px; color: black;}  
+  #section8 {padding-top: 70px; padding-bottom:70px; color: black;}
+  #section9 {padding-top: 70px; padding-bottom:70px; color: black;}
+  
+
+  
+  
+  </style>
+
+
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#section1">Items</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#section2">Conceptual map</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#section3">Metadata analysis</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#section4">Metadata aligment</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#section5">Theoretical model</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#section6">Conceptual model</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#section7">Data description</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#section8">RDF</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#section9">Data connection</a>
+    </li>
+    
+    
+  </ul>
+</nav>
+
+
+<div class="contenitore noise">
+
+<div id="section1" class="container-fluid" >
+        <h1 class="title-paragraph paragraph">Items</h1>
+        <p>We have made a selection of 10 items of different types coming from archives, museums, libraries websites, and they represent several aspects of the film "La Dolce Vita".
+          For each items we represent the following information:</p>
+          <ul>
+          <li>Title</li>
+          <li>Type of item</li>
+          <li>Link to the source</li>
+          </ul>
+      
+          <div class="container mt-40">
+                  <div class="row justify-content-md-center">
+                      <div class="col-4">
+                          <div class="box16">
+                              <img src="items/trevi_documentario.png">
+                              <div class="box-content">
+                                  <h3 class="title">La fontana di Trevi</h3>
+                                    <span class="post">Video Documentary</span>
+                                    <br>
+                                  <ul class="social">
+                                      <li>Source: <a href="https://patrimonio.archivioluce.com/luce-web/detail/IL3000088046/1/la-fontana-trevi.html?startPage=60&jsonVal=%7B%22jsonVal%22:%7B%22query%22:[%22*:*%22],%22fieldDate%22:%22dataNormal%22,%22_perPage%22:20,%22luoghi%22:[%22%5C%22Fontana%20di%20Trevi%5C%22%22" target="_blank">Istituto Nazionale Luce</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-4">
+                          <div class="box16">
+                              <img src="items/colonnasonora.png">
+                              <div class="box-content">
+                                  <h3 class="title">La dolce vita (soundtrack) by Nino Rota</h3>
+                                    <span class="post">Soundtrack</span>
+                                  <ul class="social">
+                                      <li>Source: <a href="http://www.internetculturale.it/jmms/iccuviewer/iccu.jsp?id=oai%3A192.168.10.31%3A22%3ARM0200%3AIT-DDS0000006456000000" target="_blank">Internet Culturale / Istituto Centrale per i Beni Sonori ed Audiovisivi - Roma</a> 
+                                      </li>
+                                      <li>(through <a href="http://www.culturaitalia.it/opencms/opencms/system/modules/culturaitalia/templates/viewItem.jsp?language=it&case=&id=oai%3Awww.internetculturale.it%2Fmetaoaicat%3Aoai%3A192.168.10.31%3A22%3ARM0200%3AIT-DDS0000006456000000" target="_blank">Cultura Italia)</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                   </div>
+                   <div class="row justify-content-md-center">
+                      <div class="col-4">
+                          <div class="box16">
+                              <img src="items/dvd.jpeg">
+                              <div class="box-content">
+                                  <h3 class="title">La Dolce Vita (movie)</h3>
+                                <span class="post">DVD</span>
+                                  <br>
+                                  <ul class="social">
+                                      <li>Source:<a href="http://www.cinetecadibologna.it/archivi/audiovisivi/vhsdvd/film/l_2665" target="_blank"> Cineteca di Bologna</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-4">
+                          <div class="box16">
+                              <img src="items/intervista_fellini.png">
+                              <div class="box-content">
+                                  <h3 class="title">Fellini portrait</h3>
+                                  <span class="post">Video Documentary</span>
+                                  <br>
+                                  <ul class="social">
+                                      <li>Source:<a href="https://www.ina.fr/video/CPD05014246/fellini-portrait-video.html#" target="_blank"> L'Institut national de l'audiovisuel (INA) France</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                   </div>
+                   <div class="row justify-content-md-center">
+                      <div class="col-4">
+                          <div class="box16">
+                              <img src="items/locandina.jpeg">
+                              <div class="box-content">
+                                  <h3 class="title">La Dolce Vita - Manifesto</h3>
+                                  <span class="post">Playbill</span>
+                                  <br>
+                                  <ul class="social">
+                                      <li>Source: <a href="https://sol.unibo.it/SebinaOpac/resource/la-dolce-vita/UBO2948168" target="_blank">Polo Bolognese SBN/UBO</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-4">
+                          <div class="box16">
+                              <img src="items/nella_citta_delle_donne.jpeg">
+                              <div class="box-content">
+                                  <h3 class="title">Nella citt&agrave; delle donne: femminile e sogno nel cinema di Federico Fellini</h3>
+                                  <span class="post">Book</span>
+                                  <br>
+                                  <ul class="social">
+                                      <li>Source: <a href="https://scoprirete.bibliotecheromagna.it/SebinaOpac/resource/nella-citta-delle-donne-femminile-e-sogno-nel-cinema-di-federico-fellini/RAV1126729?tabDoc=tabloca" target="_blank">ScopriRete - Rete Bibliotecaria di Romagna</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                   </div>
+                   <div class="row justify-content-md-center">
+                      <div class="col-4">
+                          <div class="box16">
+                              <img src="items/trevi_mastroianniekberg.jpeg">
+                              <div class="box-content">
+                                  <h3 class="title">Anita Ekberg and Marcello Mastroianni in the Trevi Fountain</h3>
+                                  <span class="post">Photograph</span>
+                                  <br>
+                                  <ul class="social">
+                                      <li>Source: <a href="https://www.gettyimages.it/detail/fotografie-di-cronaca/film-set-of-la-dolce-vita-at-trevi-fountain-fotografie-di-cronaca/890227214" target="_blank">Getty Images</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-4">
+                          <div class="box16">
+                              <img src="items/palmadoro.jpeg">
+                              <div class="box-content">
+                                  <h3 class="title">Fellini e la Palma d'Oro ricevuta per "La Dolce Vita"</h3>
+                                  <span class="post">Photograph</span>
+                                  <br>
+                                  <ul class="social">
+                                      <li>Souce: <a href="https://www.roger-viollet.fr/en/asset/fullTextSearch/beauxarts/Beaux-arts%2CPhoto/color/Couleur%2CNoir+et+blanc/search/la+dolce+vita/page/1#nb-result">Parisienne de Photographie</a><li>(through <a href="https://www.gettyimages.it/detail/fotografie-di-cronaca/federico-fellini-and-the-palme-dor-received-for-fotografie-di-cronaca/56205828" target="_blank">Getty Images)</a></li>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                     </div>
+                   <div class="row justify-content-md-center">
+                      <div class="col-4">
+                          <div class="box16">
+                              <img src="items/pretino.png">
+                              <div class="box-content">
+                                  <h3 class="title">Pretino</h3>
+                                  <span class="post">Costume</span>
+                                  <br>
+                                  <ul class="social">
+                                      <li>Source: <a href="http://www.moda.san.beniculturali.it:8081/PdM/AssetViewDetails.aspx?assetid=24410&assettype=MibacProdotto" target="_blank">Sistema Archivistico Nazionale - SAN</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-4">
+                          <div class="box16">
+                              <img src="items/recensione.jpg">
+                              <div class="box-content">
+                                  <h3 class="title">Fellini "spettatore" del suo film : Processo alla "Dolce vita"</h3>
+                                  <span class="post">Articolo di giornale</span>
+                                  <br>
+                                  <ul class="social">
+                                      <li>Source: <a href="https://scoprirete.bibliotecheromagna.it/SebinaOpac/resource/fellini-spettatore-del-suo-film-processo-alla-dolve-vita/RAV2291500?tabDoc=tabloca" target="_blank">ScopriRete Emilia Romagna</a></li>
+                                      <li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+      
+                  </div>
+              </div>
+</div>
+</div>
+
+<div class="contenitore">
+<div id="section2" class="container-fluid">
+        <h1 class="title-paragraph paragraph">Conceptual map</h1>
+                <div>
+                <p>We have drown a conceptual map in order to describe our data and to visually organize the information in a clear way, highlighting the relations between them. 
+                This model relates the central idea of the movie "La Dolce Vita" directed by Federico Fellini during 1960. 
+                
+                Then we choose to emphasize the iconic set of the Trevi Fountain as a place related to the main idea.
+                
+                if the movie present several important thematics we  were interested to analyse the relationship pf Fellini with the female world.</p>
+                <img src="images/ergenerale.png" alt="conceptual map" style="margin-bottom: 60px; margin-top: 60px;" class="ergenerale">
+                </div>
+
+                <a id="E/R model" class="title-paragraph">E/R model</a>
+                <p>Starting from the conceptual map, we created an E/R Model (i.e. Entity / Relationship model) that is a theoretical and conceptual model composed of entity types and specifies relationships that can exist between entities, showing data relationships in an abstract way.
+                Consequently, in this model you can find entities represented as circles, items as drops that are connected by relationships</p>
+                <img src="images/erdiagramcopia.png" alt="e/r Model diagram" style="margin-bottom: 60px; margin-top: 60px;" class="erdiagram">
+                <p><sup>1</sup> <a href="https://www.ina.fr/video/CPD05014246/fellini-portrait-video.html#" target="_blank" class="table-link">Interview "Fellini portrait"</a></p>
+                <p><sup>2</sup> <a href="https://scoprirete.bibliotecheromagna.it/SebinaOpac/resource/fellini-spettatore-del-suo-film-processo-alla-dolve-vita/RAV2291500?tabDoc=tabloca" target="_blank" class="table-link">Fellini "spettatore" del suo film : Processo alla "Dolce vita"</a></p>
+                <p><sup>3</sup> <a href="http://www.cinetecadibologna.it/archivi/audiovisivi/vhsdvd/film/l_2665" target="_blank" class="table-link">"La Dolce Vita", movie</a>
+                <p><sup>4</sup> <a href="https://sol.unibo.it/SebinaOpac/resource/la-dolce-vita/UBO2948168" target="_blank" class="table-link">Poster of "La Dolce Vita"</a>
+                <p><sup>5</sup> <a href="http://www.culturaitalia.it/opencms/opencms/system/modules/culturaitalia/templates/viewItem.jsp?language=it&case=&id=oai%3Awww.internetculturale.it%2Fmetaoaicat%3Aoai%3A192.168.10.31%3A22%3ARM0200%3AIT-DDS0000006456000000" target="_blank" class="table-link">La dolce vita / Music composed by Nino Rota </a></p>
+                <p><sup>6</sup> <a href="https://www.gettyimages.it/detail/fotografie-di-cronaca/federico-fellini-and-the-palme-dor-received-for-fotografie-di-cronaca/56205828" target="_blank" class="table-link">Fellini with the "Palma d'oro" prize</a>
+                <p><sup>7</sup> <a href="http://www.moda.san.beniculturali.it:8081/PdM/AssetViewDetails.aspx?assetid=24410&assettype=MibacProdotto" class="table-link" target="_blank">Anita Ekberg's costume: "Il pretino"</a></p>
+                <p><sup>8</sup> <a href="https://scoprirete.bibliotecheromagna.it/SebinaOpac/resource/nella-citta-delle-donne-femminile-e-sogno-nel-cinema-di-federico-fellini/RAV1126729?tabDoc=tabloca" target="_blank" class="table-link">"Nella città delle donne. Femminile e sogno nel cinema di Federico Fellini" by Cini Roberta</a></p>
+                <p><sup>9</sup> <a href="https://www.gettyimages.it/detail/fotografie-di-cronaca/film-set-of-la-dolce-vita-at-trevi-fountain-fotografie-di-cronaca/890227214" target="_blank" class="table-link">The protagonists Marcello Mastroianni and  Anita Ekberg  in the Trevi fountain, Rome 1959 </a>
+                <p><sup>10</sup> <a href="https://patrimonio.archivioluce.com/luce-web/detail/IL3000088046/1/la-fontana-trevi.html?startPage=60&jsonVal=%7B%22jsonVal%22:%7B%22query%22:[%22*:*%22],%22fieldDate%22:%22dataNormal%22,%22_perPage%22:20,%22luoghi%22:[%22%5C%22Fontana%20di%20Trevi%5C%22%22" target="_blank" class="table-link">Documentary about the Trevi Fountain</a></p> 
+</div>
+</div>
+
+<div class="contenitore noise">
+<div id="section3" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+        <h1 class="title-paragraph paragraph">Metadata analysis</h1>
+        <p>In order to have a more precise idea of the metadata standards used to describe the selected items by the heritage institutions in which our items are held, we have created the following table. </p>
+
+<table>
+<tr>
+<th>Type</th>
+<th>Title</th>
+<th>Provider</th>
+<th>Metadata standard</th>
+</tr>
+
+<tr>
+    <td>Book</td>
+    <td> <a href="https://scoprirete.bibliotecheromagna.it/SebinaOpac/resource/nella-citta-delle-donne-femminile-e-sogno-nel-cinema-di-federico-fellini/RAV1126729?tabDoc=tabloca" target="_blank" class="table-link">"Nella città delle donne. Femminile e sogno nel cinema di Federico Fellini" by Cini Roberta</a></td> 
+	<td><a href="https://scoprirete.bibliotecheromagna.it/SebinaOpac/Opac.do" target="_blank" class="table-link">ScopriRete</a></td>
+    <td> <a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" target="_blank" class="table-link">ISBD</a></td>
+  </tr>
+<tr>
+    <td> Costume</td>
+    <td> <a href="http://www.moda.san.beniculturali.it:8081/PdM/AssetViewDetails.aspx?assetid=24410&assettype=MibacProdotto" target="_blank" class="table-link">Anita Ekberg's costume: "Il pretino"</a></td> 
+    <td> <a href="http://san.beniculturali.it/web/san/home;jsessionid=FB82B9C1C2101B33F89331968B69B58B.sanapp01_portal" class="table-link">Sistema Archivistico Nazionale (SAN) </a></td>
+	 <td><a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" target="_blank" class="table-link">ISBD</a></td>
+  </tr>
+  <tr>
+    <td> Dvd</td>
+    <td> <a href="http://www.cinetecadibologna.it/archivi/audiovisivi/vhsdvd/film/l_2665" target="_blank" class="table-link">"La Dolce Vita"</a></td> 
+    <td> <a href="http://www.cinetecadibologna.it/home" target="_blank" class="table-link">Cineteca di Bologna</a></td>
+	 <td><a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" target="_blank" class="table-link">ISBD</a></td>
+  </tr>
+   <tr>
+    <td> Photo </td>
+    <td><a href="https://www.gettyimages.it/detail/fotografie-di-cronaca/film-set-of-la-dolce-vita-at-trevi-fountain-fotografie-di-cronaca/890227214" target="_blank" class="table-link">The protagonists Marcello Mastroianni and  Anita Ekberg  in the Trevi fountain, Rome 1959 </a></td> 
+    <td> <a href="https://www.gettyimages.it/" class="table-link">Getty image</a></td>
+	 <td> It is not specified, we decide to use <a href="https://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata" target="_blank" class="table-link">IPTC</a></td>
+  </tr>
+  <tr>
+    <td>Photo</td>
+    <td> <a href="https://www.gettyimages.it/detail/fotografie-di-cronaca/federico-fellini-and-the-palme-dor-received-for-fotografie-di-cronaca/56205828" target="_blank" class="table-link">Fellini with the "Palma d'oro" prize</a></td> 
+    <td><a href="https://www.roger-viollet.fr/en" class="table-link">Roger-Viollet partner of Europeana photography (through getty image)</a></td>
+	 <td> <a href="https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Primer_130714.pdf" target="_blank" class="table-link"> EDM </a></td>
+  </tr>
+   <tr>
+    <td>Poster</td>
+    <td><a href="https://sol.unibo.it/SebinaOpac/resource/la-dolce-vita/UBO2948168" target="_blank" class="table-link">Poster of "La Dolce Vita"</a></td> 
+    <td><a href="https://sol.unibo.it/SebinaOpac/.do" target="_blank" class="table-link">Sbn Ubo</a></td>
+	 <td><a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" target="_blank" class="table-link">ISBD</a></td>
+  </tr>
+  <tr>
+    <td>Article</td>
+    <td> <a href="https://scoprirete.bibliotecheromagna.it/SebinaOpac/resource/fellini-spettatore-del-suo-film-processo-alla-dolve-vita/RAV2291500?tabDoc=tabloca" target="_blank" class="table-link">Fellini "spettatore" del suo film : Processo alla "Dolce vita"</a></td> 
+    <td> <a href="https://scoprirete.bibliotecheromagna.it/SebinaOpac/.do" target="_blank" class="table-link">Cineteca di Rimini</a></td>
+	 <td><a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" target="_blank" class="table-link">ISBD</a></td>
+  </tr>
+  <tr>
+    <td>Soundtrack</td>
+    <td><a href="http://www.culturaitalia.it/opencms/opencms/system/modules/culturaitalia/templates/viewItem.jsp?language=it&case=&id=oai%3Awww.internetculturale.it%2Fmetaoaicat%3Aoai%3A192.168.10.31%3A22%3ARM0200%3AIT-DDS0000006456000000" target="_blank" class="table-link">La dolce vita / Music composed by Nino Rota </a></td> 
+    <td><a href="http://www.culturaitalia.it/opencms/index.jsp?language=it" target="_blank" class="table-link">CulturaItalia</a></td>
+	 <td><a href="http://www.culturaitalia.it/opencms/export/sites/culturaitalia/attachments/documenti/picoap/picoap1.0.xml" target="_blank" class="table-link">PICO</a></td>
+  </tr>
+   <tr>
+    <td>Video</td>
+    <td><a href="https://www.ina.fr/video/CPD05014246/fellini-portrait-video.html#" target="_blank" class="table-link">Interview "Fellini portrait"</a></td> 
+    <td> <a href="https://www.ina.fr/" target="_blank" class="table-link">Institute National de l'Audiovisuel</a></td>
+	 <td> <a href="https://www.loc.gov/ead/index.html" target="_blank" class="table-link">EAD </a></td>
+  </tr>
+  	 <tr>
+    <td>Video</td>
+    <td><a href="https://patrimonio.archivioluce.com/luce-web/detail/IL3000088046/1/la-fontana-trevi.html?startPage=60&jsonVal=%7B%22jsonVal%22:%7B%22query%22:[%22*:*%22],%22fieldDate%22:%22dataNormal%22,%22_perPage%22:20,%22luoghi%22:[%22%5C%22Fontana%20di%20Trevi%5C%22%22" target="_blank" class="table-link">Documentary about the Trevi Fountain</a></td> 
+    <td><a href="https://www.archivioluce.com/" target="_blank" class="table-link">Archivio Istituto Luce</a></td>
+	 <td><a href="https://www.loc.gov/ead/index.html" target="_blank" class="table-link">EAD </a></td>
+  </tr>			
+</table>
+<div>
+<p>
+notes: 
+Istituto Luce points out to use FIAF while in reality has used the EAD rules, for this we have agreed to use as reference EAD.
+We also contacted OPAC of the Bolognese centre because it was not clear about the standards used. they confirmed the use of REICAT, despite this, for all bibliographic resources we decided to use the ISBD standard because of its international value and because REICAT is also based on ISBD.</p>
+<p> Due righe per dire che l'immagine dell'articolo non era disponibile online e siamo andate a fotografarla. </p>
+<p>Download the image of the article <a href="recensione.html" target="_blank" class="table-link">here!</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div class="contenitore">
+<div id="section4" class="container-fluid">
+      <h1 class="title-paragraph paragraph">Metadata aligment</h1>
+                <p>After the investigation and description of the standards used by institutions previously cited, we aligned the standards (EDM, PICO, EAD, ISBD, IPTC), matching their properties according to their roles.
+                In particular, we divided the properties based on the four main categories in which our items are divided (Person, Date, Place, Event/concept).
+                Analysing these tables is possible to notice that each institution has some typical materials and objects to describe but, on the other hand, each object has its own standard to follow.</p>
+                <h2 class="title-table">People</h2>
+                <table>
+                <tr>
+                <th>PROPERTY</th>
+                <th><a href="https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Primer_130714.pdf" target="_blank" class="table-link"> EDM </a></th>
+                <th><a href="http://www.culturaitalia.it/opencms/export/sites/culturaitalia/attachments/documenti/picoap/picoap1.0.xml" target="_blank" class="table-link">PICO</a></th>
+                <th><a href="https://www.loc.gov/ead/index.html" target="_blank" class="table-link">EAD </a></th>
+                <th><a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" target="_blank" class="table-link">ISBD</a></th>
+                <th><a href="https://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata" target="_blank" class="table-link">IPTC</a></th>
+                </tr>
+                 <tr>
+                    <td>Creator</td>
+                    <td>dc:creator	</td> 
+                    <td>pico: creator</td>
+                     <td> 	&lt;author&gt;(in &lt;eadheader&gt;)</td>
+                     <td>1.4 Statement of responsibility	</td>
+                     <td>6.5 Creator<br> 6.6 Creator's contact info <br> 6.7 Creator's jobtitle</td>
+                  </tr>
+                   <tr>
+                    <td> Publisher</td>
+                    <td>dc:publisher</td> 
+                    <td>pico: publisher <br> pico:distributor   <br> pico: printer</td>
+                     <td>&lt;publisher&gt; (in &lt;eadheader&gt;)</td>
+                     <td>4.2 Name of publisher, producer and/or distributor</td>
+                     <td></td>
+                  </tr>
+                  <tr>
+                    <td> Owner</td>
+                    <td>edm:Provider</td> 
+                    <td>pico: IsOwnerOf	</td>
+                     <td></td>
+                     <td></td>
+                     <td>10.14 Image Supplier</td>
+                  </tr>  
+                </table>
+                
+                
+                <h2 class="title-table">Date</h2>
+                <table>
+                <tr>
+                <th>PROPERTY</th>
+                <th><a href="https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Primer_130714.pdf" target="_blank" class="table-link"> EDM </a></th>
+                <th><a href="http://www.culturaitalia.it/opencms/export/sites/culturaitalia/attachments/documenti/picoap/picoap1.0.xml" target="_blank" class="table-link">PICO</a></th>
+                <th><a href="https://www.loc.gov/ead/index.html" target="_blank" class="table-link">EAD </a></th>
+                <th><a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" target="_blank" class="table-link">ISBD</a></th>
+                <th><a href="https://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata" target="_blank" class="table-link">IPTC</a></th>
+                </tr>
+                <tr>
+                    <td> Created</td>
+                    <td>dcterms:created</td> 
+                    <td>pico: created	</td>
+                     <td>&lt;unitdate&gt;</td>
+                     <td>4.3 Date of publication, production and/or distribution</td>
+                     <td>6.9 Date created</td>
+                  </tr> 
+                  <tr>
+                    <td>Published	</td>
+                    <td></td> 
+                    <td></td>
+                     <td>&lt;date&gt; (in &lt;eadheader&gt;)</td>
+                     <td>4.3 Date of publication, production and/or distribution</td>
+                     <td></td>
+                  </tr> 					
+                </table>
+                
+                <h2 class="title-table">Place</h2>
+                <table>
+                <tr>
+                <th>PROPERTY</th>
+                <th><a href="https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Primer_130714.pdf" target="_blank" class="table-link"> EDM </a></th>
+                <th><a href="http://www.culturaitalia.it/opencms/export/sites/culturaitalia/attachments/documenti/picoap/picoap1.0.xml" target="_blank" class="table-link">PICO</a></th>
+                <th><a href="https://www.loc.gov/ead/index.html" target="_blank" class="table-link">EAD </a></th>
+                <th><a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" target="_blank" class="table-link">ISBD</a></th>
+                <th><a href="https://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata" target="_blank" class="table-link">IPTC</a></th>
+                </tr>
+                <tr>
+                    <td>Current location </td>
+                    <td>edm:current Location</td> 
+                    <td></td>
+                     <td></td>
+                     <td>(4.1.4 Subsequent place)</td>
+                     <td></td>
+                  </tr> 
+                <tr>
+                    <td>Publish location  </td>
+                    <td></td> 
+                    <td>pico: coverage</td>
+                     <td>&lt;geogname&gt; (in &lt;controlaccess&gt;) </td>
+                     <td>(4.1 place of publication, production and/or distribution	</td>
+                     <td></td>
+                  </tr> 
+                <tr>
+                    <td> Locatation of creation </td>
+                    <td></td> 
+                    <td>pico: coverage	</td>
+                     <td> </td>
+                     <td>	</td>
+                     <td>10.18 Location created<br>  10.19 Location Shown in the image </td>
+                  </tr>
+                </table>
+                
+                
+                <h2 class="title-table">Subject/Concept</h2>
+                <table>
+                <tr>
+                <th>PROPERTY</th>
+                <th><a href="https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Primer_130714.pdf" target="_blank" class="table-link"> EDM </a></th>
+                <th><a href="http://www.culturaitalia.it/opencms/export/sites/culturaitalia/attachments/documenti/picoap/picoap1.0.xml" target="_blank" class="table-link">PICO</a></th>
+                <th><a href="https://www.loc.gov/ead/index.html" target="_blank" class="table-link">EAD </a></th>
+                <th><a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" target="_blank" class="table-link">ISBD</a></th>
+                <th><a href="https://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata" target="_blank" class="table-link">IPTC</a></th>
+                </tr>
+                <tr>
+                    <td>Title </td>
+                    <td>dc:title</td> 
+                    <td>pico: title <br> pico: alternative</td>
+                     <td>&lt;unittitle&gt; </td>
+                     <td>1.1 Title proper <br>1.2 Parallel title</td>
+                     <td>6.23 Title</td>
+                  </tr> 
+                  
+                <tr>
+                    <td>Description</td>
+                    <td>dc:description</td> 
+                    <td>pico: description<br> pico: tableOfContents	</td>
+                     <td>&lt;abstract&gt; </td>
+                     <td>5 Material description area</td>
+                     <td>6.10 Description</td>
+                  </tr> 
+                  
+                  <tr>
+                    <td> Subject</td>
+                    <td>dc:subject</td> 
+                    <td>pico: subject</td>
+                     <td>&lt;subject&gt;</td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+                  
+                   <tr>
+                    <td>Type</td>
+                    <td>dc:type <br>edm:type</td> 
+                    <td>pico: Type</td>
+                     <td></td>
+                     <td>0.2 Media type</td>
+                     <td>10.7 Digital source type</td>
+                  </tr>
+                  
+                   <tr>
+                    <td>Material</td>
+                    <td>dc:type <br>edm:type</td> 
+                    <td>pico: materialAndTechnique <br> pico: medium</td>
+                     <td></td>
+                     <td>1.3.1. Applicazione delle norme ai diversi tipi di materiale; APPENDICE C-desginazione generiche del materiale</td>
+                     <td>11.1.12 Physical Description  </td>
+                  </tr>
+                  <tr>
+                    <td> Format</td>
+                    <td>dc:format</td> 
+                    <td>pico: format   <br> pico: isFormatOf	</td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+                   <tr>
+                    <td>Size/Duration</td>
+                    <td>dcterms:extent</td> 
+                    <td>pico: extent</td>
+                     <td>&lt;materialspec&gt;</td>
+                     <td>5.2.7.6 Groove size</td>
+                     <td>10.20 Max avail Height <br>10.21 Max avail Widht</td>
+                  </tr>
+                   <tr>
+                    <td>Language</td>
+                    <td>dc:language	</td> 
+                    <td>pico: language</td>
+                     <td>&lt;langmaterial&gt;</td>
+                     <td>A.5 Language and script of the description	</td>
+                     <td></td>
+                  </tr>
+                  <tr>
+                    <td>Identifier</td>
+                    <td>dc:identifier	</td> 
+                    <td></td>
+                     <td>&lt;eadid&gt;</td>
+                     <td>8.1 Resource identifier</td>
+                     <td>10.6 Digital image GUID</td>
+                  </tr>
+                   <tr>
+                    <td>Rights</td>
+                    <td>dc:rights <br> edm:rights	</td> 
+                    <td>pico: rights <br> pico: rightsHolder </td>
+                     <td></td>
+                     <td>4.03.06</td>
+                     <td>6.8 Right usage terms </td>
+                  </tr>
+                  <tr>
+                    <td>Summary/(note)</td>
+                    <td>skos:note (????)</td> 
+                    <td>pico: abstract</td>
+                     <td>&lt;note&gt;</td>
+                     <td>7.10.2 Notes providing a summary</td>
+                     <td>6.12 Headline </td>
+                  </tr>												
+                </table>  
+                </div>
+</div>
+     
+
+
+
+<div class="contenitore noise">
+<div id="section5" class="container-fluid">
+        <h1 class="title-paragraph paragraph">Theoretical model</h1>
+        <p>In the theoretical model we established which existent ontologies and standards could be the most appropriate regard our items reasoning on what we need to represent our idea.
+        </p>
+
+                <div>
+                <h3 class="subtitle-paragraph">WHO : how to describe people/organizations?</h3>
+                <p>Having to reflect on people in relation to the items, for example Fellini is the author of the article but also the director of the dolce vita.  Our intent is not only to describe "people" as authors or objects of the items but in relation to "La Dolce Vita" itself.
+                Therefore we need not only a precise description of the individual persons but a description that is in function of the role that these  have in relation to the creation / preservation and dissemination of the film. Consequently, we decided to use the following ontologies and standards:
+                -FOAF To highlight the personal information of the person/organisation
+                The FOAF ("Friend of a Friend") project is a community driven effort to define an RDF vocabulary for expressing metadata about people, and their interests, relationships and activities.
+                -EAC- CPF, DBpedia, SCHEMA when foaf did not provide a method to define other information relevant to us.</p>
+                </div>
+                
+                <div>
+                <h3 class="subtitle-paragraph">WHERE : which kind of information for places?</h3>
+                <p>In the context of the description of entities place we use the most important ontology in this fields:
+                Geoname, DBpedia, Basicgeo and in particular we have also included EAC CPF to highlight the role that had a certain place within our idea.</p>
+                </div>
+
+                <div>
+                <h3 class="subtitle-paragraph">WHEN : how to express the notion of time? </h3>
+                <p>For the concept of time we can refer both to time as the date of the event and to notion of time (duration of the film). Since is the most important we decide to the International Standard for the representation of dates and times ISO 8601 specified by the W3Consortium., n the format Complete Date: YYYY-MM-DD (Y=year, M=month, D=day). To include this information in the XML file we used the EAC-CPF attribute for Date standardDate.
+                The primary ontologies, which in our opinion can best represent the concept of time and time duration are as follows:EAC CPF, FOAF and SCHEMA.</p>
+                </div>
+                        
+                <div>
+                <h3 class="subtitle-paragraph">WHAT : what is the main subject/concept?</h3>
+                <p>The idea is to describe a concept through its characteristics and relationships with other concepts, people and events.
+                The best way to do this is to describe the concept in relation to the items </p>
+                </div>
+</div>
+</div>
+
+
+<div class="contenitore">
+<div id="section6" class="container-fluid">
+        <h1 class="title-paragraph paragraph">Conceptual model</h1>  
+        <p>After the production of our theoretical model where we established the most appropriate standard, we have created the conceptual model as a concrete representation of the previous model.
+                Our model allows for a detailed description of person, place, dates, events related to the subject or concept. Through a series of questions, we found the properties/predicates of the ontologies chosen that provide a proper representation of the objects according to our specifications
+                </p>
+                <h3 class="title-table">WHO</h3>
+                <table>
+                <tr>
+                <th>QUESTION</th>
+                <th>PREDICATE</th>
+                <th>MODEL</th>
+                </tr>
+                <tr>
+                    <td>What type of entity?</td>
+                    <td>eac-cpf:entity</td> 
+                    <td>EAC-CPF</td>
+                </tr>	
+                <tr>
+                    <td>What is the given name?</td>
+                    <td>foaf:givenName</td> 
+                    <td>FOAF</td>
+                </tr>	
+                <tr>
+                    <td>What is the surname?</td>
+                    <td>foaf:surname</td> 
+                    <td>FOAF</td>
+                </tr>			
+                <tr>
+                    <td>What is the name?</td>
+                    <td>foaf:name</td> 
+                    <td>FOAF</td>
+                </tr>			
+                <tr>
+                    <td>What is the gender?</td>
+                    <td>foaf:gender</td> 
+                    <td>FOAF</td>
+                </tr>	
+                <tr>
+                    <td>What is his/her nationality?</td>
+                    <td>dbo:nationality</td> 
+                    <td>DBpedia</td>
+                </tr>
+                <tr>
+                    <td>Where is the headquarter of the organization?</td>
+                    <td>dbo:headquarter</td> 
+                    <td>DBpedia</td>
+                </tr>
+                <tr>
+                    <td>When was the person born?</td>
+                    <td>foaf:birthday</td> 
+                    <td>FOAF</td>
+                </tr>
+                <tr>
+                    <td>When did the person died?</td>
+                    <td>dbo:deathDate</td> 
+                    <td>DBpedia</td>
+                </tr>
+                <tr>
+                    <td>When was the organization founded?</td>
+                    <td>schema:foundingDate</td> 
+                    <td>SCHEMA</td>
+                </tr>
+                <tr>
+                    <td>When did the organization stop its activity?</td>
+                    <td>schema:dissolutionDate</td> 
+                    <td>SCHEMA</td>
+                </tr>
+                
+                
+                <tr>
+                    <td>What is the history of the person/organization?</td>
+                    <td>eac-cpf:biogHist</td> 
+                    <td>EAC-CPF</td>
+                </tr>
+                <tr>
+                    <td>What is the person/organization’s Wikipedia page? </td>
+                    <td>dbo: wikiPageExternalLink</td> 
+                    <td>DBpedia</td>
+                </tr>										
+                </table>
+                
+                <h3 class="title-table">WHERE?</h3>
+                <table>
+                
+                <tr>
+                <th>QUESTION</th>
+                <th>PREDICATE</th>
+                <th>MODEL</th>
+                </tr>
+                <tr>
+                    <td>What type of entity?</td>
+                    <td>rdf:type</td> 
+                    <td>RDF</td>
+                </tr>
+                <tr>
+                    <td>What is the name of the place?</td>
+                    <td>gn:name</td> 
+                    <td>GeoNames</td>
+                </tr>
+                <tr>
+                    <td>What is the alternative name for the place?</td>
+                    <td>gn:alternateName</td> 
+                    <td>GeoNames</td>
+                </tr>	
+                <tr>
+                    <td>What is the country the place is located?</td>
+                    <td>dbo:country</td> 
+                    <td>DBpedia</td>
+                </tr>	
+                <tr>
+                    <td>What is the city the place is located?</td>
+                    <td>dbo:city</td> 
+                    <td>DBPedia </td>
+                </tr>	
+                <tr>
+                    <td>What is the latitude?</td>
+                    <td>WGS84_POS:lat</td> 
+                    <td>Basic Geo</td>
+                </tr>	
+                <tr>
+                    <td>What is the longitude?</td>
+                    <td>WGS84_POS:long</td> 
+                    <td>Basic Geo</td>
+                </tr>	
+                <tr>
+                    <td>What is the country code?</td>
+                    <td>gn:countryCode</td> 
+                    <td>GeoNames</td>
+                </tr>	
+                
+                <tr>
+                    <td>What is the place Wikipedia page?</td>
+                    <td>dbo: wikiPageExternalLink</td> 
+                    <td>DBpedia</td>
+                </tr>	
+                <tr>
+                    <td>Brief description</td>
+                    <td>dbo:abstract</td> 
+                    <td>DBpedia</td>
+                </tr>	
+                </table>
+                
+                <h3 class="title-table">WHEN?</h3>
+                <table>
+                <tr>
+                <th>QUESTION</th>
+                <th>PREDICATE</th>
+                <th>MODEL</th>
+                </tr>
+                <tr>
+                    <td>What type of entity?</td>
+                    <td>rdf:type</td> 
+                    <td>RDF</td>
+                </tr>
+                <tr>
+                    <td>What is the format of the date?</td>
+                    <td>eac-cpf:dateStandardDate</td> 
+                    <td>EAC-CPF</td>
+                </tr>
+                    
+                    
+                </table>	
+                
+                <h3 class="title-table">WHAT?</h3>
+                <table>
+                <tr>
+                <th>QUESTION</th>
+                <th>PREDICATE</th>
+                <th>MODEL</th>
+                </tr>
+                <tr>
+                    <td>What type of entity?</td>
+                    <td>rdf:type</td> 
+                    <td>RDF</td>
+                </tr>
+                <tr>
+                    <td>What is the subject?</td>
+                    <td>dcterms:subject</td> 
+                    <td>DCMI Metadata Terms</td>
+                </tr>
+                
+                <tr>
+                    <td>What is a summary?</td>
+                    <td>dcterms:abstract</td> 
+                    <td>DCMI Metadata Terms</td>
+                </tr>
+                
+                
+                <tr>
+                    <td>What are the places related to the concept/subject?  </td>
+                    <td>dbo:relatedplaces 	</td> 
+                    <td>DBPedia </td>
+                </tr>	
+                <tr>
+                    <td>Which resource has the concept/subject as primary topic? </td>
+                    <td>foaf:isPrimaryTopicOf	</td> 
+                    <td>FOAF</td>
+                </tr>	
+                <tr>
+                    <td>What are other useful references for the resource?  </td>
+                    <td> rdfs:seeAlso</td> 
+                    <td>RDFS</td>
+                </tr>	
+                <tr>
+                    <td>What are the people/organizations/concepts related with? </td>
+                    <td>skos:related</td> 
+                    <td>SKOS</td>
+                </tr>
+                </table>
+                
+                <p>notes: In the part concerning the concept we have referred to people and organizations that we have not described as our items but that are useful to highlight the links in the graph and Turtle model.</p>  
+</div>
+</div>
+
+<div class="contenitore noise">
+<div id="section7" class="container-fluid">    
+        <h1 class="title-paragraph paragraph">Data description</h1>     
+        <p>Following the conceptual model we have described 3 items in natural language. For each item we described a person, a place and a concept related with it.</p>
+<div>
+<h2 class="title-object">Picture of Fellini with the Palma D'Or Prize </h2>
+<h3 class="title-table">WHO</h3>
+<table>
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>Agency Roger-Viollet</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>eac-cpf:entity</td> 
+    <td>corporateBody</td>
+</tr>	
+<tr>
+    <td>What is the given name?</td>
+    <td>foaf:givenName</td> 
+    <td>/</td>
+</tr>	
+<tr>
+    <td>What is the surname?</td>
+    <td>foaf:surname</td> 
+    <td>/</td>
+</tr>			
+<tr>
+    <td>What is the name?</td>
+    <td>foaf:name</td> 
+    <td>Roger-Viollet</td>
+</tr>			
+<tr>
+    <td>What is the gender?</td>
+    <td>foaf:gender</td> 
+    <td>/</td>
+</tr>	
+<tr>
+    <td>What is his/her nationality?</td>
+    <td>dbo:nationality</td> 
+    <td>/</td>
+</tr>
+<tr>
+    <td>Where is the headquarter of the organization?</td>
+    <td>dbo: headquarter</td> 
+    <td>Paris</td>
+</tr>
+<tr>
+    <td>When was the person born?</td>
+    <td>foaf:birthday</td> 
+    <td>/</td>
+</tr>
+<tr>
+    <td>When did the person died?</td>
+    <td>dbo:deathDate</td> 
+    <td>/</td>
+</tr>
+<tr>
+    <td>When was the organization founded?</td>
+    <td>schema:foundingDate</td> 
+    <td>1938</td>
+</tr>
+<tr>
+    <td>When did the organization stop its activity?</td>
+    <td>schema:dissolutionDate</td> 
+    <td>/</td>
+</tr>
+
+
+<tr>
+    <td>What is the history of the person/organization?</td>
+    <td>eac-cpf:biogHist</td> 
+    <td>The name of the Roger-Viollet family has become that of the famous Parisian agency of old photographs of the rue de Seine founded in 1938 by Hélène Roger-Viollet , on the initial base of the photographic collection constituted by his father Henri Roger-Viollet, engineer and experienced photographer.</td>
+</tr>
+<tr>
+    <td>What is the person/organization’s Wikipedia page? </td>
+    <td>dbo: wikiPageExternalLink</td> 
+    <td><a href="https://fr.wikipedia.org/wiki/Roger-Viollet" target="_blank" class="table-link">https://fr.wikipedia.org/wiki/Roger-Viollet</a></td>
+</tr>										
+</table>
+
+<h3 class="title-table">WHERE?</h3>
+<table>
+
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>Cannes</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>rdf:type</td> 
+    <td>place</td>
+</tr>
+<tr>
+    <td>What is the name of the place?</td>
+    <td>gn:name</td> 
+    <td>Cannes</td>
+</tr>
+<tr>
+    <td>What is the alternative name for the place?</td>
+    <td>gn:alternateName</td> 
+    <td>Cano; Canne</td>
+</tr>	
+<tr>
+    <td>What is the country the place is located?</td>
+    <td>dbo:country</td> 
+    <td>France</td>
+</tr>	
+<tr>
+    <td>What is the city the place is located?</td>
+    <td>dbo:city</td> 
+    <td>Cannes</td>
+</tr>	
+<tr>
+    <td>What is the latitude?</td>
+    <td>WGS84_POS:lat</td> 
+    <td>43.55135</td>
+</tr>	
+<tr>
+    <td>What is the longitude?</td>
+    <td>WGS84_POS:long</td> 
+    <td>7.01275</td>
+</tr>	
+<tr>
+    <td>What is the country code?</td>
+    <td>gn:countryCode</td> 
+    <td>FR, FRA, 250</td>
+</tr>	
+
+<tr>
+    <td>What is the place Wikipedia page?</td>
+    <td>dbo: wikiPageExternalLink</td> 
+    <td><a href="https://en.wikipedia.org/wiki/Cannes" target="_blank" class="table-link">https://en.wikipedia.org/wiki/Cannes</a></td>
+</tr>	
+<tr>
+    <td>Brief description</td>
+    <td>dbo:abstract</td> 
+    <td>Cannes is a city located on the French Riviera. It is a commune located in the Alpes-Maritimes department, and host city of the annual Cannes Film Festival, Midem, and Cannes Lions International Festival of Creativity.</td>
+</tr>	
+</table>
+
+
+<h3 class="title-table">WHAT?</h3>
+<table>
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>Prizegiving</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>rdf:type</td> 
+    <td>Concept</td>
+</tr>
+<tr>
+    <td>What is the subject?</td>
+    <td>dcterms:subject</td> 
+    <td>the awarding of "La Dolce VIta"</td>
+</tr>
+
+<tr>
+    <td>What is a summary?</td>
+    <td>dcterms:abstract</td> 
+    <td>The awarding of the  Palme d'Or  to Fellini
+for the movie "La Dolce Vita"</td>
+</tr>
+
+
+<tr>
+    <td>What are the places related to the concept/subject?  </td>
+    <td>dbo:relatedplaces 	</td> 
+    <td>Cannes</td>
+</tr>	
+<tr>
+    <td>Which resource has the concept/subject as primary topic? </td>
+    <td>foaf:isPrimaryTopicOf	</td> 
+    <td>/</td>
+</tr>	
+<tr>
+    <td>What are other useful references for the resource?  </td>
+    <td> rdfs:seeAlso</td> 
+    <td><a href="https://en.wikipedia.org/wiki/Palme_d%27Or" target="_blank" class="table-link">https://en.wikipedia.org/wiki/Palme_d%27Or</a></td>
+</tr>
+<tr>
+    <td>What are the people/organizations/concepts related with? </td>
+    <td>skos:related</td> 
+    <td>Federico Fellini</td>
+</tr>	
+</table>
+</div>
+
+				
+
+<div>
+<h2 class="title-object">Costume il pretino </h2>
+<h3 class="title-table">WHO</h3>
+<table>
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>Sorelle Fontana</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>eac-cpf:entity</td> 
+    <td>corporateBody</td>
+</tr>	
+<tr>
+    <td>What is the given name?</td>
+    <td>foaf:givenName</td> 
+    <td>/</td>
+</tr>	
+<tr>
+    <td>What is the surname?</td>
+    <td>foaf:surname</td> 
+    <td>/</td>
+</tr>			
+<tr>
+    <td>What is the name?</td>
+    <td>foaf:name</td> 
+    <td>Sorelle Fontana Alta Moda s.r.l.</td>
+</tr>			
+<tr>
+    <td>What is the gender?</td>
+    <td>foaf:gender</td> 
+    <td>/</td>
+</tr>	
+<tr>
+    <td>What is his/her nationality?</td>
+    <td>dbo:nationality</td> 
+    <td>/</td>
+</tr>
+<tr>
+    <td>Where is the headquarter of the organization?</td>
+    <td>dbo:headquarter</td> 
+    <td>Rome</td>
+</tr>
+<tr>
+    <td>When was the person born?</td>
+    <td>foaf:birthday</td> 
+    <td>/</td>
+</tr>
+<tr>
+    <td>When did the person died?</td>
+    <td>dbo:deathDate</td> 
+    <td>/</td>
+</tr>
+<tr>
+    <td>When was the organization founded?</td>
+    <td>schema:foundingDate</td> 
+    <td>1943</td>
+</tr>
+<tr>
+    <td>When did the organization stop its activity?</td>
+    <td>schema:dissolutionDate</td> 
+    <td>1992</td>
+</tr>
+
+
+<tr>
+    <td>What is the history of the person/organization?</td>
+    <td>eac-cpf:biogHist</td> 
+    <td>"Sorelle Fontana Alta Moda s.r.l. is a fashion house, specialized in high fashion sartorial productions.
+Founded in Rome in 1943, by the three Italian sisters and stylists: Zoe (1911-1979), Micol (1913-2015) and Giovanna (1915-2004).
+The Fontana sisters, with their atelier, were the first to give a lively boost to Made in Italy, making the Italian style famous in the world."</td>
+</tr>
+<tr>
+    <td>What is the person/organization’s Wikipedia page? </td>
+    <td>dbo: wikiPageExternalLink</td> 
+    <td><a href="https://it.wikipedia.org/wiki/Sorelle_Fontana" target="_blank" class="table-link">https://it.wikipedia.org/wiki/Sorelle_Fontana</a></td>
+</tr>										
+</table>
+
+<h3 class="title-table">WHERE?</h3>
+<table>
+
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>Rome</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>rdf:type</td> 
+    <td>place</td>
+</tr>
+<tr>
+    <td>What is the name of the place?</td>
+    <td>gn:name</td> 
+    <td>Rome</td>
+</tr>
+<tr>
+    <td>What is the alternative name for the place?</td>
+    <td>gn:alternateName</td> 
+    <td>Roma</td>
+</tr>	
+<tr>
+    <td>What is the country the place is located?</td>
+    <td>dbo:country</td> 
+    <td>Italy</td>
+</tr>	
+<tr>
+    <td>What is the city the place is located?</td>
+    <td>dbo:city</td> 
+    <td>Rome</td>
+</tr>	
+<tr>
+    <td>What is the latitude?</td>
+    <td>WGS84_POS:lat</td> 
+    <td>41.89193</td>
+</tr>	
+<tr>
+    <td>What is the longitude?</td>
+    <td>WGS84_POS:long</td> 
+    <td>12.51133</td>
+</tr>	
+<tr>
+    <td>What is the country code?</td>
+    <td>gn:countryCode</td> 
+    <td>IT, ITA, 380</td>
+</tr>	
+
+<tr>
+    <td>What is the place Wikipedia page?</td>
+    <td>dbo: wikiPageExternalLink</td> 
+    <td><a href="https://en.wikipedia.org/wiki/Rome" target="_blank" class="table-link">https://en.wikipedia.org/wiki/Rome</a></td>
+</tr>	
+<tr>
+    <td>Brief description</td>
+    <td>dbo:abstract</td> 
+    <td>Rome is the capital city of Italy. Rome also serves as the capital of the Lazio region. It is the centre of the Metropolitan City of Rome, which has a population of 4,355,725 residents, thus making it the most populous metropolitan city in Italy.</td>
+</tr>	
+</table>
+
+<h3 class="title-table">WHEN?</h3>
+<table>
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>1955</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>rdf:type</td> 
+    <td>Date</td>
+</tr>
+<tr>
+    <td>What is the format of the date?</td>
+    <td>eac-cpf:dateStandardDate</td> 
+    <td>YYYY</td>
+</tr>	
+</table>	
+
+<h3 class="title-table">WHAT?</h3>
+<table>
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>Fellini's relashionship with women </th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>rdf:type</td> 
+    <td>Concept</td>
+</tr>
+<tr>
+    <td>What is the subject?</td>
+    <td>dcterms:subject</td> 
+    <td>Fellini's relashionship with women </td>
+</tr>
+
+<tr>
+    <td>What is a summary?</td>
+    <td>dcterms:abstract</td> 
+    <td>"The woman in Fellini's imagination is always present, the absolute protagonist, playfully female, prosperous, shapely, huge breasts and hips,junonic, sometimes ridiculous, grotesque, all markedly Fellinian.
+Women have been a constant for the master. "</td>
+</tr>
+
+
+<tr>
+    <td>What are the places related to the concept/subject?  </td>
+    <td>dbo:relatedplaces 	</td> 
+    <td>/</td>
+</tr>	
+<tr>
+    <td>Which resource has the concept/subject as primary topic? </td>
+    <td>foaf:isPrimaryTopicOf	</td> 
+    <td>/</td>
+</tr>	
+<tr>
+    <td>What are other useful references for the resource?  </td>
+    <td> rdfs:seeAlso</td> 
+    <td>/</td>
+</tr>	
+<tr>
+    <td>What are the people/organizations/concepts related with? </td>
+    <td>skos:related</td> 
+    <td> Federico Fellini, Anita Ekberg, Giulietta Masina</td>
+</tr>
+</table>
+</div>
+
+<div>
+	<h2 class="title-object"> "LA DOLCE VITA" Movie </h2>
+<h3 class="title-table">WHO</h3>
+<table>
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>Federico Fellini</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>eac-cpf:entity</td> 
+    <td>Person </td>
+</tr>	
+<tr>
+    <td>What is the given name?</td>
+    <td>foaf:givenName</td> 
+    <td>Federico</td>
+</tr>	
+<tr>
+    <td>What is the surname?</td>
+    <td>foaf:surname</td> 
+    <td>Fellini</td>
+</tr>			
+<tr>
+    <td>What is the name?</td>
+    <td>foaf:name</td> 
+    <td>Federico Fellini</td>
+</tr>			
+<tr>
+    <td>What is the gender?</td>
+    <td>foaf:gender</td> 
+    <td>Male </td>
+</tr>	
+<tr>
+    <td>What is his/her nationality?</td>
+    <td>dbo:nationality</td> 
+    <td>Italian</td>
+</tr>
+<tr>
+    <td>Where is the headquarter of the organization?</td>
+    <td>dbo:headquarter</td> 
+    <td>/</td>
+</tr>
+<tr>
+    <td>When was the person born?</td>
+    <td>foaf:birthday</td> 
+    <td>20/01/1920</td>
+</tr>
+<tr>
+    <td>When did the person died?</td>
+    <td>dbo:deathDate</td> 
+    <td>31/10/1993</td>
+</tr>
+<tr>
+    <td>When was the organization founded?</td>
+    <td>schema:foundingDate</td> 
+    <td>/</td>
+</tr>
+<tr>
+    <td>When did the organization stop its activity?</td>
+    <td>schema:dissolutionDate</td> 
+    <td>/</td>
+</tr>
+
+
+<tr>
+    <td>What is the history of the person/organization?</td>
+    <td>eac-cpf:biogHist</td> 
+    <td>"Federico Fellini was an Italian screenwriter, director, cartoonist and writer and is considered one of the greatest directors in the history of cinema.
+	His most famous films - <i>La strada, Le notti di Cabiaria, La Dolce Vita, 8 1/2, Amarcor,</i> have become topoi mentioned all over the world."</td>
+</tr>
+<tr>
+    <td>What is the person/organization’s Wikipedia page? </td>
+    <td>dbo: wikiPageExternalLink</td> 
+    <td><a href="https://simple.wikipedia.org/wiki/Federico_Fellini" target="_blank" class="table-link">https://simple.wikipedia.org/wiki/Federico_Fellini</a></td>
+</tr>										
+</table>
+
+<h3 class="title-table">WHERE?</h3>
+<table>
+
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>Italy</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>rdf:type</td> 
+    <td>place</td>
+</tr>
+<tr>
+    <td>What is the name of the place?</td>
+    <td>gn:name</td> 
+    <td>Italy</td>
+</tr>
+<tr>
+    <td>What is the alternative name for the place?</td>
+    <td>gn:alternateName</td> 
+    <td>Italia; Italie</td>
+</tr>	
+<tr>
+    <td>What is the country the place is located?</td>
+    <td>dbo:country</td> 
+    <td>Italy</td>
+</tr>	
+<tr>
+    <td>What is the city the place is located?</td>
+    <td>dbo:city</td> 
+    <td>/</td>
+</tr>	
+<tr>
+    <td>What is the latitude?</td>
+    <td>WGS84_POS:lat</td> 
+    <td>41.89193</td>
+</tr>	
+<tr>
+    <td>What is the longitude?</td>
+    <td>WGS84_POS:long</td> 
+    <td>12.51133</td>
+</tr>	
+<tr>
+    <td>What is the country code?</td>
+    <td>gn:countryCode</td> 
+    <td>IT, ITA, 380</td>
+</tr>	
+
+<tr>
+    <td>What is the place Wikipedia page?</td>
+    <td>dbo: wikiPageExternalLink</td> 
+    <td><a href="https://en.wikipedia.org/wiki/Italy" target="_blank" class="table-link">https://en.wikipedia.org/wiki/Italy</a></td>
+</tr>	
+<tr>
+    <td>Brief description</td>
+    <td>dbo:abstract</td> 
+    <td>Italy, officially the Italian Republic (Italian: Repubblica Italiana)  is a European country consisting of a peninsula delimited by the Italian Alps and surrounded by several islands. Located in the middle of the Mediterranean sea and traversed along its length by the Apennines, Italy has a largely temperate seasonal climate. The country covers an area of 301,340 km2 (116,350 sq mi) and shares open land borders with France, Slovenia, Austria, Switzerland and the enclaved microstates of Vatican City and San Marino.</td>
+</tr>	
+</table>
+
+<h3 class="title-table">WHEN?</h3>
+<table>
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>1960</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>rdf:type</td> 
+    <td>Date</td>
+</tr>
+<tr>
+    <td>What is the format of the date?</td>
+    <td>eac-cpf:dateStandardDate</td> 
+    <td>YYYY</td>
+</tr>
+	
+	
+</table>	
+
+
+<h3 class="title-table">WHAT?</h3>
+<table>
+<tr>
+<th>QUESTION</th>
+<th>PREDICATE</th>
+<th>La Dolce Vita  (lifestyle)</th>
+</tr>
+<tr>
+    <td>What type of entity?</td>
+    <td>rdf:type</td> 
+    <td>Concept</td>
+</tr>
+<tr>
+    <td>What is the subject?</td>
+    <td>dcterms:subject</td> 
+    <td>La Dolce Vita  (lifestyle)</td>
+</tr>
+
+<tr>
+    <td>What is a summary?</td>
+    <td>dcterms:abstract</td> 
+    <td>The theme of the film is predominantly café society, the diverse and glittery world rebuilt upon the ruins and poverty of the Italian postwar period</td>
+</tr>
+
+
+<tr>
+    <td>What are the places related to the concept/subject?  </td>
+    <td>dbo:relatedplaces 	</td> 
+    <td>Rome; Italy</td>
+</tr>	
+<tr>
+    <td>Which resource has the concept/subject as primary topic? </td>
+    <td>foaf:isPrimaryTopicOf	</td> 
+    <td><a href="https://en.wikipedia.org/wiki/La_Dolce_Vita"target="_blank" class="table-link">https://en.wikipedia.org/wiki/La_Dolce_Vita</a></td>
+</tr>	
+<tr>
+    <td>What are other useful references for the resource?  </td>
+    <td> rdfs:seeAlso</td> 
+    <td><a href="https://www.ibs.it/dolce-vita-the-golden-age-libro-vari/e/9783940004925" target="_blank" class="table-link">https://www.ibs.it/dolce-vita-the-golden-age-libro-vari/e/9783940004925</a></td>
+</tr>	
+
+<tr>
+    <td>What are the people/organizations/concepts related with? </td>
+    <td>skos:related</td> 
+    <td>Federico Fellini</td>
+</tr>
+</table>			      
+</div>
+</div>
+</div>
+
+
+<div class="contenitore">
+<div id="section8" class="container-fluid">     
+        <h1 class="title-paragraph paragraph">RDF</h1>   
+        <div>
+                <p>In this section we have created URIs for some of our entities.
+                We decided to describe them, following our description of data, using the RDF/Turtle serialization, Graph visualization and XML, syntax are also provided.
+                We decide to create a unique representation of our entities in order to highlight the connection between them.</p>
+                </div>
+                <p> TURTLE </p>
+                <pre class="pre-scrollable"><code>
+                @prefix <span class="ont">:</span> <span class="linky">&lt;https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttl&gt;</span>.
+                
+                @prefix <span class="ont">dcterms:</span> <span class="linky">&lt;http://purl.org/dc/terms/&gt;</span>.
+                @prefix <span class="ont">foaf:</span> <span class="linky">&lt;//xmlns.com/foaf/0.1/&gt;</span>.
+                @prefix <span class="ont">dbpedia:</span> <span class="linky">&lt;http://dbpedia.org/resource/&gt;</span>.
+                @prefix <span class="ont">dbo:</span> <span class="linky">&lt;http://dbpedia.org/ontology/&gt;</span>.
+                @prefix <span class="ont">rdf:</span> <span class="linky">&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</span>.
+                @prefix <span class="ont">eac_cpf:</span> <span class="linky">&lt;http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/&gt;</span>.
+                @prefix <span class="ont">schema:</span> <span class="linky">&lt;https://schema.org/&gt;</span>.
+                @prefix <span class="ont">gn:</span> <span class="linky">&lt;http://www.geonames.org/ontology#&gt;</span>.
+                @prefix <span class="ont">geo:</span> <span class="linky">&lt;hhttp://www.w3.org/2003/01/geo/wgs84_pos#&gt;</span>.
+                @prefix <span class="ont">rdfs:</span> <span class="linky">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>.
+                @prefix <span class="ont">xsd:</span> <span class="linky">&lt;http://www.w3.org/2001/XMLSchema#&gt;</span>.
+                @prefix <span class="ont">skos:</span> <span class="linky">&lt;http://www.w3.org/2004/02/skos/core#&gt;</span>.
+                
+                
+                <span class="ont">:</span><span class="att">Federico_Fellini</span>
+                    <span class="ont">eac_cpf:</span><span class="att">entity</span> <span class="ont">eac_cpf:</span><span class="dat">person</span>;
+                    <span class="ont">foaf:</span><span class="att">givenName</span> <span class="dat">"Federico"</span>;
+                    <span class="ont">foaf:</span><span class="att">surname</span> <span class="dat">"Fellini"</span>;
+                    <span class="ont">foaf:</span><span class="att">name</span> <span class="dat">"Federico Fellini"</span>;
+                    <span class="ont">foaf:</span><span class="att">gender</span> <span class="dat">"male"</span>;
+                    <span class="ont">dbo:</span><span class="att">nationality</span> <span class="dat">"italian"</span>;
+                    <span class="ont">foaf:</span><span class="att">birthday</span> <span class="dat">"20-01-1920"</span>^^<span class="ont">xsd:</span><span class="att">date</span>; 
+                    <span class="ont">dbo:</span><span class="att">deathDate</span> <span class="dat">"31-10-1993"</span>^^<span class="ont">xsd:</span><span class="att">date</span>;
+                    <span class="ont">eac_cpf:</span><span class="att">biogHist</span> <span class="dat">"Federico Fellini was an Italian screenwriter, director, cartoonist and writer and is considered one of the greatest directors in the history of cinema. His most famous films - La strada, Le notti di Cabiaria, La Dolce Vita, 8 1/2, Amarcor, have become topoi mentioned all over the world."</span>;
+                    <span class="ont">dbo:</span><span class="att">wikiPageExternalLink</span> <span class="linky">&lt;https://simple.wikipedia.org/wiki/Federico_Fellini&gt;</span>.
+                
+                
+                
+                <span class="ont">:</span><span class="att">Sorelle_Fontana</span>
+                  <span class="ont">eac_cpf:</span><span class="att">entity</span> <span class="ont">eac_cpf:</span><span class="att">corporateBody</span>;
+                  <span class="ont">foaf:</span><span class="att">name</span> <span class="dat">"SorelleFontanaAltaModa_srl"</span>;
+                  <span class="ont">dbo:</span><span class="att">headquarter</span> <span class="ont">:</span><span class="att">Rome</span>;
+                  <span class="ont">schema:</span><span class="att">foundingDate</span> <span class="dat">"1943"</span> ^^<span class="ont">xsd:</span><span class="att">date</span>;
+                  <span class="ont">schema:</span><span class="att">dissolutionDate</span>  <span class="dat">"1992"</span> ^^<span class="ont">xsd:</span><span class="att">date</span>;
+                  <span class="ont">eac_cpf:</span><span class="att">biogHist</span> <span class="dat">"Sorelle Fontana Alta Moda s.r.l. is a fashion house, specialized in high fashion sartorial productions. Founded in Rome in 1943, by the three Italian sisters and stylists: Zoe (1911-1979), Micol (1913-2015) and Giovanna (1915-2004). The Fontana sisters, with their atelier, were the first to give a lively boost to Made in Italy, making the Italian style famous in the world."</span>;
+                  <span class="ont">dbo:</span><span class="att">wikiPageExternalLink</span> <span class="linky">&lt;https://it.wikipedia.org/wiki/Sorelle_Fontana&gt;</span>.
+                
+                
+                <span class="ont">:</span><span class="att">Agency_Roger_Viollet</span>
+                  <span class="ont">eac_cpf:</span><span class="att">entity</span>  <span class="ont">eac_cpf:</span><span class="att">corporateBody</span>;
+                  <span class="ont">foaf:</span><span class="att">name</span> <span class="dat">"Roger-Viollet"</span>;
+                  <span class="ont">dbo:</span></span class="att"><span  class="att">headquarter</span> <span class="dat">"Paris"</span>;
+                  <span class="ont">schema:</span><span class="att">foundingDate</span> <span class="dat">"1938"</span>^^<span class="ont">xsd:</span><span class="att">date</span>;
+                  <span class="ont">eac_cpf:</span><span class="att">biogHist</span>  <span class="dat">"The name of the Roger-Viollet family has become that of the famous Parisian agency of old photographs of the rue de Seine founded in 1938 by Hélène Roger-Viollet , on the initial base of the photographic collection constituted by his father Henri Roger-Viollet, engineer and experienced photographer"</span>;
+                  <span class="ont">dbo:</span><span class="att">wikiPageExternalLink</span>  <span class="linky">&lt;https://fr.wikipedia.org/wiki/Roger-Viollet&gt;</span>.
+                
+                
+                <span class="ont">:</span><span class="att">Italy</span>
+                    <span class="ont">rdf:</span><span class="att">type</span> <span class="ont">rdf:</span><span class="att">place</span>;
+                    <span class="ont">gn:</span><span class="att">name</span> <span class="dat">"Italy"</span>;
+                    <span class="ont">gn:</span><span class="att">alternateName</span> <span class="dat">"Italia"</span>, <span class="dat">"Italie"</span>;
+                    <span class="ont">dbo:</span><span class="att">country</span> <span class="dat">"Italy"</span>;
+                    <span class="ont">geo:</span><span class="att">lat</span> <span class="num">41.89193</span>;
+                    <span class="ont">geo:</span><span class="att">long</span> <span class="num">12.51133</span>;
+                    <span class="ont">gn:</span><span class="att">countryCode</span> <span class="dat">"IT, ITA, 380"</span>;
+                    <span class="ont">dbo:</span><span class="att">wikiPageExternalLink</span> <span class="linky">&lt;https://en.wikipedia.org/wiki/Italy&gt;</span>;
+                    <span class="ont">dbo:</span><span class="att">abstract</span> <span class="dat">"Italy, officially the Italian Republic (Italian: Repubblica Italiana) is a European country consisting of a peninsula delimited by the Italian Alps and surrounded by several islands. Located in the middle of the Mediterranean sea and traversed along its length by the Apennines, Italy has a largely temperate seasonal climate. The country covers an area of 301,340 km2 (116,350 sq mi) and shares open land borders with France, Slovenia, Austria, Switzerland and the enclaved microstates of Vatican City and San Marino."</span>.
+                
+                <span class="ont">:</span><span class="att">Cannes</span>
+                  <span class="ont">rdf:</span><span class="att">type</span> <span class="ont">rdf:</span><span class="att">place</span>;
+                  <span class="ont">gn:</span><span class="att">name</span><span class="dat"> "Cannes"</span>;
+                  <span class="ont">gn:</span><span class="att">alternateName</span> <span class="dat">"Cano", "Canne"</span>;
+                  <span class="ont">dbo:</span><span class="att">country</span> <span class="dat">"France"</span>;
+                  <span class="ont">dbo:</span><span class="att">city</span> <span class="dat">"Cannes"</span>;
+                  <span class="ont">geo:</span><span class="att">lat</span> <span class="num">43.55135</span>;
+                  <span class="ont">geo:</span><span class="att">long</span>  <span class="num">7.01275</span>;
+                  <span class="ont">gn:</span><span class="att">countryCode</span>  <span class="dat">"FR, FRA, 250"</span>;
+                  <span class="ont">dbo:</span><span class="att">wikiPageExternalLink</span>  <span class="linky">&lt;https://en.wikipedia.org/wiki/Cannes&gt;</span>;
+                  <span class="ont">dbo:</span><span class="att">abstract</span> <span class="dat">"Cannes is a city located on the French Riviera. It is a commune located in the Alpes-Maritimes department, and host city of the annual Cannes Film Festival, Midem, and Cannes Lions International Festival of Creativity."</span>.
+                
+                
+                <span class="ont">:</span><span class="att">Rome</span>
+                  <span class="ont">rdf:</span><span class="att">type</span> <span class="ont">rdf:</span><span class="att">place</span>;
+                  <span class="ont">gn:</span><span class="att">name</span> <span class="dat">"Rome"</span>;
+                  <span class="ont">gn:</span><span class="att">alternateName</span> <span class="dat">"Roma"</span>;
+                  <span class="ont">dbo:</span><span class="att">country</span> <span class="att">:</span><span class="dat">Italy</span>;
+                  <span class="ont">dbo:</span><span class="att">city</span> <span class="dat">"Rome"</span>;
+                  <span class="ont">geo:</span><span class="att">lat</span> <span class="num">41.89193</span>;
+                  <span class="ont">geo:</span><span class="att">long</span>  <span class="num">12.51133</span>;
+                  <span class="ont">gn:</span><span class="att">countryCode</span>  <span class="dat">"IT, ITA, 380"</span>;
+                  <span class="ont">dbo:</span><span class="att">wikiPageExternalLink</span>  <span class="linky">&lt;https://en.wikipedia.org/wiki/Rome&gt;</span>;
+                  <span class="ont">dbo:</span><span class="att">abstract</span> <span class="dat">Rome is the capital city of Italy. Rome also serves as the capital of the Lazio region. It is the centre of the Metropolitan City of Rome, which has a population of 4,355,725 residents, thus making it the most populous metropolitan city in Italy.</span>.
+                
+                
+                <span class="ont">:</span><span class="att">La_Dolce_Vita</span>
+                    <span class="ont">rdf:</span><span class="att">type</span> <span class="dat">"concept"</span>;
+                    <span class="ont">dcterms:</span><span class="att">subject</span> <span class="dat">"La Dolce Vita"</span>;
+                    <span class="ont">dcterms:</span><span class="att">abstract</span> <span class="dat">"The theme of the film is predominantly café society, the diverse and glittery world rebuilt upon the ruins and poverty of the Italian postwar period."</span>;
+                    <span class="ont">dbo:</span><span class="att">relatedPlaces</span> <span class="ont">:</span><span class="att"">Rome</span>, <span class="ont">:</span><span class="att">Italy</span>;
+                    <span class="ont">foaf:</span><span class="att">isPrimaryTopicOf</span> <span class="linky">&lt;https://en.wikipedia.org/wiki/La_Dolce_Vita&gt;</span>;
+                    <span class="ont">rdfs:</span><span class="att">seeAlso</span> <span class="linky">&lt;https://www.ibs.it/dolce-vita-the-golden-age-libro-vari/e/9783940004925&gt;</span>;
+                  <span class="ont">skos:</span><span class="att">related</span> <span class="ont">:</span><span class="att">Federico_Fellini</span>.
+                
+                <span class="ont">:</span><span class="att">Prizegiving</span>
+                  <span class="ont">rdf:</span><span class="att">type</span> <span class="dat">"concept"</span>;
+                  <span class="ont">dcterms:</span><span class="att">subject</span> <span class="dat">"the awarding of La Dolce Vita"</span>;
+                  <span class="ont">dcterms:</span><span class="att">abstract</span> <span class="dat">"The awarding of the Palme d'Or to Fellini for the movie La Dolce Vita"</span>;
+                  <span class="ont">dbo:</span><span class="att">relatedPlaces</span> <span class="ont">:</span><span class="att">Cannes</span>;
+                  <span class="ont">rdfs:</span><span class="att">seeAlso</span> <span class="linky">&lt;https://en.wikipedia.org/wiki/Palme_d%27Or&gt;</span>;
+                  <span class="ont">skos:</span><span class="att">related</span> <span>:<span>Federico_Fellini</span>.
+                
+                <span class="ont">:</span><span class="att">Fellini_s_relashionship_with_women</span>
+                  <span class="ont">rdf:</span><span class="att">type</span> <span class="dat">"concept"</span>;
+                  <span class="ont">dcterms:</span><span class="att">subject</span> <span class="dat">"Fellini's relashionship with women"</span>;
+                  <span class="ont">dcterms:</span><span class="att">abstract</span>  <spa class="dat">"The woman in Fellini's imagination is always present, the absolute protagonist, playfully female, prosperous, shapely, huge breasts and hips,junonic, sometimes ridiculous, grotesque, all markedly Fellinian. Women have been a constant for the master."</span>;
+                  <span class="ont">skos:</span><span class="att">related</span> <span class="ont">:</span><span class="att">Federico_Fellini</span>, <span class="ont">:</span><span class="att">Anita_Ekberg</span>, <span class="ont">:</span><span class="att">Giulietta_Masina</span>.</code></pre>
+                
+                
+                
+                <p> XML </p>
+                <pre class="pre-scrollable"><code>
+                  &lt;<span class="ont">rdf:RDF</span>
+                   <span class="att">xmlns:rdf</span>=<span class="linky">"http://www.w3.org/1999/02/22-rdf-syntax-ns#"</span>
+                    <span class="att">xmlns:schema</span>=<span class="linky">"https://schema.org/"</span>
+                    <span class="att">xmlns:dbo</span>=<span class="linky">"http://dbpedia.org/ontology/"</span>
+                    <span class="att">xmlns:dbpedia</span>=<span class="linky">"http://dbpedia.org/resource/"</span>
+                    <span class="att">xmlns:rdfs</span>=<span class="linky">"http://www.w3.org/2000/01/rdf-schema#"</span>
+                    <span class="att">xmlns</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttl"</span>
+                    <span class="att">xmlns:gn</span>=<span class="linky">"http://www.geonames.org/ontology#"</span>
+                    <span class="att">xmlns:dcterms</span>=<span class="linky">"http://purl.org/dc/terms/"</span>
+                    <span class="att">xmlns:eac_cpf</span>=<span class="linky">"http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"</span>
+                    <span class="att">xmlns:skos</span>=<span class="linky">"http://www.w3.org/2004/02/skos/core#"</span>
+                    <span class="att">xmlns:foaf</span>=<span class="linky">"http://xmlns.com/foaf/0.1/"</span>
+                    <span class="att">xmlns:xsd</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#"</span>
+                    <span class="att">xmlns:geo</span>=<span class="linky">"hhttp://www.w3.org/2003/01/geo/wgs84_pos#"</span>&gt;
+                  &lt;<span class="ont">rdf:Description</span> <span class="att">rdf:about</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlFederico_Fellini"</span>&gt;
+                    &lt;<span class="ont">foaf:name</span>&gt;Federico Fellini&lt;/<span class="ont">foaf:name</span>&gt;
+                    &lt;<span class="ont">eac_cpf:entity</span> <span class="att">rdf:resource</span>=<span class="linky">"http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/person</span>/&gt;
+                    &lt;<span class="ont">foaf:birthday</span> <span class="att">rdf:datatype</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#date"</span>&gt;20-01-1920&lt;/<span class="ont">foaf:birthday</span>&gt;
+                    &lt;<span class="ont">foaf:surname</span>&gt;Fellini&lt;/<span class="ont">foaf:surname</span>&gt;
+                    &lt;<span class="ont">foaf:givenName</span>&gt;Federico&lt;/<span class="ont">foaf:givenName</span>&gt;
+                    &lt;<span class="ont">dbo:wikiPageExternalLink</span> <span class="att">rdf:resource</span>=<span class="linky">"https://simple.wikipedia.org/wiki/Federico_Fellini"</span>/&gt;
+                    &lt;<span class="ont">foaf:gender</span>&gt;male&lt;/<span class="ont">foaf:gender</span>&gt;
+                    &lt;<span class="ont">dbo:nationality</span>&gt;italian&lt;/<span class="ont">dbo:nationality</span>&gt;
+                    &lt;<span class="ont">eac_cpf:biogHist</span>&gt;Federico Fellini was an Italian screenwriter, director, cartoonist and writer and is considered one of the greatest directors in the history of cinema. His most famous films - La strada, Le notti di Cabiaria, La Dolce Vita, 8 1/2, Amarcor, have become topoi mentioned all over the world.&lt;/<span class="ont">eac_cpf:biogHist</span>&gt;
+                    &lt;<span class="ont">dbo:deathDate</span> <span class="att">rdf:datatype</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#date"</span>&gt;31-10-1993&lt;/<span class="ont">dbo:deathDate</span>&gt;
+                  &lt;/<span class="ont">rdf:Description</span>&gt;
+                  &lt;<span class="ont">rdf:Description</span> <span class="att">rdf:about</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlFellini_s_relashionship_with_women"</span>&gt;
+                    &lt;<span class="ont">skos:related</span> <span class="att">rdf:resource</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlGiulietta_Masina"</span>/&gt;
+                    &lt;<span class="ont">skos:related</span> <span class="att">rdf:resource</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlAnita_Ekberg"</span>/&gt;
+                    &lt;<span class="ont">skos:related</span> <span class="att">rdf:resource</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlFederico_Fellini"</span>/&gt;
+                    &lt;<span class="ont">dcterms:abstract</span>&gt;The woman in Fellini's imagination is always present, the absolute protagonist, playfully female, prosperous, shapely, huge breasts and hips,junonic, sometimes ridiculous, grotesque, all markedly Fellinian. Women have been a constant for the master.&lt;/<span class="ont">dcterms:abstract</span>&gt;
+                    &lt;<span class="ont">dcterms:subject</span>&gt;Fellini's relashionship with women&lt;/<span class="ont">dcterms:subject</span>&gt;
+                    &lt;<span class="ont">rdf:type</span>&gt;concept&lt;/<span class="ont">rdf:type/span</span>&gt;
+                  &lt;/<span class="ont">rdf:Description</span>&gt;
+                  &lt;<span class="ont">rdf:Description</span> <span class="att">rdf:about</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlCannes"</span>&gt;
+                    &lt;<span class="ont">rdf:type</span> <span class="att">rdf:resource</span>=<span class="linky">"http://www.w3.org/1999/02/22-rdf-syntax-ns#place"</span>/&gt;
+                    &lt;<span class="ont">gn:alternateName</span>&gt;Canne&lt;/<span class="ont">gn:alternateName</span>&gt;
+                    &lt;<span class="ont">gn:countryCode</span>&gt;FR, FRA, 250&lt;/<span class="ont">gn:countryCode</span>&gt;
+                    &lt;<span class="ont">gn:name</span>&gt;Cannes&lt;/<span class="ont">gn:name</span>&gt;
+                    &lt;<span class="ont">dbo:country</span>&gt;France&lt;/<span class="ont">dbo:country</span>&gt;
+                    &lt;<span class="ont">gn:alternateName</span>&gt;Cano&lt;/<span class="ont">gn:alternateName</span>&gt;
+                    &lt;<span class="ont">dbo:abstract</span>&gt;Cannes is a city located on the French Riviera. It is a commune located in the Alpes-Maritimes department, and host city of the annual Cannes Film Festival, Midem, and Cannes Lions International Festival of Creativity.&lt;<span class="ont">/dbo:abstract</span>&gt;
+                    &lt;<span class="ont">dbo:wikiPageExternalLink</span> <span class="att">rdf:resource</span>=<span class="linky">"https://en.wikipedia.org/wiki/Cannes"</span>/&gt;
+                    &lt;<span class="ont">geo:long</span> <span class="att">rdf:datatype</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#decimal"</span>&gt;7.01275&lt;/<span class="ont">geo:long</span>&gt;
+                    &lt;<span class="ont">geo:lat</span> <span class="att">rdf:datatype</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#decimal"</span>&gt;43.55135&lt;/<span class="ont">geo:lat</span>&gt;
+                    &lt;<span class="ont">dbo:city</span>&gt;Cannes&lt;/<span class="ont">dbo:city</span>&gt;
+                  &lt;/<span class="ont">rdf:Description</span>&gt;
+                  &lt;<span class="ont">rdf:Description</span> <span class="att">rdf:about</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlRome"</span>&gt;
+                    &lt;<span class="ont">rdf:type</span> <span class="att">rdf:resource</span>=<span class="linky">"http://www.w3.org/1999/02/22-rdf-syntax-ns#place"</span>/&gt;
+                    &lt;<span class="ont">dbo:city</span>&gt;Rome&lt;/<span class="ont">dbo:city</span>&gt;
+                    &lt;<span class="ont">geo:long</span> <span class="att">rdf:datatype</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#decimal"</span>&gt;12.51133&lt;/<span class="ont">geo:long</span>&gt;
+                    &lt;<span class="ont">gn:alternateName</span>&gt;Roma&lt;/<span class="ont">gn:alternateName</span>&gt;
+                    &lt;<span class="ont">geo:la</span>  <span class="att">rdf:datatype</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#decimal"</span>&gt;41.89193&lt;/<span class="ont">geo:lat</span>&gt;
+                    &lt;<span class="ont">gn:countryCode</span>&gt;IT, ITA, 380&lt;/<span class="ont">gn:countryCode</span>&gt;
+                    &lt;<span class="ont">gn:name</span>&gt;Rome&lt;</span class="ont">gn:name</span>&gt;
+                    &lt;<span class="ont">dbo:country</span> <span class="att">rdf:resource</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlItaly"</span>/&gt;
+                    &lt;<span class="ont">dbo:wikiPageExternalLink</span> <span class="att">rdf:resource</span>=<span class="linky">"https://en.wikipedia.org/wiki/Rome"</span>/&gt;
+                    &lt;<span class="ont">dbo:abstract</span>&gt;Rome is the capital city of Italy. Rome also serves as the capital of the Lazio region. It is the centre of the Metropolitan City of Rome, which has a population of 4,355,725 residents, thus making it the most populous metropolitan city in Italy.&lt;/<span class="ont">dbo:abstract</span>&gt;
+                  &lt;/<span class="ont">rdf:Description</span>&gt;
+                  &lt;<span class="ont">rdf:Description</span> <span class="att">rdf:about</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlItaly"</span>&gt;
+                    &lt;<span class="ont">dbo:abstract</span>&gt;Italy, officially the Italian Republic (Italian: Repubblica Italiana) is a European country consisting of a peninsula delimited by the Italian Alps and surrounded by several islands. Located in the middle of the Mediterranean sea and traversed along its length by the Apennines, Italy has a largely temperate seasonal climate. The country covers an area of 301,340 km2 (116,350 sq mi) and shares open land borders with France, Slovenia, Austria, Switzerland and the enclaved microstates of Vatican City and San Marino.&lt;/<span class="ont">dbo:abstract</span>&gt;
+                    &lt;<span class="ont">gn:alternateName</span>&gt;Italie&lt;/<span class="ont">gn:alternateName</span>&gt;
+                    &lt;<span class="ont">dbo:wikiPageExternalLink</span> rdf:resource=<span class="linky">"https://en.wikipedia.org/wiki/Italy"</span>/&gt;
+                    &lt;<span class="ont">geo:lat</span> <span class="att">rdf:datatype</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#decimal"</span>&gt;41.89193&lt;/<span class="ont">geo:lat</span>&gt;
+                    &lt;<span class="ont">gn:name</span>&gt;Italy&lt;/<span class="ont">gn:name</span>&gt;
+                    &lt;<span class="ont">geo:long</span> <span class="att">rdf:datatype</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#decimal"</span>&gt;12.51133&lt;/<span class="ont">geo:long</span>&gt;
+                    &lt;<span class="ont">gn:countryCode</span>&gt;IT, ITA, 380&lt;/<span class="ont">gn:countryCode</span>&gt;
+                    &lt;<span class="ont">rdf:type</span> <span class="att">rdf:resource</span>=<span class="linky">"http://www.w3.org/1999/02/22-rdf-syntax-ns#place"</span>/&gt;
+                    &lt;<span class="ont">gn:alternateName</span>&gt;Italia&lt;/<span class="ont">gn:alternateName</span>&gt;
+                    &lt;<span class="ont">dbo:country</span>&gt;Italy&lt/<span class="ont">dbo:country</span>&gt;
+                  &lt;/<span class="ont">rdf:Description</span>&gt;
+                  &lt;<span class="ont">rdf:Description</span> <span class="att">rdf:about</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlAgency_Roger_Viollet"</span>&gt;
+                    &lt;<span class="ont">dbo:wikiPageExternalLink</span> <span class="att">rdf:resource</span>="https://fr.wikipedia.org/wiki/Roger-Viollet"/&gt;
+                    &lt;<span class="ont">eac_cpf:biogHist</span>&gt;The name of the Roger-Viollet family has become that of the famous Parisian agency of old photographs of the rue de Seine founded in 1938 by Hélène Roger-Viollet , on the initial base of the photographic collection constituted by his father Henri Roger-Viollet, engineer and experienced photographer&lt;/<span class="ont">eac_cpf:biogHist</span>&gt;
+                    &lt;<span class="ont">schema:foundingDate</span> <span class="att">rdf:datatype</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#date"</span>&gt;1938&lt;/<span class="ont">schema:foundingDate</span>&gt;
+                    &lt;<span class="ont">dbo:headquarter</span>&gt;Paris&lt;/<span class="ont">dbo:headquarter</span>&gt;
+                    &lt;<span class="ont">foaf:name</span>&gt;Roger-Viollet&lt;/<span class="ont">foaf:name</span>&gt;
+                    &lt;<span class="ont">eac_cpf:entity</span> <span class="att">rdf:resource</span>=<span class="linky">"http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/corporateBody"</span>/&gt;
+                  &lt;/<span class="ont">rdf:Description</span>&gt;
+                  &lt;<span class="ont">rdf:Description</span> <span class="att">rdf:about</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlSorelle_Fontana"</span>&gt;
+                    &lt;<span class="ont">dbo:wikiPageExternalLink</span> <span class="att">rdf:resource</span>=<span class="linky">"https://it.wikipedia.org/wiki/Sorelle_Fontana"</span>/&gt;
+                    &lt;<span class="ont">eac_cpf:biogHist</span>&gt;Sorelle Fontana Alta Moda s.r.l. is a fashion house, specialized in high fashion sartorial productions. Founded in Rome in 1943, by the three Italian sisters and stylists: Zoe (1911-1979), Micol (1913-2015) and Giovanna (1915-2004). The Fontana sisters, with their atelier, were the first to give a lively boost to Made in Italy, making the Italian style famous in the world.&lt;<span class="ont">/eac_cpf:biogHist</span>&gt;
+                    &lt;<span class="ont">schema:dissolutionDate</span> rdf:datatype=<span class="linky">"http://www.w3.org/2001/XMLSchema#date"</span>&gt;1992&lt;/<span class="ont">schema:dissolutionDate</span>&gt;
+                    &lt;<span class="ont">schema:foundingDate</span> <span class="att">rdf:datatype</span>=<span class="linky">"http://www.w3.org/2001/XMLSchema#date"</span>&gt;1943&lt;/<span class="ont">schema:foundingDate</span>&gt;
+                    &lt;<span class="ont">dbo:headquarter</span> <span class="att">rdf:resource</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlRome"</span>/&gt;
+                    &lt;<span class="ont">foaf:name</span>&gt;SorelleFontanaAltaModa_srl&lt;/<span class="ont">foaf:name</span>&gt;
+                    &lt;<span class="ont">eac_cpf:entity</span> <span class="att">rdf:resource</span>=<span class="linky">"http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/corporateBody"</span>/&gt;
+                  &lt;/<span class="ont">rdf:Description</span>&gt;
+                  &lt;<span class="ont">rdf:Description</span><span class="att">rdf:about</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlLa_Dolce_Vita"</span>&gt;
+                    &lt;<span class="ont">skos:related</span> <span class="att">rdf:resource</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlFederico_Fellini"</span>/&gt;
+                    &lt;<span class="ont">rdfs:seeAlso</span> <span class="att">rdf:resource</span>=<span class="linky">"https://www.ibs.it/dolce-vita-the-golden-age-libro-vari/e/9783940004925"</span>/&gt;
+                    &lt;<span class="ont">foaf:isPrimaryTopicOf</span> <span class="att">rdf:resource</span>=<span class="linky">"https://en.wikipedia.org/wiki/La_Dolce_Vita"</span>/&gt;
+                    &lt;<span class="ont">dbo:relatedPlaces</span> <span class="att">rdf:resource</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlItaly"</span>/&gt;
+                    &lt;<span class="ont">dbo:relatedPlaces</span> <span class="att">rdf:resource</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlRome"</span>/&gt;
+                    &lt;<span class="ont">dcterms:abstract</span>&gt;The theme of the film is predominantly café society, the diverse and glittery world rebuilt upon the ruins and poverty of the Italian postwar period.&lt;/<span class="ont">dcterms:abstract</span>&gt;
+                    &lt;<span class="ont">dcterms:subject&gt;</span>La Dolce Vita&lt;/<span class="ont">dcterms:subject</span>&gt;
+                    &lt;<span class="ont">rdf:type</span>&gt;concept&lt;/<span class="ont">rdf:type</span>&gt;
+                  &lt;/<span class="ont">rdf:Description</span>&gt;
+                  &lt;<span class="ont">rdf:Description</span> <span class="att">rdf:about</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlPrizegiving"</span>&gt;
+                    &lt;<span class="ont">skos:related</span> <span class="att">rdf:resource</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlFederico_Fellini"</span>/&gt;
+                    &lt;<span class="ont">rdfs:seeAlso</span>rdf:resource=<span class="linky">"https://en.wikipedia.org/wiki/Palme_d%27Or"</span>/&gt;
+                    &lt;<span class="ont">dbo:relatedPlaces</span> <span class="att">rdf:resource</span>=<span class="linky">"https://raw.githubusercontent.com/fellini-lod/fellini-lod.github.io/master/dolcevita_graph.ttlCannes"</span>/&gt;
+                    &lt;<span class="ont">dcterms:abstract</span>&gt;The awarding of the Palme d'Or to Fellini for the movie La Dolce Vita&lt;/<span class="ont">dcterms:abstract</span>&gt;
+                    &lt;<span class="ont">dcterms:subject</span>&gt;the awarding of La Dolce Vita&lt;/<span class="ont">dcterms:subject</span>&gt;
+                    &lt;<span class="ont">rdf:type</span>&gt;concept&lt;/<span class="ont">rdf:type</span>&gt;
+                  &lt;/<span class="ont">rdf:Description</span>&gt;
+                &lt;/<span class="ont">rdf:RDF</span>&gt;
+                </code></pre>                     
+</div>
+</div>
+
+<div class="contenitore noise">
+<div id="section9" class="container-fluid">  
+        <h1 class="title-paragraph paragraph">Data connection</h1>   
+        <p>We interconnected our data to other related items and resources on the World Wide Web creating semantic associations.
+                we tried to connect our data by using different kind of properties and standards, but we widely re-used the attributes owl:sameAs and foaf:isPrimaryTopicOf  or rdf:seeAlso. When necessary, we also used owl:differentFrom to disambiguate items with the same name for example.
+                In this way, we were able to connect our RDF/Turtle files and items to other sources and repositories of knowledge to create a solid connection between our URI's and the external linked open databases.
+                </p>
+                <h3 class="subtitle-paragraph">Federico Fellini</h3>
+                <p>URI:fellini-lod.github.io/FedericoFellini</p>
+                <ul>
+                <li>owl:SameAs rdf:resource=<a class="link-connection"  target="_blank" href="http://www.federicofellini.it/biografia">"http://www.federicofellini.it/biografia"</a></li>
+                <li>owl:SameAs rdf:resource=<a class="link-connection" target="_blank" href="https://viaf.org/viaf/search?query=local.names%20all%20%22Fellini%22&sortKeys=holdingscount&recordSchema=BriefVIAF">"https://viaf.org/viaf/search?query=local.names%20all%20%22Fellini%22&sortKeys=holdingscount&recordSchema=BriefVIAF"</a></li>
+                <li>owl:SameAs rdf:resource=<a class="link-connection"  target="_blank" href="http://dbpedia.org/page/Federico_Fellini">"http://dbpedia.org/page/Federico_Fellini"</a></li>
+                </ul>
+                
+                <ul>
+                <li>foaf:isPrimaryTopicOf rdf:resource=<a class="link-connection" target="_blank" href="https://it.wikipedia.org/wiki/Federico_Fellini">"https://it.wikipedia.org/wiki/Federico_Fellini"</a></li>
+                <li>foaf:isPrimaryTopicOf rdf:resource=<a class="link-connection"  target="_blank" href="https://en.wikipedia.org/wiki/Federico_Fellini">"https://en.wikipedia.org/wiki/Federico_Fellini"</a></li>
+                </ul>
+                <ul>
+                <li>WN hypernym rdf:resource=<a class="link-connection"  target="_blank" href=" https://en.wikipedia.org/wiki/Film_director">" https://en.wikipedia.org/wiki/Film_director"</a></li>
+                </ul>
+                
+                <h3 class="subtitle-paragraph">Le Sorelle Fontana</h3>
+                <p>URI:fellini-lod.github.io/SorelleFontana</p>
+                <ul>
+                <li>owl:SameAs rdf:resource=<a class="link-connection" target="_blank" href="http://www.sorellefontana.com/">"http://www.sorellefontana.com/"</a></li>
+                <li>owl:SameAs rdf:resource=<a class="link-connection" target="_blank" href="http://www.treccani.it/enciclopedia/sorelle-fontana/">"http://www.treccani.it/enciclopedia/sorelle-fontana/"</a></li>
+                <li>owl:SameAs rdf:resource=<a class="link-connection"  target="_blank" href="https://viaf.org/viaf/156896721/#Sorelle_Fontana_(Firm)">"https://viaf.org/viaf/156896721/#Sorelle_Fontana_(Firm)"</a></li>
+                </ul>
+                <ul>
+                <li>foaf:isPrimaryTopicOf rdf:resource=<a class="link-connection" target="_blank" href="https://it.wikipedia.org/wiki/Sorelle_Fontana">"https://it.wikipedia.org/wiki/Sorelle_Fontana"</a></li>
+                <li>foaf:isPrimaryTopicOf rdf:resource=<a class="link-connection"  target="_blank" href="https://en.wikipedia.org/wiki/Sorelle_Fontana">"https://en.wikipedia.org/wiki/Sorelle_Fontana"</a></li>
+                </ul>
+                
+                <h3 class="subtitle-paragraph">Roger-Viollet</h3>
+                <p>URI:fellini-lod.github.io/RogerViollet</p>
+                <ul>
+                <li>owl:SameAs rdf:resource=<a class="link-connection" target="_blank" href="https://www.roger-viollet.fr/en/user/agence">"https://www.roger-viollet.fr/en/user/agence"</a></li>
+                <li>owl:SameAs rdf:resource=<a  class="link-connection" target="_blank" href="https://viaf.org/viaf/155893312/#Documentation_générale_photographique_Roger-Viollet">"https://viaf.org/viaf/155893312/#Documentation_générale_photographique_Roger-Viollet"</a></li>
+                </ul>
+                <ul>
+                <li>foaf:isPrimaryTopicOf rdf:resource=<a  class="link-connection" target="_blank" href="https://fr.wikipedia.org/wiki/Roger-Viollet">"https://fr.wikipedia.org/wiki/Roger-Viollet"</a></li>
+                </ul>
+                
+                <h3 class="subtitle-paragraph">Roma</h3>
+                <p>URI:fellini-lod.github.io/Roma</p>
+                <ul>
+                <li>owl:SameAs rdf:resource=<a class="link-connection" target="_blank" href="https://viaf.org/viaf/251380480/#Rome_(Italy)">"https://viaf.org/viaf/251380480/#Rome_(Italy)"</a></li>
+                </ul>
+                <ul>
+                <li>owl:isDifferentFrom rdf:resource=<a class="link-connection" target="_blank" href="https://en.wikipedia.org/wiki/Colonia_Roma">"https://en.wikipedia.org/wiki/Colonia_Roma"</a></li>
+                <li>owl:isDifferentFrom rdf:resource=<a class="link-connection" target="_blank" href="https://en.wikipedia.org/wiki/Roma,_Queensland">"https://en.wikipedia.org/wiki/Roma,_Queensland"</a></li>
+                </ul>
+                <ul>
+                <li>foaf:isPrimaryTopicOf rdf:resource=<a class="link-connection" target="_blank" href="https://it.wikipedia.org/wiki/Roma">"https://it.wikipedia.org/wiki/Roma"</a></li>
+                <li>foaf:isPrimaryTopicOf rdf:resource=<a class="link-connection" target="_blank" href="https://en.wikipedia.org/wiki/Rome">"https://en.wikipedia.org/wiki/Rome"</a></li>
+                </ul>
+                
+                <h3 class="subtitle-paragraph">Cannes</h3>
+                <p>URI:fellini-lod.github.io/Cannes</p>
+                <ul>
+                <li>owl:SameAs rdf:resource=<a class="link-connection" target="_blank" href="https://viaf.org/viaf/251380480/#Rome_(Italy)">"https://viaf.org/viaf/251380480/#Rome_(Italy)"</a></li>
+                </ul>
+                <ul>
+                <li>foaf:isPrimaryTopicOf rdf:resource=<a class="link-connection" target="_blank" href="https://it.wikipedia.org/wiki/Cannes">"https://it.wikipedia.org/wiki/Cannes"</a></li>
+                <li>foaf:isPrimaryTopicOf rdf:resource=<a class="link-connection" target="_blank" href="https://en.wikipedia.org/wiki/Cannes">"https://en.wikipedia.org/wiki/Cannes"</a></li>
+                <li>foaf:isPrimaryTopicOf rdf:resource=<a class="link-connection" target="_blank"  href="http://www.cannes.com/fr/index.html">"http://www.cannes.com/fr/index.html"</a></li>
+                </ul>
+                
+                <h3 class="subtitle-paragraph">Fellin's relation with women</h3>
+                <p>URI:fellini-lod.github.io/FellinisRelationsWithWomen</p>
+                
+                <ul>
+                <li>foaf:isPrimaryTopicOf rdf:resource=<a class="link-connection" target="_blank" href="http://www.thefilmseeker.com/2018/12/17/la-donna-nellimmaginario-federico-fellini-la-sua-magia/">"http://www.thefilmseeker.com/2018/12/17/la-donna-nellimmaginario-federico-fellini-la-sua-magia/"</a></li>
+                </ul>
+                <ul>
+                <li>rdf:seeAlso rdf:resource=<a class="link-connection" target="_blank" href="https://en.wikipedia.org/wiki/City_of_Women">"https://en.wikipedia.org/wiki/City_of_Women"</a></li>
+                <li>rdf:seeAlso rdf:resource=<a class="link-connection" target="_blank"  href="https://en.wikipedia.org/wiki/8%C2%BD">"https://en.wikipedia.org/wiki/8%C2%BD"</a></li>
+                </ul>
+                
+                
+                <h3 class="subtitle-paragraph">La Dolce Vita Lifestyle</h3>
+                <p>URI:fellini-lod.github.io/LaDolceVItaLifestyle</p>
+                <ul>
+                <li>owl:SameAs rdf:resource=<a class="link-connection" target="_blank" href="https://it.wikipedia.org/wiki/Dolce_vita_(periodo)">"https://it.wikipedia.org/wiki/Dolce_vita_(periodo)"</a></li>
+                </ul>
+                <ul>
+                <li>owl:isDifferentFrom rdf:resource=<a class="link-connection" target="_blank"  href="http://www.ladolcevita.tv">"http://www.ladolcevita.tv"</a></li>
+                </ul>
+                <ul>
+                <li>foaf:isPrimaryTopicOf rdf:resource=<a class="link-connection" target="_blank" href="https://en.wikipedia.org/wiki/La_Dolce_Vita">"https://en.wikipedia.org/wiki/La_Dolce_Vita"</a></li>
+                </ul>
+                 
+                <h3 class="subtitle-paragraph">Prizegiving</h3>
+                <p>URI:fellini-lod.github.io/Prizegiving</p>
+                <ul>
+                <li>rdf:seeAlso rdf:resource=<a class="link-connection"  target="_blank" href="https://en.wikipedia.org/wiki/Award_or_decoration">"https://en.wikipedia.org/wiki/Award_or_decoration"</a></li>
+                <li>rdf:seeAlso rdf:resource=<a class="link-connection" target="_blank" href="https://www.collinsdictionary.com/dictionary/english/award-ceremony">"https://www.collinsdictionary.com/dictionary/english/award-ceremony"</a></li>
+                </ul>                                   
+</div>
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
