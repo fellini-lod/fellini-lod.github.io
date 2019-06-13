@@ -867,6 +867,11 @@ color: black;
 sup {font-size: 60%;}
 
 
+.btn {
+	background-color: transparent !important;
+}
+
+
 /*--------------TURTLE--------------------*/
 
 
