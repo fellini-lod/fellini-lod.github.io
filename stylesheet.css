@@ -1021,6 +1021,7 @@ margin-right:auto;
 .copyw {
 	text-align: center;
 	font-size: 10px;
+	padding: 50px;
 }
 
 #recensione-background{background-image: url("images/noise.png");}
