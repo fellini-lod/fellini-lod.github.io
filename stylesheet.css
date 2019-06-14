@@ -1018,4 +1018,9 @@ margin-right:auto;
 
 }
 
+.copyw {
+	text-align: center;
+	font-size: 10px;
+}
+
 #recensione-background{background-image: url("images/noise.png");}
