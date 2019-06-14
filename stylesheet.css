@@ -780,6 +780,10 @@ color: black;
 
 
 
+.list-elenent {
+	font-family: geo;
+	font-size: 15px;
+}
 
 /*------TEAM------------*/
 /*TEAM*/
@@ -873,7 +877,6 @@ sup {font-size: 60%;}
 
 li {
 	font-family: geo;
-	font-size: 15px;
 }
 
 /*--------------TURTLE--------------------*/
