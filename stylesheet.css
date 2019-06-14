@@ -1012,5 +1012,10 @@ color: white;}
 
 #carouselExampleControls{margin-top: 30px;
 margin-bottom:30px;
+width:70%;
+margin-left:auto;
+margin-right:auto;
 
 }
+
+#recensione-background{background-image: url("images/noise.png");}
