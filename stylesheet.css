@@ -71,6 +71,7 @@ src: url('font/Champagne.ttf') format('truetype');
 
        .navbar li{
        	  padding: 0px !important;
+		  font-family: Helvetica, Arial, sans-serif;
        }
 
           #article-button {
