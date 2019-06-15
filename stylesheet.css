@@ -878,6 +878,8 @@ sup {font-size: 60%;}
 
 li {
 	font-family: geo;
+	font-size: 10px;
+	list-style-type: circle;
 }
 
 /*--------------TURTLE--------------------*/
