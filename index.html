@@ -1,29 +1,273 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <link rel="icon" href="images/logonero.png">
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<head>
+        <style>
+                html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+svg {
+  display: inline-block;
+}
+.no-select {
+  cursor: default;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
 
-      <script type="text/javascript">
-      $( "#gif" ).ready(function() {
-        setTimeout(myFunction, 2700)
-      });
-        function myFunction()
-        {
-        window.location.href = "contenuto.html";
-        }
-      </script>
-  </head>
-<body>
+#film-container {
+  width: 100%;
+  height: 100%;
+  background: url('//res.cloudinary.com/thdoan/image/upload/v1509581279/countdown/film_grain-small.gif') no-repeat;
+  background-size: 100% 100%;
+}
+#film-countdown, #message-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#message-container text {
+  font: normal 28px Calibri, sans-serif;
+  opacity: 0;
+}
+body.message #film-container {
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+body.message #message-container text {
+  opacity: 1;
+  transition: opacity 1.5s;
+}
+#numbers text {
+  fill: black;
+  font: bold 120px Arial, sans-serif;
+  letter-spacing: -10px;
+  opacity: 0;
+}
+.circle01 {
+  fill: none;
+  stroke: #111;
+  stroke-width: 1.5px;
+}
+.circle02 {
+  fill: none;
+  stroke: rgba(0, 0, 0, 0.3);
+  stroke-dasharray: 1 3200;
+  stroke-width: 989;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+.line01, .line02 {
+  stroke: #deedee;
+}
+.rectangle01 {
+  fill: gray;
+}
 
-<!--<video width="100%" controls onended="myFunction()">
-  <source src="3.mp4" type="video/mp4">
-</video>-->
+/*** END RADIO DIAL ***/
 
-<img id="gif" src="videogif.gif" style="width:100%">
+.animated-flicker {
+  height: 100%;
+  animation: flicker 10s 1;
+  opacity: 0.2;
+}
+.animated-rotate {
+  animation: rotate 1s 10;
+}
+#animated-text1 {
+  animation: countdown 1s 1;
+  animation-delay: 0s;
+}
+#animated-text2 {
+  animation: countdown 1s 1;
+  animation-delay: 1s;
+}
+#animated-text3 {
+  animation: countdown 1s 1;
+  animation-delay: 2s;
+}
+#animated-text4 {
+  animation: countdown 1s 1;
+  animation-delay: 3s;
+}
+#animated-text5 {
+  animation: countdown 1s 1;
+  animation-delay: 4s;
+}
+#animated-text6 {
+  animation: countdown 1s 1;
+  animation-delay: 5s;
+}
+#animated-text7 {
+  animation: countdown 1s 1;
+  animation-delay: 6s;
+}
+#animated-text8 {
+  animation: countdown 1s 1;
+  animation-delay: 7s;
+}
+#animated-text9 {
+  animation: countdown 1s 1;
+  animation-delay: 8s;
+}
+#animated-text10 {
+  animation: countdown 1s 1;
+  animation-delay: 9s;
+}
+
+@keyframes countdown {
+  0% { opacity: 1; }
+  99% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes flicker {
+  0% { opacity: 0.45; }
+  10% { opacity: 0.7; }
+  23% { opacity: 0.85; }
+  30% { opacity: 0.4; }
+  41% { opacity: 0.6; }
+  46% { opacity: 0.8; }
+  53% { opacity: 0.4; }
+  60% { opacity: 0.75; }
+  75% { opacity: 0.5; }
+  79% { opacity: 0.55; }
+  100% { opacity: 0.1; }
+}
+@keyframes rotate {
+  100% { stroke-dasharray: 3200 0; }
+}
+        </style>
+
+</head>
+
+    <body>
+<div id="film-container">
+  <div class="animated-flicker">
+    <svg id="film-mask" version="1.1" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+      width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 400 225">
+      <rect class="rectangle01" width="400" height="225"/>
+      <line id="line-h" class="line01" x1="0" y1="112.5" x2="400" y2="112.5"/>
+      <line id="line-v" class="line02" x1="200" y1="0" x2="200" y2="225"/>
+    </svg>
+    <svg id="film-countdown" version="1.1" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+      width="100%" height="100%" viewBox="0 0 400 225">
+      <circle id="circle-outer" class="circle01" cx="200" cy="112.5" r="95"/>
+      <circle id="circle-inner" class="circle01" cx="200" cy="112.5" r="85"/>
+      <circle class="circle02 animated-rotate" cx="200" cy="112.5" r="494.5"/>
+      <g id="numbers" text-anchor="middle" class="no-select">
+        <text id="animated-text1" x="200.5" y="155">3</text>
+        <text id="animated-text2" x="200.5" y="155">2</text>
+        <text id="animated-text3" x="200.5" y="155">1</text>
+        
+      </g>
+    </svg>
+  </div>
+</div>
+
+
+
+<script>
+/**
+ * Forked from: https://codepen.io/MarkAlmond/pen/rLyymL
+ * Fork modifications:
+ * - Simplified style to look more vintage
+ * - Extended coundown to 10
+ * - Added animated film grain background
+ * - Added jitter (projector shake)
+ * - Added transition after countdown
+ * - Changed sweep to start from 12 instead of 3 o'clock
+ * - Changed from 2:1 to 16:9 ratio
+ * - Made it 100% fluid
+ */
+
+// requestAnimationFrame polyfill by Erik Möller; fixes from Paul Irish and Tino Zijdel
+// http://paulirish.com/2011/requestanimationframe-for-smart-animating/
+// https://gist.github.com/paulirish/1579671
+// MIT license
+// Modifications by T. H. Doan
+(function() {
+  if (!window.requestAnimationFrame) {
+    var nLastTime = 0,
+      aVendors = ['moz', 'ms', 'o', 'webkit'];
+    for (var i=0; i<aVendors.length; ++i) {
+      window.requestAnimationFrame = window[aVendors[i] + 'RequestAnimationFrame'];
+      window.cancelAnimationFrame = window[aVendors[i] + 'CancelAnimationFrame'] || window[aVendors[i] + 'CancelRequestAnimationFrame'];
+    }
+    window.requestAnimationFrame = function(callback, element) {
+      var nCurrentTime = new Date().getTime(),
+        nTimeToCall = Math.max(0, 16 - (nCurrentTime - nLastTime)),
+        nTimer = window.setTimeout(function() {
+          callback(nCurrentTime + nTimeToCall);
+        }, nTimeToCall);
+      nLastTime = nCurrentTime + nTimeToCall;
+      return nTimer;
+    };
+  }
+  if (!window.cancelAnimationFrame) {
+    window.cancelAnimationFrame = function(nTimer) {
+      clearTimeout(nTimer);
+    };
+  }
+}());
+
+var circleOuter = document.getElementById('circle-outer'),
+  circleInner = document.getElementById('circle-inner'),
+  lineH = document.getElementById('line-h'),
+  lineV = document.getElementById('line-v'),
+  numbers = document.getElementById('numbers'),
+  nCircleCx = +circleOuter.getAttribute('cx'),
+  nCircleCy = +circleOuter.getAttribute('cy'),
+  nLineY = +lineH.getAttribute('y1'),
+  nLineX = +lineV.getAttribute('x1'),
+  nFps = 12, // Just like vintage silent films :]
+  nJitterLevel = 2.5, // How shaky is the projector?
+  nTick = 0;
+
+function jitter() {
+  setTimeout(function() {
+    if (nTick===nFps*9) {
+      // Reset position
+      circleOuter.setAttribute('cx', nCircleCx);
+      circleInner.setAttribute('cx', nCircleCx);
+      circleOuter.setAttribute('cy', nCircleCy);
+      circleInner.setAttribute('cy', nCircleCy);
+      lineH.setAttribute('y1', nLineY);
+      lineH.setAttribute('y2', nLineY);
+      lineV.setAttribute('x1', nLineX);
+      lineV.setAttribute('x2', nLineX);
+      numbers.style.transform = '';
+      // Transition after countdown
+      window.location.href = "contenuto.html";
+      return;
+    }
+    // Use rAF for improved performance
+    requestAnimationFrame(jitter);
+    // Repaint!
+    var nOffsetX = Math.random()*nJitterLevel * ((Math.random()>=0.5)?1:-1),
+      nOffsetY = Math.random()*nJitterLevel * ((Math.random()>=0.5)?1:-1);
+    circleOuter.setAttribute('cx', nCircleCx + nOffsetX);
+    circleInner.setAttribute('cx', nCircleCx + nOffsetX);
+    circleOuter.setAttribute('cy', nCircleCy + nOffsetY);
+    circleInner.setAttribute('cy', nCircleCy + nOffsetY);
+    lineH.setAttribute('y1', nLineY + nOffsetY);
+    lineH.setAttribute('y2', nLineY + nOffsetY);
+    lineV.setAttribute('x1', nLineX + nOffsetX);
+    lineV.setAttribute('x2', nLineX + nOffsetX);
+    numbers.style.transform = 'translate3d(' + nOffsetX + 'px, ' + nOffsetY + 'px, 0)';
+    ++nTick;
+  }, 300/nFps);
+}
+
+jitter();
+</script>
 
 </body>
-
-
 
 </html>
