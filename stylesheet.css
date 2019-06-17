@@ -628,6 +628,10 @@ p {
 	color:black;
 }
 
+.list-items{font-family:geo;
+	font-size: 20px;
+	line-height:30px;
+	color:black;}
 
 .project-overview {
 	padding-top: 50px;
