@@ -356,8 +356,8 @@ src: url('font/Champagne.ttf') format('truetype');
 					
 	.timeline > li > .timeline-badge {  /*per modificare i pallini della timeline*/
 			color: black;
-			width: 60px;
-			height: 60px;
+			width: 57px;
+			height: 57px;
 			line-height: 50px;
 			font-size: 1.4em;
 			text-align: center;
