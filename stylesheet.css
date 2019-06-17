@@ -71,6 +71,7 @@ src: url('font/Champagne.ttf') format('truetype');
 
        .navbar li{
        	  padding: 0px !important;
+		  font-family: Helvetica, Arial, sans-serif;
        }
 
           #article-button {
@@ -780,6 +781,10 @@ color: black;
 
 
 
+.list-element {
+	font-family: geo;
+	font-size: 16px;
+}
 
 /*------TEAM------------*/
 /*TEAM*/
@@ -873,6 +878,8 @@ sup {font-size: 60%;}
 
 li {
 	font-family: geo;
+	font-size: 10px;
+	list-style-type: circle;
 }
 
 /*--------------TURTLE--------------------*/
@@ -1000,3 +1007,23 @@ color: white;}
 	.bg-primary{
 			background-color: black!important
 	}*/
+	
+	
+	
+/*ARTICOLO FELLIN- CAROUSEL*/
+
+#carouselExampleControls{margin-top: 30px;
+margin-bottom:30px;
+width:70%;
+margin-left:auto;
+margin-right:auto;
+
+}
+
+.copyw {
+	text-align: center;
+	font-size: 8px;
+	padding: 50px;
+}
+
+#recensione-background{background-image: url("images/noise.png");}

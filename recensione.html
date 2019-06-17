@@ -1,23 +1,148 @@
 <!DOCTYPE html>
 <html>
-<head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="stylesheet.css"> 
-        <style id="css" type="text/css"></style>
-    </head>
-<body>
-<div>
-<img src="images/recensionefull.jpg">
-<img src="images/firstpart.jpeg">
-<img src="images/secondpart.jpeg">
-<img src="images/lastpart.jpeg">
-<img src="items/locandina.jpeg">
+  
+  <head> 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <script src="javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!--style-->
+    
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"> 
+    <style id="css" type="text/css"></style>
+    <link rel="icon" href="images/logonero.png"> <!-- FAVICON (logo nella scheda del browser)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--LINK PER LA VERTICAL TIMELINE-->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+</head>
+
+<!--------------------------------------------------NAVBAR---------------------------------------->
+    <nav id="start" class="navbar navbar-expand-lg navbar-dark" style="padding: 5px;">
+      
+      <div class="logo-index">
+        <a class="index-button" >
+          <div>
+          <img class="logo" src="images/logo-palma.png">
+          </div>
+        </a>
+      </div>
+      
+      <a class="index-button" id="ladolcevita" href="contenuto.html">LA DOLCE VITA</a>
+        <button class="navbar-toggler" type="button" data-target="#navbarNav" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation" aria-controls="navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+        
+            
+              <a class="nav-link dropdown-toggle" href="#" id="article-button" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROJECT</a>
+                <div class="dropdown-menu">
+
+                    <a class="dropdown-item" href="https://fellini-lod.github.io/project.html#items">Items</a>
+                     <div class="dropdown-divider"></div> 
+                    <a class="dropdown-item" href="https://fellini-lod.github.io/project.html#E/R model">E/R model</a>
+                     <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://fellini-lod.github.io/project.html#Metadata analysis">Metadata analysis</a>
+                     <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://fellini-lod.github.io/project.html#Metadata aligment">Metadata alignement</a>
+                     <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://fellini-lod.github.io/project.html#Theoretical model">Theoretical model</a>
+                     <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://fellini-lod.github.io/project.html#Conceptual model">Conceptual model</a>
+                     <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://fellini-lod.github.io/project.html#Data description noise">Data description</a>
+                        <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://fellini-lod.github.io/project.html#rdf/xml">RDF</a>
+                      <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://fellini-lod.github.io/project.html#Data connection">Data connection</a>
+                </div>
+          </li>
+          <li class="nav-item"><a class="nav-link about-button" role="button" href="https://fellini-lod.github.io/team.html">TEAM</a></li>
+        </ul>
+      </div>
+    </nav>
+	
+<body id="recensione-background">
+
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100"  src="images/firstpart.jpeg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/secondpart.jpeg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/lastpart.jpeg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
+<div class="copyw">
+<p>The publication of the pictures here is not intended to be an alternative or replace their original locations</p>
+	<p>©Copyright</p>
+<p>©Sebina is a software DM Cultura s.r.l. e IBACN Regione Emilia Romagna</p>
+</div>
+
+<!------------------------------------------FOOTER-------------------------------------------->
+<div class="footer">
+  
+                
+    <div id="logos">
+ 
+		<a href="index.html">
+            <img  id="logo-palma" src="images/logo-palma.png" class="toindex">
+          </a>
+		<a href="https://www.facebook.com/DHDK.unibo/">
+            <img src= "images/facebook.png" class="toindex" >
+        </a>
+		
+		<a href="https://twitter.com/UniboDHDK">
+            <img src= "images/twitter.png" class="toindex" >
+        </a>
+		<a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge">
+            <img src= "images/unibo.PNG" class="toindex" >
+        </a>
+		<a href="#start">
+            <img id="freccia" src= "images/totop.png" class="toindex" >
+        </a>
+    </div>
+    
+
+
+<div class="copyright" align="center">
+ 
+  <p>© Copyright 2019 La Dolce Vita - All Rights Reserved</p>
+  
+</div>
+
+
+</div> <!----------------------------------FOOTER END------------------------------------------->
+
 </body>
 
 </html>
+
+
+
