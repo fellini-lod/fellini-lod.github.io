@@ -592,6 +592,7 @@ src: url('font/Champagne.ttf') format('truetype');
 
 
 #workflow {
+	font-size: 40px;
 		font-family:Roboto-Regular;
 		text-align: center;
 		text-transform: uppercase;
