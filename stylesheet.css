@@ -91,6 +91,11 @@ src: url('font/Champagne.ttf') format('truetype');
   width: 25px;
 }
 
+.font-navsection {
+	font-family: champagne;
+	font-size:12px;
+}
+
 
 
 
