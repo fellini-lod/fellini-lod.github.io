@@ -807,7 +807,9 @@ color: black;
 	
 }
 
-
+.lod-element{font-family:geo; 
+			font-size: 20px; 
+			list-style-type: circle;}
 
 .list-element {
 	font-family: geo;
