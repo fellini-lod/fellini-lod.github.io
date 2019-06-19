@@ -818,7 +818,8 @@ color: black;
 }
 
 
-.bold-term{font-weight:bold;}
+.bold-term{font-style: bold;
+			}
 
 /*------TEAM------------*/
 /*TEAM*/
