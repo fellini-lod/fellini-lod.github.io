@@ -356,7 +356,7 @@
     <td>Soundtrack</td>
     <td><a href="http://www.culturaitalia.it/opencms/opencms/system/modules/culturaitalia/templates/viewItem.jsp?language=it&case=&id=oai%3Awww.internetculturale.it%2Fmetaoaicat%3Aoai%3A192.168.10.31%3A22%3ARM0200%3AIT-DDS0000006456000000" target="_blank" class="table-link">La dolce vita / Music composed by Nino Rota </a></td>
     <td><a href="http://www.culturaitalia.it/opencms/index.jsp?language=it" target="_blank" class="table-link">CulturaItalia</a></td>
-	 <td><a href="http://www.culturaitalia.it/opencms/export/sites/culturaitalia/attachments/documenti/picoap/picoap1.0.xml" target="_blank" class="table-link">PICO</a></td>
+	 <td><a href="http://dublincore.org/specifications/dublin-core/dcmi-terms/2012-06-14/?v=terms" target="_blank" class="table-link">DCMI Metadata Terms</a></td>
   </tr>
    <tr>
     <td>Video</td>
@@ -391,15 +391,15 @@
 <div class="contenitore">
 <div id="section4" class="container-fluid">
       <h1 class="title-paragraph paragraph">Metadata alignment</h1>
-      <p>After the investigation and description of the standards used by the institutions previously cited, we have aligned the standards (EDM, PICO, EAD, ISBD, IPTC), matching their properties according to their roles.
+      <p>After the investigation and description of the standards used by the institutions previously cited, we have aligned the standards (EDM, DCMI Metadata Terms, EAD, ISBD, IPTC), matching their properties according to their roles.
         In particular, we have splitted the properties based on the four main categories in which our items are divided (Person, Date, Place, Event/concept- as you can see in our E/R model).
         Analysing these tables is possible to notice that each institution has some typical materials and objects to describe but, on the other hand, each object has its own standard to follow.</p>
         <h2 class="title-table">People</h2>
         <table>
         <tr>
         <th>PROPERTY</th>
-        <th><a href="https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Definition_v5.2.8_102017.pdf" target="_blank" class="table-link"> EDM </a></th>
-        <th><a href="http://www.culturaitalia.it/opencms/export/sites/culturaitalia/attachments/documenti/picoap/picoap1.0.xml" target="_blank" class="table-link">PICO</a></th>
+        <th><a href="https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Definition_v5.2.8_102017.pdf" target="_blank" class="table-link">EDM </a></th>
+        <th><a href="http://dublincore.org/specifications/dublin-core/dcmi-terms/2012-06-14/?v=terms" target="_blank" class="table-link">DCMI Metadata Terms</a></th>
         <th><a href="https://www.loc.gov/ead/EAD3taglib/EAD3.html#" target="_blank" class="table-link">EAD </a></th>
         <th><a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" target="_blank" class="table-link">ISBD</a></th>
         <th><a href="https://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata" target="_blank" class="table-link">IPTC</a></th>
@@ -407,7 +407,7 @@
          <tr>
             <td>Creator</td>
             <td>dc:creator	</td>
-            <td>pico:creator</td>
+            <td>dc:creator</td>
              <td> 	&lt;author&gt;</td>
              <td>1.4 Statement of responsibility	</td>
              <td>6.5 Creator<br> 6.6 Creator's contact info <br> 6.7 Creator's jobtitle</td>
@@ -415,7 +415,7 @@
            <tr>
             <td> Publisher</td>
             <td>dc:publisher</td>
-            <td>pico:publisher <br> pico:distributor <br> pico:printer</td>
+            <td>dc:publisher</td>
              <td>&lt;publisher&gt;</td>
              <td>4.2 Name of publisher, producer and/or distributor</td>
              <td>/</td>
@@ -423,7 +423,7 @@
           <tr>
             <td> Owner</td>
             <td>edm:provider</td>
-            <td>pico:isOwnerOf	</td>
+            <td>dc:provenance	</td>
              <td>/</td>
              <td>/</td>
              <td>10.14 Image Supplier</td>
@@ -435,8 +435,8 @@
         <table>
         <tr>
         <th>PROPERTY</th>
-        <th><a href="https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Definition_v5.2.8_102017.pdf" target="_blank" class="table-link"> EDM </a></th>
-        <th><a href="http://www.culturaitalia.it/opencms/export/sites/culturaitalia/attachments/documenti/picoap/picoap1.0.xml" target="_blank" class="table-link">PICO</a></th>
+        <th><a href="https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Definition_v5.2.8_102017.pdf" target="_blank" class="table-link">EDM </a></th>
+        <th><a href="http://dublincore.org/specifications/dublin-core/dcmi-terms/2012-06-14/?v=terms" target="_blank" class="table-link">DCMI Metadata Terms</a></th>
         <th><a href="https://www.loc.gov/ead/EAD3taglib/EAD3.html#" target="_blank" class="table-link">EAD </a></th>
         <th><a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" target="_blank" class="table-link">ISBD</a></th>
         <th><a href="https://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata" target="_blank" class="table-link">IPTC</a></th>
@@ -444,7 +444,7 @@
         <tr>
             <td> Created</td>
             <td>dcterms:created</td>
-            <td>pico:created	</td>
+            <td>dcterms:created	</td>
              <td>&lt;unitdate&gt;</td>
              <td>4.3 Date of publication, production and/or distribution</td>
              <td>6.9 Date created</td>
@@ -464,7 +464,7 @@
         <tr>
         <th>PROPERTY</th>
         <th><a href="https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Definition_v5.2.8_102017.pdf" target="_blank" class="table-link"> EDM </a></th>
-        <th><a href="http://www.culturaitalia.it/opencms/export/sites/culturaitalia/attachments/documenti/picoap/picoap1.0.xml" target="_blank" class="table-link">PICO</a></th>
+        <th><a href="http://dublincore.org/specifications/dublin-core/dcmi-terms/2012-06-14/?v=terms" target="_blank" class="table-link">DCMI Metadata Terms</a></th>
         <th><a href="https://www.loc.gov/ead/EAD3taglib/EAD3.html#" target="_blank" class="table-link">EAD </a></th>
         <th><a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" target="_blank" class="table-link">ISBD</a></th>
         <th><a href="https://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata" target="_blank" class="table-link">IPTC</a></th>
@@ -480,7 +480,7 @@
         <tr>
             <td>Place of publication  </td>
             <td>/</td>
-            <td>pico:coverage</td>
+            <td>dc:coverage</td>
              <td>&lt;geogname&gt;</td>
              <td>4.1 place of publication, production and/or distribution	</td>
              <td>/</td>
@@ -488,7 +488,7 @@
         <tr>
             <td> Locatation of creation </td>
             <td>/</td>
-            <td>pico:coverage	</td>
+            <td>dc:coverage	</td>
              <td>/ </td>
              <td>4.4 Place of printing or manufacture </td>
              <td>10.18 Location created<br>  10.19 Location Shown in the image </td>
@@ -501,7 +501,7 @@
         <tr>
         <th>PROPERTY</th>
         <th><a href="https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Definition_v5.2.8_102017.pdf" target="_blank" class="table-link"> EDM </a></th>
-        <th><a href="http://www.culturaitalia.it/opencms/export/sites/culturaitalia/attachments/documenti/picoap/picoap1.0.xml" target="_blank" class="table-link">PICO</a></th>
+        <th><a href="http://dublincore.org/specifications/dublin-core/dcmi-terms/2012-06-14/?v=terms" target="_blank" class="table-link">DCMI Metadata Terms</a></th>
         <th><a href="https://www.loc.gov/ead/EAD3taglib/EAD3.html#" target="_blank" class="table-link">EAD </a></th>
         <th><a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf" target="_blank" class="table-link">ISBD</a></th>
         <th><a href="https://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata" target="_blank" class="table-link">IPTC</a></th>
@@ -509,7 +509,7 @@
         <tr>
             <td>Title </td>
             <td>dc:title</td>
-            <td>pico:title <br> pico:alternative</td>
+            <td>dc:title <br> dc:alternative</td>
              <td>&lt;unittitle&gt; </td>
              <td>1.1 Title proper <br>1.2 Parallel title</td>
              <td>6.23 Title</td>
