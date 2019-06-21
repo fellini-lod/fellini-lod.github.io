@@ -2,7 +2,6 @@
 
 @prefix dcterms: <http://purl.org/dc/terms/>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
-@prefix dbpedia: <http://dbpedia.org/resource/>.
 @prefix dbo: <http://dbpedia.org/ontology/>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix eac_cpf: <http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/>.
@@ -21,8 +20,8 @@
     foaf:name "Federico Fellini";
     foaf:gender "male";
     dbo:nationality "italian";
-    foaf:birthday "20-01-1920"^^xsd:date; 
-    dbo:deathDate "31-10-1993"^^xsd:date;
+    foaf:birthday "1920-01-20"^^xsd:date; 
+    dbo:deathDate "1993-10-31"^^xsd:date;
     eac_cpf:biogHist "Federico Fellini was an Italian screenwriter, director, cartoonist and writer and is considered one of the greatest directors in the history of cinema. His most famous films - La strada, Le notti di Cabiaria, La Dolce Vita, 8 1/2, Amarcor, have become topoi mentioned all over the world.";
     dbo:wikiPageExternalLink <https://simple.wikipedia.org/wiki/Federico_Fellini>.
 
@@ -40,7 +39,7 @@
 
 :Agency_Roger_Viollet
 	eac_cpf:entity	eac_cpf:corporateBody;
-	foaf:name "Roger-Viollet";
+	foaf:name "Parisienne de Photographie - Roger-Viollet";
 	dbo:headquarter "Paris";
 	schema:foundingDate	"1938"^^xsd:date;
 	eac_cpf:biogHist	"The name of the Roger-Viollet family has become that of the famous Parisian agency of old photographs of the rue de Seine founded in 1938 by Hélène Roger-Viollet , on the initial base of the photographic collection constituted by his father Henri Roger-Viollet, engineer and experienced photographer";
